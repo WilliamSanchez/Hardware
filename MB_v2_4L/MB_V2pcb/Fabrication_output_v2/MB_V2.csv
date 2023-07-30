@@ -1,0 +1,110 @@
+Source:,/home/william/Documents/SENA/Jonathan/Hardware/MB_v2/MB_V2pcb/MB_V2/MB_V2.kicad_sch,,,,,,
+Date:,seg 06 fev 2023 10:11:11,,,,,,
+Tool:,Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,56,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Manufacturer
+,,C1,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,GMC10X7R104J6R3NT
+,,C2,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,GMC10X7R104J6R3NT
+,,C4,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,GMC10X7R104J6R3NT
+,,C5,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,GMC10X7R104J6R3NT
+,,C6,100pF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,C0402C101J8GAC7867
+,,C9,1uF (25v),Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,C1608X7R1V105K080AC
+,,C10,1uF (6v),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,CL05A105KQ5NNNC
+,,C11,0.1uF (10V),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,CL05B104KP5NNNC
+,,C12,2.2uF (25v),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,C1005X5R1E225K050BC
+,,C13,2.2uF (25v),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,C1005X5R1E225K050BC
+,,C14,22uF (10v),Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,C1608X5R1A226M080AC
+,,C15,22uF (10v),Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,C1608X5R1A226M080AC
+,,C16,22uF (10v),Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,C1608X5R1A226M080AC
+,,C17,1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,CL05A105KQ5NNNC
+,,C18,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,GMC10X7R104J6R3NT
+,,D1,Red,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,SML-LXFM0603SIC-TR
+,,D2,Green,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060VS73220
+,,D3,Red,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,SML-LXFM0603SIC-TR
+,,D4,Yellow,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060YS73220
+,,D5,White,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,LW Q38G-Q1OO-3K6L-1
+,,D6,ESD5Zxx,Diode:ESD5Zxx,Lib_footprint:ESDA7P60-1U1M,https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf,ESDA7P60-1U1M
+,,D7,CPDU24V,Diode:ESD5Zxx,Diode_SMD:D_0603_1608Metric,https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf,CPDU24V
+,,D8,D_User,Device:D_Small,Diode_SMD:D_SOD-123,~,SS0530_R1_00001
+,,D9,D_User,Device:D_Small,Diode_SMD:D_SOD-123,~,SS0530_R1_00001
+,,D10,Tx,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,SML-LXFM0603SIC-TR
+,,D11,Rx,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060BS73220
+,,D12,Blue,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060BS73220
+,,F1,FS,Device:Fuse_Small,Diode_SMD:D_1812_4532Metric,~,0ZCG0030FF2C
+,,J1,Head_Magnetic_Card,Connector:Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,~,PPTC081LFBN-RC
+,,J2,Host,Connector:Conn_01x05_Male,Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical,~,PPTC051LFBN-RC
+,,J3,USB_B_Micro,Connector:USB_B_Micro,Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal,~,65100516121
+,,J4,USB_B_Micro,Connector:USB_B_Micro,Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal,~,65100516121
+,,J5,PA,Connector_Generic:Conn_02x05_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical,~,PPTC052LFBN-RC
+,,J6,PB,Connector_Generic:Conn_02x10_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical,~,PPPC102LFBN-RC
+,,J7,PC,Connector_Generic:Conn_02x06_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical,~,PPPC062LFBN-RC
+,,J8,source,Connector:Conn_01x02_Male,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,PPPC021LFBN-RC
+,,L2,10uH,Device:L_Small,Inductor_SMD:L_1008_2520Metric,~,74479887310A
+,,R1,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R2,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R3,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R4,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R5,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R6,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R7,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R8,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,CRCW0603100KJNEA
+,,R9,300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+,,R10,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RNCP0603FTD10K0
+,,SW1,NRST,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3305A,~,TL3305AF160QG
+,,SW2,BOOT,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3305A,~,TL3305AF160QG
+,,SW3,INT,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3305A,~,TL3305AF160QG
+,,U1,Magtek,MB_Jon:Magtek,Lib_footprint:MagTrack,,
+,,U2,STM32WB5MMGH6TR,:STM32WB5MMGH6TR_1,Jon_MV:STM32WB5MMGH6TR,,STM32WB5MMGH6TR
+,,U3,FT232RL,Interface_USB:FT232RL,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,FT232RL-TUBE
+,,U5,W25Q01JVZEIQ,Memory_Flash:W25Q32JVZP,Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm,http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf,W25Q01JVZEIQ
+,,U6,ECMF02-2AMX6,ECMF02-2AMX6:ECMF02-2AMX6,Lib_footprint:ECMF02-2AMX6,,ECMF02-2AMX6
+,,U7,MAX77756CEWL+T,MAX77756CEWL&plus_T:MAX77756CEWL+T,Lib_footprint:MAX77756CEWL&plus_T,,MAX77756BEWL+T
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Manufacturer
+1,5,"C1, C2, C4, C5, C18",100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,GMC10X7R104J6R3NT
+2,1,C6,100pF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,C0402C101J8GAC7867
+3,1,C9,1uF (25v),Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,C1608X7R1V105K080AC
+4,1,C10,1uF (6v),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,CL05A105KQ5NNNC
+5,1,C11,0.1uF (10V),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,CL05B104KP5NNNC
+6,2,"C12, C13",2.2uF (25v),Device:C_Small,Capacitor_SMD:C_0402_1005Metric,~,C1005X5R1E225K050BC
+7,3,"C14, C15, C16",22uF (10v),Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,C1608X5R1A226M080AC
+8,1,C17,1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,CL05A105KQ5NNNC
+9,2,"D1, D3",Red,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,SML-LXFM0603SIC-TR
+10,1,D2,Green,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060VS73220
+11,1,D4,Yellow,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060YS73220
+12,1,D5,White,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,LW Q38G-Q1OO-3K6L-1
+13,1,D6,ESD5Zxx,Diode:ESD5Zxx,Lib_footprint:ESDA7P60-1U1M,https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf,ESDA7P60-1U1M
+14,1,D7,CPDU24V,Diode:ESD5Zxx,Diode_SMD:D_0603_1608Metric,https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf,CPDU24V
+15,2,"D8, D9",D_User,Device:D_Small,Diode_SMD:D_SOD-123,~,SS0530_R1_00001
+16,1,D10,Tx,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,SML-LXFM0603SIC-TR
+17,1,D11,Rx,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060BS73220
+18,1,D12,Blue,Device:LED_Small,LED_SMD:LED_0603_1608Metric,~,150060BS73220
+19,1,F1,FS,Device:Fuse_Small,Diode_SMD:D_1812_4532Metric,~,0ZCG0030FF2C
+20,1,J1,Head_Magnetic_Card,Connector:Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,~,PPTC081LFBN-RC
+21,1,J2,Host,Connector:Conn_01x05_Male,Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical,~,PPTC051LFBN-RC
+22,2,"J3, J4",USB_B_Micro,Connector:USB_B_Micro,Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal,~,65100516121
+23,1,J5,PA,Connector_Generic:Conn_02x05_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical,~,PPTC052LFBN-RC
+24,1,J6,PB,Connector_Generic:Conn_02x10_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical,~,PPPC102LFBN-RC
+25,1,J7,PC,Connector_Generic:Conn_02x06_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical,~,PPPC062LFBN-RC
+26,1,J8,source,Connector:Conn_01x02_Male,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,PPPC021LFBN-RC
+27,1,L2,10uH,Device:L_Small,Inductor_SMD:L_1008_2520Metric,~,74479887310A
+28,8,"R1, R2, R3, R4, R5, R6, R7, R9",300,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-07300RL
+29,1,R8,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,CRCW0603100KJNEA
+30,1,R10,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RNCP0603FTD10K0
+31,1,SW1,NRST,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3305A,~,TL3305AF160QG
+32,1,SW2,BOOT,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3305A,~,TL3305AF160QG
+33,1,SW3,INT,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3305A,~,TL3305AF160QG
+34,1,U1,Magtek,MB_Jon:Magtek,Lib_footprint:MagTrack,,
+35,1,U2,STM32WB5MMGH6TR,:STM32WB5MMGH6TR_1,Jon_MV:STM32WB5MMGH6TR,,STM32WB5MMGH6TR
+36,1,U3,FT232RL,Interface_USB:FT232RL,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,FT232RL-TUBE
+37,1,U5,W25Q01JVZEIQ,Memory_Flash:W25Q32JVZP,Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm,http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf,W25Q01JVZEIQ
+38,1,U6,ECMF02-2AMX6,ECMF02-2AMX6:ECMF02-2AMX6,Lib_footprint:ECMF02-2AMX6,,ECMF02-2AMX6
+39,1,U7,MAX77756CEWL+T,MAX77756CEWL&plus_T:MAX77756CEWL+T,Lib_footprint:MAX77756CEWL&plus_T,,MAX77756BEWL+T

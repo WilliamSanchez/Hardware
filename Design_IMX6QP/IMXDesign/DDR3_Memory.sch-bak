@@ -1,0 +1,56 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1000 6600 0    50   ~ 0
+reference voltage to memory\nfrom PMIC
+$Sheet
+S 2650 850  1000 5350
+U 632D5505
+F0 "MEM_DDR3" 118
+F1 "MEM_DDR3.sch" 98
+F2 "DRAM_D[0..63]" B L 2650 1400 50 
+F3 "DRAM_A[0..15]" I L 2650 1600 50 
+F4 "DRAM_SDCLK_0-" I L 2650 1850 50 
+F5 "DRAM_SDCLK_1-" I L 2650 1950 50 
+F6 "DRAM_SDCLK_0+" I L 2650 2150 50 
+F7 "DRAM_SDCLK_1+" I L 2650 2250 50 
+$EndSheet
+Wire Bus Line
+	1750 1400 2650 1400
+Wire Bus Line
+	2650 1600 1750 1600
+Wire Wire Line
+	1750 1950 2650 1950
+Wire Wire Line
+	1750 1850 2650 1850
+Wire Wire Line
+	1750 2150 2650 2150
+Wire Wire Line
+	1750 2250 2650 2250
+$Sheet
+S 950  750  800  5450
+U 63294BDF
+F0 "CPU_DDR3" 118
+F1 "CPU_DDR3.sch" 98
+F2 "DRAM_D[0..53]" B R 1750 1400 50 
+F3 "DRAM_A[0..15]" O R 1750 1600 50 
+F4 "+DDR_VREF" I R 1750 6100 50 
+F5 "DRAM_RESET" O R 1750 4200 50 
+F6 "DRAM_SDCLK_0-" O R 1750 1850 50 
+F7 "DRAM_SDCLK_1-" O R 1750 1950 50 
+F8 "DRAM_SDCLK_0+" O R 1750 2150 50 
+F9 "DRAM_SDCLK_1+" O R 1750 2250 50 
+$EndSheet
+$EndSCHEMATC

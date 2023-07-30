@@ -1,0 +1,60 @@
+### Module positions - created on seg 06 fev 2023 10:14:13 ###
+### Printed by Pcbnew version 6.0.10-86aedd382b~118~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                        PosX       PosY       Rot  Side
+C1        100nF               C_0603_1608Metric                          145.5600  -109.4400  -90.0000  top
+C2        100nF               C_0603_1608Metric                          108.5150  -151.0400    0.0000  top
+C4        100nF               C_0603_1608Metric                          106.9500  -136.9300    0.0000  top
+C5        100nF               C_0603_1608Metric                          122.8000  -144.2000  -90.0000  top
+C6        100pF               C_0402_1005Metric                           98.5000  -165.0500    0.0000  top
+C9        1uF_(25v)           C_0603_1608Metric                          107.6350  -165.9200  180.0000  top
+C10       1uF_(6v)            C_0402_1005Metric                          110.7500  -170.7300  180.0000  top
+C11       0.1uF_(10V)         C_0402_1005Metric                          110.7400  -167.3500    0.0000  top
+C12       2.2uF_(25v)         C_0402_1005Metric                          108.1200  -167.2600  180.0000  top
+C13       2.2uF_(25v)         C_0402_1005Metric                          108.0700  -169.6000  180.0000  top
+C14       22uF_(10v)          C_0603_1608Metric                          117.0000  -168.0050  -90.0000  top
+C15       22uF_(10v)          C_0603_1608Metric                          115.4400  -167.9900  -90.0000  top
+C16       22uF_(10v)          C_0603_1608Metric                          113.9200  -167.9900  -90.0000  top
+C17       1uF                 C_0603_1608Metric                          118.1025  -165.2625    0.0000  top
+C18       100nF               C_0603_1608Metric                          118.0875  -163.6025    0.0000  top
+D1        Red                 LED_0603_1608Metric                        109.7900  -121.7500   90.0000  top
+D2        Green               LED_0603_1608Metric                        108.0500  -121.7600   90.0000  top
+D3        Red                 LED_0603_1608Metric                        111.5200  -121.7600   90.0000  top
+D4        Yellow              LED_0603_1608Metric                        114.9800  -121.8000   90.0000  top
+D5        White               LED_0603_1608Metric                        113.2300  -121.7600   90.0000  top
+D6        ESD5Zxx             ESDA7P60-1U1M                               98.3793  -163.6000  180.0000  top
+D8        D_User              D_SOD-123                                   98.5000  -161.5000  180.0000  top
+D9        D_User              D_SOD-123                                  119.3000  -160.1500  -90.0000  top
+D10       Tx                  LED_0603_1608Metric                        117.1725  -135.9400  180.0000  top
+D11       Rx                  LED_0603_1608Metric                        117.1900  -134.2900  180.0000  top
+D12       Blue                LED_0603_1608Metric                        111.1100  -148.6200    0.0000  top
+J1        Head_Magnetic_Card  PinSocket_1x08_P2.54mm_Vertical            133.9750  -124.9750  180.0000  top
+J2        Host                PinSocket_1x05_P2.54mm_Vertical            149.9000  -107.2000    0.0000  top
+J3        USB_B_Micro         USB_Mini-B_Wuerth_65100516121_Horizontal   124.1000  -171.2000    0.0000  top
+J4        USB_B_Micro         USB_Mini-B_Wuerth_65100516121_Horizontal   101.0000  -171.2500    0.0000  top
+J5        PA                  PinSocket_2x05_P2.54mm_Vertical            128.1900  -154.6000    0.0000  top
+J6        PB                  PinSocket_2x10_P2.54mm_Vertical             99.4700  -135.5700    0.0000  top
+J7        PC                  PinSocket_2x06_P2.54mm_Vertical            127.9200  -120.9000    0.0000  top
+J8        source              PinSocket_1x02_P2.54mm_Vertical            112.5800  -175.4100  -90.0000  top
+L2        10uH                L_1008_2520Metric                          112.6750  -164.8100    0.0000  top
+R1        300                 R_0603_1608Metric                          109.8500  -124.9250  -90.0000  top
+R2        300                 R_0603_1608Metric                          108.2100  -124.9100  -90.0000  top
+R3        300                 R_0603_1608Metric                          111.4200  -124.8400  -90.0000  top
+R4        300                 R_0603_1608Metric                          114.9600  -124.9200  -90.0000  top
+R5        300                 R_0603_1608Metric                          113.0300  -124.9650  -90.0000  top
+R6        300                 R_0603_1608Metric                          120.2900  -135.9200    0.0000  top
+R7        300                 R_0603_1608Metric                          120.2800  -134.3600    0.0000  top
+R8        100k                R_0603_1608Metric                          111.9650  -162.0200  180.0000  top
+R9        300                 R_0603_1608Metric                          107.8600  -148.6100  180.0000  top
+R10       10k                 R_0603_1608Metric                          114.0750  -150.9000    0.0000  top
+SW1       NRST                SW_SPST_TL3305A                            109.1500  -156.5250  -90.0000  top
+SW2       BOOT                SW_SPST_TL3305A                            114.8200  -156.4400  -90.0000  top
+SW3       INT                 SW_SPST_TL3305A                            108.8800  -143.0300   90.0000  top
+U1        Magtek              MagTrack                                   141.9400  -110.5600  -90.0000  top
+U2        STM32WB5MMGH6TR     STM32WB5MMGH6TR                            101.0000  -112.0000    0.0000  top
+U3        FT232RL             SSOP-28_5.3x10.2mm_P0.65mm                 116.9200  -142.3600    0.0000  top
+U5        W25Q01JVZEIQ        WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm       111.2400  -132.7000  180.0000  top
+U6        ECMF02-2AMX6        ECMF02-2AMX6                               101.1750  -165.4000  -90.0000  top
+U7        MAX77756CEWL+T      MAX77756CEWL&plus_T                        110.5000  -169.1500    0.0000  top
+## End

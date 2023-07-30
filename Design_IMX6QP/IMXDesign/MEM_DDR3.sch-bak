@@ -1,0 +1,884 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MT41K128M16JT-107_K:MT41K128M16JT-107_K U2
+U 1 1 61822642
+P 4550 3200
+F 0 "U2" H 4550 5267 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K" H 4550 5176 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 4550 3200 50  0001 L BNN
+F 3 "" H 4550 3200 50  0001 L BNN
+F 4 "Micron" H 4550 3200 50  0001 L BNN "MANUFACTURER"
+	1    4550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MT41K128M16JT-107_K:MT41K128M16JT-107_K U4
+U 1 1 61823D08
+P 7200 3300
+F 0 "U4" H 7200 5367 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K" H 7200 5276 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 7200 3300 50  0001 L BNN
+F 3 "" H 7200 3300 50  0001 L BNN
+F 4 "Micron" H 7200 3300 50  0001 L BNN "MANUFACTURER"
+	1    7200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MT41K128M16JT-107_K:MT41K128M16JT-107_K U5
+U 1 1 61824D70
+P 9900 3300
+F 0 "U5" H 9900 5367 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K" H 9900 5276 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 9900 3300 50  0001 L BNN
+F 3 "" H 9900 3300 50  0001 L BNN
+F 4 "Micron" H 9900 3300 50  0001 L BNN "MANUFACTURER"
+	1    9900 3300
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1350 5850 1450 5850
+Entry Wire Line
+	850  2800 750  2700
+Entry Wire Line
+	850  2900 750  2800
+Entry Wire Line
+	850  3000 750  2900
+Wire Wire Line
+	1350 4000 850  4000
+Text Label 850  4000 0    50   ~ 0
+DRAM_A12
+Entry Wire Line
+	850  3100 750  3000
+Wire Wire Line
+	1350 3900 850  3900
+Text Label 850  3900 0    50   ~ 0
+DRAM_A11
+Entry Wire Line
+	850  3200 750  3100
+Wire Wire Line
+	1350 3800 850  3800
+Text Label 850  3800 0    50   ~ 0
+DRAM_A10
+Entry Wire Line
+	850  3300 750  3200
+Wire Wire Line
+	1350 3700 850  3700
+Text Label 850  3700 0    50   ~ 0
+DRAM_A9
+Entry Wire Line
+	850  3400 750  3300
+Wire Wire Line
+	1350 3600 850  3600
+Text Label 850  3600 0    50   ~ 0
+DRAM_A8
+Entry Wire Line
+	850  3500 750  3400
+Wire Wire Line
+	1350 3500 850  3500
+Text Label 850  3500 0    50   ~ 0
+DRAM_A7
+Entry Wire Line
+	850  3600 750  3500
+Wire Wire Line
+	1350 3400 850  3400
+Text Label 850  3400 0    50   ~ 0
+DRAM_A6
+Entry Wire Line
+	850  3700 750  3600
+Wire Wire Line
+	1350 3300 850  3300
+Text Label 850  3300 0    50   ~ 0
+DRAM_A5
+Entry Wire Line
+	850  3800 750  3700
+Wire Wire Line
+	1350 3200 850  3200
+Text Label 850  3200 0    50   ~ 0
+DRAM_A4
+Entry Wire Line
+	850  3900 750  3800
+Wire Wire Line
+	1350 3100 850  3100
+Text Label 850  3100 0    50   ~ 0
+DRAM_A3
+Entry Wire Line
+	850  4000 750  3900
+Wire Wire Line
+	1350 3000 850  3000
+Text Label 850  3000 0    50   ~ 0
+DRAM_A2
+Wire Wire Line
+	1350 2900 850  2900
+Text Label 850  2900 0    50   ~ 0
+DRAM_A1
+Wire Wire Line
+	1350 2800 850  2800
+Text Label 850  2800 0    50   ~ 0
+DRAM_A0
+Entry Wire Line
+	850  4300 750  4200
+Entry Wire Line
+	850  4100 750  4000
+Text Label 850  4100 0    50   ~ 0
+DRAM_A13
+Wire Wire Line
+	1350 4100 850  4100
+Text Label 850  4300 0    50   ~ 0
+DRAM_A14
+Wire Wire Line
+	1350 4300 850  4300
+Text Label 850  4400 0    50   ~ 0
+DRAM_A15
+Wire Wire Line
+	1350 4400 850  4400
+Entry Wire Line
+	850  4400 750  4300
+$Comp
+L MT41K128M16JT-107_K:MT41K128M16JT-107_K U3
+U 1 1 632D9723
+P 1950 3100
+F 0 "U3" H 1950 5167 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K" H 1950 5076 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 1950 3100 50  0001 L BNN
+F 3 "" H 1950 3100 50  0001 L BNN
+F 4 "Micron" H 1950 3100 50  0001 L BNN "MANUFACTURER"
+	1    1950 3100
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	3450 2900 3350 2800
+Entry Wire Line
+	3450 3000 3350 2900
+Entry Wire Line
+	3450 3100 3350 3000
+Wire Wire Line
+	3950 4100 3450 4100
+Text Label 3450 4100 0    50   ~ 0
+DRAM_A12
+Entry Wire Line
+	3450 3200 3350 3100
+Wire Wire Line
+	3950 4000 3450 4000
+Text Label 3450 4000 0    50   ~ 0
+DRAM_A11
+Entry Wire Line
+	3450 3300 3350 3200
+Wire Wire Line
+	3950 3900 3450 3900
+Text Label 3450 3900 0    50   ~ 0
+DRAM_A10
+Entry Wire Line
+	3450 3400 3350 3300
+Wire Wire Line
+	3950 3800 3450 3800
+Text Label 3450 3800 0    50   ~ 0
+DRAM_A9
+Entry Wire Line
+	3450 3500 3350 3400
+Wire Wire Line
+	3950 3700 3450 3700
+Text Label 3450 3700 0    50   ~ 0
+DRAM_A8
+Entry Wire Line
+	3450 3600 3350 3500
+Wire Wire Line
+	3950 3600 3450 3600
+Text Label 3450 3600 0    50   ~ 0
+DRAM_A7
+Entry Wire Line
+	3450 3700 3350 3600
+Wire Wire Line
+	3950 3500 3450 3500
+Text Label 3450 3500 0    50   ~ 0
+DRAM_A6
+Entry Wire Line
+	3450 3800 3350 3700
+Wire Wire Line
+	3950 3400 3450 3400
+Text Label 3450 3400 0    50   ~ 0
+DRAM_A5
+Entry Wire Line
+	3450 3900 3350 3800
+Wire Wire Line
+	3950 3300 3450 3300
+Text Label 3450 3300 0    50   ~ 0
+DRAM_A4
+Entry Wire Line
+	3450 4000 3350 3900
+Wire Wire Line
+	3950 3200 3450 3200
+Text Label 3450 3200 0    50   ~ 0
+DRAM_A3
+Entry Wire Line
+	3450 4100 3350 4000
+Wire Wire Line
+	3950 3100 3450 3100
+Text Label 3450 3100 0    50   ~ 0
+DRAM_A2
+Wire Wire Line
+	3950 3000 3450 3000
+Text Label 3450 3000 0    50   ~ 0
+DRAM_A1
+Wire Wire Line
+	3950 2900 3450 2900
+Text Label 3450 2900 0    50   ~ 0
+DRAM_A0
+Entry Wire Line
+	3450 4200 3350 4100
+Text Label 3450 4200 0    50   ~ 0
+DRAM_A13
+Wire Wire Line
+	3950 4200 3450 4200
+Entry Wire Line
+	6100 3000 6000 2900
+Entry Wire Line
+	6100 3100 6000 3000
+Entry Wire Line
+	6100 3200 6000 3100
+Wire Wire Line
+	6600 4200 6100 4200
+Text Label 6100 4200 0    50   ~ 0
+DRAM_A12
+Entry Wire Line
+	6100 3300 6000 3200
+Wire Wire Line
+	6600 4100 6100 4100
+Text Label 6100 4100 0    50   ~ 0
+DRAM_A11
+Entry Wire Line
+	6100 3400 6000 3300
+Wire Wire Line
+	6600 4000 6100 4000
+Text Label 6100 4000 0    50   ~ 0
+DRAM_A10
+Entry Wire Line
+	6100 3500 6000 3400
+Wire Wire Line
+	6600 3900 6100 3900
+Text Label 6100 3900 0    50   ~ 0
+DRAM_A9
+Entry Wire Line
+	6100 3600 6000 3500
+Wire Wire Line
+	6600 3800 6100 3800
+Text Label 6100 3800 0    50   ~ 0
+DRAM_A8
+Entry Wire Line
+	6100 3700 6000 3600
+Wire Wire Line
+	6600 3700 6100 3700
+Text Label 6100 3700 0    50   ~ 0
+DRAM_A7
+Entry Wire Line
+	6100 3800 6000 3700
+Wire Wire Line
+	6600 3600 6100 3600
+Text Label 6100 3600 0    50   ~ 0
+DRAM_A6
+Entry Wire Line
+	6100 3900 6000 3800
+Wire Wire Line
+	6600 3500 6100 3500
+Text Label 6100 3500 0    50   ~ 0
+DRAM_A5
+Entry Wire Line
+	6100 4000 6000 3900
+Wire Wire Line
+	6600 3400 6100 3400
+Text Label 6100 3400 0    50   ~ 0
+DRAM_A4
+Entry Wire Line
+	6100 4100 6000 4000
+Wire Wire Line
+	6600 3300 6100 3300
+Text Label 6100 3300 0    50   ~ 0
+DRAM_A3
+Entry Wire Line
+	6100 4200 6000 4100
+Wire Wire Line
+	6600 3200 6100 3200
+Text Label 6100 3200 0    50   ~ 0
+DRAM_A2
+Wire Wire Line
+	6600 3100 6100 3100
+Text Label 6100 3100 0    50   ~ 0
+DRAM_A1
+Wire Wire Line
+	6600 3000 6100 3000
+Text Label 6100 3000 0    50   ~ 0
+DRAM_A0
+Entry Wire Line
+	6100 4300 6000 4200
+Text Label 6100 4300 0    50   ~ 0
+DRAM_A13
+Wire Wire Line
+	6600 4300 6100 4300
+Entry Wire Line
+	8800 3000 8700 2900
+Entry Wire Line
+	8800 3100 8700 3000
+Entry Wire Line
+	8800 3200 8700 3100
+Wire Wire Line
+	9300 4200 8800 4200
+Text Label 8800 4200 0    50   ~ 0
+DRAM_A12
+Entry Wire Line
+	8800 3300 8700 3200
+Wire Wire Line
+	9300 4100 8800 4100
+Text Label 8800 4100 0    50   ~ 0
+DRAM_A11
+Entry Wire Line
+	8800 3400 8700 3300
+Wire Wire Line
+	9300 4000 8800 4000
+Text Label 8800 4000 0    50   ~ 0
+DRAM_A10
+Entry Wire Line
+	8800 3500 8700 3400
+Wire Wire Line
+	9300 3900 8800 3900
+Text Label 8800 3900 0    50   ~ 0
+DRAM_A9
+Entry Wire Line
+	8800 3600 8700 3500
+Wire Wire Line
+	9300 3800 8800 3800
+Text Label 8800 3800 0    50   ~ 0
+DRAM_A8
+Entry Wire Line
+	8800 3700 8700 3600
+Wire Wire Line
+	9300 3700 8800 3700
+Text Label 8800 3700 0    50   ~ 0
+DRAM_A7
+Entry Wire Line
+	8800 3800 8700 3700
+Wire Wire Line
+	9300 3600 8800 3600
+Text Label 8800 3600 0    50   ~ 0
+DRAM_A6
+Entry Wire Line
+	8800 3900 8700 3800
+Wire Wire Line
+	9300 3500 8800 3500
+Text Label 8800 3500 0    50   ~ 0
+DRAM_A5
+Entry Wire Line
+	8800 4000 8700 3900
+Wire Wire Line
+	9300 3400 8800 3400
+Text Label 8800 3400 0    50   ~ 0
+DRAM_A4
+Entry Wire Line
+	8800 4100 8700 4000
+Wire Wire Line
+	9300 3300 8800 3300
+Text Label 8800 3300 0    50   ~ 0
+DRAM_A3
+Entry Wire Line
+	8800 4200 8700 4100
+Wire Wire Line
+	9300 3200 8800 3200
+Text Label 8800 3200 0    50   ~ 0
+DRAM_A2
+Wire Wire Line
+	9300 3100 8800 3100
+Text Label 8800 3100 0    50   ~ 0
+DRAM_A1
+Wire Wire Line
+	9300 3000 8800 3000
+Text Label 8800 3000 0    50   ~ 0
+DRAM_A0
+Entry Wire Line
+	8800 4300 8700 4200
+Text Label 8800 4300 0    50   ~ 0
+DRAM_A13
+Wire Wire Line
+	9300 4300 8800 4300
+Wire Bus Line
+	750  650  3350 650 
+Wire Bus Line
+	3350 650  6000 650 
+Connection ~ 3350 650 
+Wire Bus Line
+	8700 650  6000 650 
+Connection ~ 6000 650 
+Wire Bus Line
+	750  4950 950  4950
+Wire Bus Line
+	1350 5950 1450 5950
+Text Label 1450 5950 0    50   ~ 0
+ADDRESS
+Text HLabel 1350 5950 0    50   Input ~ 0
+DRAM_A[0..15]
+Text Label 950  4950 0    50   ~ 0
+ADDRESS
+Text HLabel 1350 5850 0    50   BiDi ~ 0
+DRAM_D[0..63]
+Wire Wire Line
+	5150 1600 5250 1600
+Wire Wire Line
+	5250 1600 5250 1700
+Wire Wire Line
+	5250 1700 5150 1700
+Wire Wire Line
+	2550 1500 2650 1500
+Wire Wire Line
+	2650 1500 2650 1600
+Wire Wire Line
+	2650 1600 2550 1600
+Wire Wire Line
+	7800 1700 7950 1700
+Wire Wire Line
+	7950 1700 7950 1800
+Wire Wire Line
+	7950 1800 7800 1800
+Wire Wire Line
+	10650 1700 10650 1800
+Wire Wire Line
+	10650 1800 10500 1800
+Wire Wire Line
+	2550 2600 3050 2600
+Text Label 3050 2600 2    50   ~ 0
+DRAM_D0
+Entry Wire Line
+	3050 2600 3150 2500
+Wire Wire Line
+	2550 2700 3050 2700
+Text Label 3050 2700 2    50   ~ 0
+DRAM_D1
+Entry Wire Line
+	3050 2700 3150 2600
+Wire Wire Line
+	2550 2800 3050 2800
+Text Label 3050 2800 2    50   ~ 0
+DRAM_D2
+Entry Wire Line
+	3050 2800 3150 2700
+Wire Wire Line
+	2550 2900 3050 2900
+Text Label 3050 2900 2    50   ~ 0
+DRAM_D3
+Entry Wire Line
+	3050 2900 3150 2800
+Wire Wire Line
+	2550 3000 3050 3000
+Text Label 3050 3000 2    50   ~ 0
+DRAM_D4
+Entry Wire Line
+	3050 3000 3150 2900
+Wire Wire Line
+	2550 3100 3050 3100
+Text Label 3050 3100 2    50   ~ 0
+DRAM_D5
+Entry Wire Line
+	3050 3100 3150 3000
+Wire Wire Line
+	2550 3200 3050 3200
+Entry Wire Line
+	3050 3200 3150 3100
+Entry Wire Line
+	3050 3300 3150 3200
+Text Label 3050 3300 2    50   ~ 0
+DRAM_D7
+Wire Wire Line
+	2550 3300 3050 3300
+Text Label 3050 3200 2    50   ~ 0
+DRAM_D6
+Entry Wire Line
+	3050 4200 3150 4100
+Text Label 3050 4200 2    50   ~ 0
+DRAM_D15
+Wire Wire Line
+	2550 4200 3050 4200
+Entry Wire Line
+	3050 4100 3150 4000
+Text Label 3050 4100 2    50   ~ 0
+DRAM_D14
+Wire Wire Line
+	2550 4100 3050 4100
+Entry Wire Line
+	3050 4000 3150 3900
+Text Label 3050 4000 2    50   ~ 0
+DRAM_D13
+Wire Wire Line
+	2550 4000 3050 4000
+Entry Wire Line
+	3050 3900 3150 3800
+Text Label 3050 3900 2    50   ~ 0
+DRAM_D12
+Wire Wire Line
+	2550 3900 3050 3900
+Entry Wire Line
+	3050 3800 3150 3700
+Text Label 3050 3800 2    50   ~ 0
+DRAM_D11
+Wire Wire Line
+	2550 3800 3050 3800
+Entry Wire Line
+	3050 3700 3150 3600
+Text Label 3050 3700 2    50   ~ 0
+DRAM_D10
+Wire Wire Line
+	2550 3700 3050 3700
+Entry Wire Line
+	3050 3600 3150 3500
+Text Label 3050 3600 2    50   ~ 0
+DRAM_D9
+Wire Wire Line
+	2550 3600 3050 3600
+Entry Wire Line
+	3050 3500 3150 3400
+Text Label 3050 3500 2    50   ~ 0
+DRAM_D8
+Wire Wire Line
+	2550 3500 3050 3500
+Wire Notes Line
+	1550 6900 2950 6900
+Wire Notes Line
+	2950 6900 2950 4450
+Text Notes 1450 6950 0    50   ~ 0
+hay que modificar la posicion de los \ndatos
+Wire Wire Line
+	2550 4600 2650 4600
+Wire Wire Line
+	2650 4600 2650 4800
+Wire Wire Line
+	2650 4600 2650 4500
+Wire Wire Line
+	2650 4500 2550 4500
+Connection ~ 2650 4600
+$Comp
+L power:GND #PWR0101
+U 1 1 6125608D
+P 2650 4800
+F 0 "#PWR0101" H 2650 4550 50  0001 C CNN
+F 1 "GND" H 2655 4627 50  0000 C CNN
+F 2 "" H 2650 4800 50  0001 C CNN
+F 3 "" H 2650 4800 50  0001 C CNN
+	1    2650 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4700 5250 4700
+Wire Wire Line
+	5250 4700 5250 4900
+Wire Wire Line
+	5250 4700 5250 4600
+Wire Wire Line
+	5250 4600 5150 4600
+Connection ~ 5250 4700
+$Comp
+L power:GND #PWR0102
+U 1 1 6125DE5E
+P 5250 4900
+F 0 "#PWR0102" H 5250 4650 50  0001 C CNN
+F 1 "GND" H 5255 4727 50  0000 C CNN
+F 2 "" H 5250 4900 50  0001 C CNN
+F 3 "" H 5250 4900 50  0001 C CNN
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4800 7900 4800
+Wire Wire Line
+	7900 4800 7900 5000
+Wire Wire Line
+	7900 4800 7900 4700
+Wire Wire Line
+	7900 4700 7800 4700
+Connection ~ 7900 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 61263801
+P 7900 5000
+F 0 "#PWR0103" H 7900 4750 50  0001 C CNN
+F 1 "GND" H 7905 4827 50  0000 C CNN
+F 2 "" H 7900 5000 50  0001 C CNN
+F 3 "" H 7900 5000 50  0001 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 4800 10600 4800
+Wire Wire Line
+	10600 4800 10600 5000
+Wire Wire Line
+	10600 4800 10600 4700
+Wire Wire Line
+	10600 4700 10500 4700
+Connection ~ 10600 4800
+$Comp
+L power:GND #PWR0104
+U 1 1 61268DEE
+P 10600 5000
+F 0 "#PWR0104" H 10600 4750 50  0001 C CNN
+F 1 "GND" H 10605 4827 50  0000 C CNN
+F 2 "" H 10600 5000 50  0001 C CNN
+F 3 "" H 10600 5000 50  0001 C CNN
+	1    10600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1300 2650 1300
+Wire Wire Line
+	2650 1300 2650 1400
+Wire Wire Line
+	2650 1400 2550 1400
+Wire Wire Line
+	5150 1400 5250 1400
+Wire Wire Line
+	5250 1400 5250 1500
+Wire Wire Line
+	5250 1500 5150 1500
+Wire Wire Line
+	7800 1500 7950 1500
+Wire Wire Line
+	7950 1500 7950 1600
+Wire Wire Line
+	7950 1600 7800 1600
+Wire Wire Line
+	10650 1600 10500 1600
+Wire Wire Line
+	2550 4400 2800 4400
+Wire Wire Line
+	2800 4400 2800 4450
+$Comp
+L Device:R_Small R2
+U 1 1 612A0843
+P 2800 4550
+F 0 "R2" H 2859 4596 50  0000 L CNN
+F 1 "240" H 2859 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 2800 4550 50  0001 C CNN
+F 3 "~" H 2800 4550 50  0001 C CNN
+	1    2800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4650 2800 4800
+$Comp
+L power:GND #PWR03
+U 1 1 612A7166
+P 2800 4800
+F 0 "#PWR03" H 2800 4550 50  0001 C CNN
+F 1 "GND" H 2805 4627 50  0000 C CNN
+F 2 "" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4500 5400 4500
+Wire Wire Line
+	5400 4500 5400 4550
+$Comp
+L Device:R_Small R3
+U 1 1 612B1538
+P 5400 4650
+F 0 "R3" H 5459 4696 50  0000 L CNN
+F 1 "240" H 5459 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5400 4650 50  0001 C CNN
+F 3 "~" H 5400 4650 50  0001 C CNN
+	1    5400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4750 5400 4900
+$Comp
+L power:GND #PWR04
+U 1 1 612B153F
+P 5400 4900
+F 0 "#PWR04" H 5400 4650 50  0001 C CNN
+F 1 "GND" H 5405 4727 50  0000 C CNN
+F 2 "" H 5400 4900 50  0001 C CNN
+F 3 "" H 5400 4900 50  0001 C CNN
+	1    5400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4600 8050 4600
+Wire Wire Line
+	8050 4600 8050 4650
+$Comp
+L Device:R_Small R4
+U 1 1 612B7D90
+P 8050 4750
+F 0 "R4" H 8109 4796 50  0000 L CNN
+F 1 "240" H 8109 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 8050 4750 50  0001 C CNN
+F 3 "~" H 8050 4750 50  0001 C CNN
+	1    8050 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4850 8050 5000
+$Comp
+L power:GND #PWR05
+U 1 1 612B7D97
+P 8050 5000
+F 0 "#PWR05" H 8050 4750 50  0001 C CNN
+F 1 "GND" H 8055 4827 50  0000 C CNN
+F 2 "" H 8050 5000 50  0001 C CNN
+F 3 "" H 8050 5000 50  0001 C CNN
+	1    8050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 4600 10750 4600
+Wire Wire Line
+	10750 4600 10750 4650
+$Comp
+L Device:R_Small R5
+U 1 1 612BEBD1
+P 10750 4750
+F 0 "R5" H 10809 4796 50  0000 L CNN
+F 1 "240" H 10809 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 10750 4750 50  0001 C CNN
+F 3 "~" H 10750 4750 50  0001 C CNN
+	1    10750 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4850 10750 5000
+$Comp
+L power:GND #PWR06
+U 1 1 612BEBD8
+P 10750 5000
+F 0 "#PWR06" H 10750 4750 50  0001 C CNN
+F 1 "GND" H 10755 4827 50  0000 C CNN
+F 2 "" H 10750 5000 50  0001 C CNN
+F 3 "" H 10750 5000 50  0001 C CNN
+	1    10750 5000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3900 5950 2050 900 
+U 60D5B4A3
+F0 "Power_DDRAM" 118
+F1 "Power_DDRAM.sch" 118
+$EndSheet
+Text HLabel 1400 6400 0    50   Input ~ 0
+DRAM_SDCLK_0-
+Text HLabel 1400 6500 0    50   Input ~ 0
+DRAM_SDCLK_0+
+Wire Wire Line
+	1400 6400 1550 6400
+Wire Wire Line
+	1400 6500 1550 6500
+Text Label 1550 6400 0    50   ~ 0
+CLK0-
+Text Label 1550 6500 0    50   ~ 0
+CLK0+
+Text HLabel 1350 6200 0    50   Input ~ 0
+DRAM_SDCLK_1-
+Text HLabel 1350 6100 0    50   Input ~ 0
+DRAM_SDCLK_1+
+Text Label 1550 6100 0    50   ~ 0
+CLK1+
+Text Label 1550 6200 0    50   ~ 0
+CLK1-
+Wire Wire Line
+	1350 6100 1550 6100
+Wire Wire Line
+	1350 6200 1550 6200
+Text Label 1150 2500 2    50   ~ 0
+CLK1+
+Text Label 1150 2600 2    50   ~ 0
+CLK1-
+Wire Wire Line
+	1350 2500 1150 2500
+Wire Wire Line
+	1350 2600 1150 2600
+Wire Wire Line
+	9300 2800 9150 2800
+Wire Wire Line
+	9300 2700 9150 2700
+Text Label 9150 2800 2    50   ~ 0
+CLK0-
+Text Label 9150 2700 2    50   ~ 0
+CLK0+
+Wire Wire Line
+	3950 2700 3800 2700
+Wire Wire Line
+	3950 2600 3800 2600
+Text Label 3800 2700 2    50   ~ 0
+CLK0-
+Text Label 3800 2600 2    50   ~ 0
+CLK0+
+Text Label 6400 2700 2    50   ~ 0
+CLK1+
+Text Label 6400 2800 2    50   ~ 0
+CLK1-
+Wire Wire Line
+	6600 2700 6400 2700
+Wire Wire Line
+	6600 2800 6400 2800
+Text GLabel 5500 1600 2    50   Input ~ 0
+DDR_VREF
+Text GLabel 2800 1300 2    50   Input ~ 0
++1v5_DDR
+Wire Wire Line
+	2800 1300 2650 1300
+Connection ~ 2650 1300
+Text GLabel 5500 1400 2    50   Input ~ 0
++1v5_DDR
+Wire Wire Line
+	5250 1400 5500 1400
+Connection ~ 5250 1400
+Wire Wire Line
+	2650 1500 2800 1500
+Connection ~ 2650 1500
+Text GLabel 2800 1500 2    50   Input ~ 0
+DDR_VREF
+Wire Wire Line
+	5250 1600 5500 1600
+Connection ~ 5250 1600
+Wire Wire Line
+	10650 1500 10650 1600
+Text GLabel 8200 1700 2    50   Input ~ 0
+DDR_VREF
+Text GLabel 8200 1500 2    50   Input ~ 0
++1v5_DDR
+Wire Wire Line
+	7950 1500 8200 1500
+Wire Wire Line
+	7950 1700 8200 1700
+Wire Wire Line
+	10500 1500 10650 1500
+Wire Wire Line
+	10500 1700 10650 1700
+Text GLabel 10750 1700 2    50   Input ~ 0
+DDR_VREF
+Text GLabel 10750 1500 2    50   Input ~ 0
++1v5_DDR
+Wire Wire Line
+	10750 1500 10650 1500
+Connection ~ 10650 1500
+Wire Wire Line
+	10750 1700 10650 1700
+Wire Bus Line
+	3350 650  3350 4100
+Wire Bus Line
+	6000 650  6000 4200
+Wire Bus Line
+	8700 650  8700 4200
+Wire Bus Line
+	750  650  750  4950
+Connection ~ 10650 1700
+$EndSCHEMATC

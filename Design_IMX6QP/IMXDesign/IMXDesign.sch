@@ -1,0 +1,206 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 2 1 60BCAFB4
+P -5500 350
+F 0 "U1" H -6330 503 50  0000 R CNN
+F 1 "MCIMX6QP5EVT" H -6330 412 50  0000 R CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -6050 2550 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -5950 2550 50  0001 C CNN
+	2    -5500 350 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 3 1 60BD618A
+P -3100 650
+F 0 "U1" H -3100 1117 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -3100 1026 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -3650 2850 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -3550 2850 50  0001 C CNN
+	3    -3100 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 4 1 60BE5236
+P -5450 1750
+F 0 "U1" H -5450 2417 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -5450 2326 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -6000 3950 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -5900 3950 50  0001 C CNN
+	4    -5450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 5 1 60BF42C0
+P -2950 3500
+F 0 "U1" H -2950 2825 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -2950 2734 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -3500 5700 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -3400 5700 50  0001 C CNN
+	5    -2950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 6 1 60C19E1B
+P -5450 3500
+F 0 "U1" H -5450 2825 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -5450 2734 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -6000 5700 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -5900 5700 50  0001 C CNN
+	6    -5450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 7 1 60C31014
+P -8800 5750
+F 0 "U1" H -8800 4875 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -8800 4784 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -9350 7950 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -9250 7950 50  0001 C CNN
+	7    -8800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 9 1 60C5F9F8
+P -7900 9400
+F 0 "U1" H -7900 8925 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -7900 8834 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -8450 11600 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -8350 11600 50  0001 C CNN
+	9    -7900 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 10 1 60CBB9A0
+P -4350 9600
+F 0 "U1" H -4350 8725 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -4350 8634 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -4900 11800 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -4800 11800 50  0001 C CNN
+	10   -4350 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 11 1 60CCB45A
+P -8000 11600
+F 0 "U1" H -8000 10925 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -8000 10834 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -8550 13800 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -8450 13800 50  0001 C CNN
+	11   -8000 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 12 1 60CDE8AF
+P -5050 11550
+F 0 "U1" H -5880 11703 50  0000 R CNN
+F 1 "MCIMX6QP5EVT" H -5880 11612 50  0000 R CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -5600 13750 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -5500 13750 50  0001 C CNN
+	12   -5050 11550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 13 1 60CF7964
+P -7900 13750
+F 0 "U1" H -7900 12875 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -7900 12784 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -8450 15950 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -8350 15950 50  0001 C CNN
+	13   -7900 13750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 16 1 60DD7368
+P -4550 13950
+F 0 "U1" H -4550 13557 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -4550 13466 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -5100 16150 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -5000 16150 50  0001 C CNN
+	16   -4550 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 17 1 60DE68E6
+P -4600 12550
+F 0 "U1" H -4600 12075 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -4600 11984 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -5150 14750 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -5050 14750 50  0001 C CNN
+	17   -4600 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 8 1 60C44ECE
+P -4450 6650
+F 0 "U1" H -4450 4875 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H -4450 4784 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H -5000 8850 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H -4900 8850 50  0001 C CNN
+	8    -4450 6650
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3050 800  1050 850 
+U 60F585A5
+F0 "SourcePower" 118
+F1 "Power.sch" 118
+$EndSheet
+$Sheet
+S 5150 850  1950 750 
+U 61E20C73
+F0 "SDx_INTERFACE" 118
+F1 "SDx_INTERFACE.sch" 118
+$EndSheet
+$Sheet
+S 800  800  1950 850 
+U 6303F7B8
+F0 "DDR3_Memory" 118
+F1 "DDR3_Memory.sch" 118
+$EndSheet
+$Sheet
+S 8250 1750 2650 4050
+U 61214F95
+F0 "CarrierBoard" 118
+F1 "CarrierBoard.sch" 118
+$EndSheet
+$Sheet
+S 950  2500 1900 1000
+U 60F61B93
+F0 "uCPU_Power" 118
+F1 "uCPU_Power.sch" 118
+$EndSheet
+$Sheet
+S 3350 2550 2450 950 
+U 60F7ACCC
+F0 "PCI_SATA_Crystals" 118
+F1 "PCI_SATA_Crystals.sch" 118
+$EndSheet
+$EndSCHEMATC
