@@ -557,7 +557,35 @@
     ],
     [
       "be09d6a6-8a98-410f-8607-ec447cd40a60",
-      "System Power"
+      "GND"
+    ],
+    [
+      "ceed73ae-3d7d-4712-8578-65c18d32f336",
+      "Power_IMX8"
+    ],
+    [
+      "70c81f73-05c9-44d0-8f2f-6c103759dbcf",
+      "LPDDR4"
+    ],
+    [
+      "b89c255c-ba00-40d6-8d89-b28516ca5e33",
+      "VDD"
+    ],
+    [
+      "a1d70fa9-a59c-4beb-8a9f-184aebcead08",
+      "Clock"
+    ],
+    [
+      "4c69a48a-066a-46ed-a86d-64e997cdb2bc",
+      "GPIO I2C MIPI ENET HDMI JTAG"
+    ],
+    [
+      "309a10d2-803e-4f80-ad88-886b74ec4e9b",
+      "SAI SD SPDIF USB UART"
+    ],
+    [
+      "900fa220-d239-4ae3-af47-e6bdc87a5e39",
+      "NAND MIPI PCIE"
     ]
   ],
   "text_variables": {}
