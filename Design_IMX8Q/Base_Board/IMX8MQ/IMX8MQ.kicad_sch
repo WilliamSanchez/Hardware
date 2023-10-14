@@ -955,7 +955,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid a1d70fa9-a59c-4beb-8a9f-184aebcead08)
-    (property "Sheetname" "Clock" (at 31.75 38.0434 0)
+    (property "Sheetname" "Clock USB2" (at 31.75 38.0434 0)
       (effects (font (size 2.5 2.5)) (justify left bottom))
     )
     (property "Sheetfile" "Clock.kicad_sch" (at 31.75 58.2266 0)

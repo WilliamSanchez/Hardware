@@ -189,8 +189,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
-          "drill": 0.15
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -606,7 +606,7 @@
     ],
     [
       "a1d70fa9-a59c-4beb-8a9f-184aebcead08",
-      "Clock"
+      "Clock USB2"
     ],
     [
       "4c69a48a-066a-46ed-a86d-64e997cdb2bc",

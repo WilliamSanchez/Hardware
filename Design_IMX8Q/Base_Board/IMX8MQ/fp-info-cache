@@ -1,4 +1,4 @@
-21759608603802234
+21764700264357093
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90356,6 +90356,27 @@ BGA153C50P14X14_1300X1150X80N
 153
 153
 _W_SBC
+DHX2QFN18_SOT1442-1_NXP
+
+PTN36043ABXY 
+0
+19
+19
+_W_SBC
+DHX2QFN18_SOT1442-1_NXP-L
+
+PTN36043ABXY 
+0
+19
+19
+_W_SBC
+DHX2QFN18_SOT1442-1_NXP-M
+
+PTN36043ABXY 
+0
+19
+19
+_W_SBC
 MIMX8MQ6CVAHZAB
 
 
@@ -90381,5 +90402,5 @@ WG3221-00_DTS_R01
 
 
 0
-104
-97
+108
+107
