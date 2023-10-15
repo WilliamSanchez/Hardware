@@ -619,6 +619,10 @@
     [
       "900fa220-d239-4ae3-af47-e6bdc87a5e39",
       "NAND MIPI PCIE"
+    ],
+    [
+      "03ba5404-8649-4b77-8f89-df0f62a9ec3b",
+      "Carrier_Board"
     ]
   ],
   "text_variables": {}

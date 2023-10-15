@@ -1,0 +1,548 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 7 1 60FD2E2D
+P 2450 2250
+F 0 "U1" H 2450 1375 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H 2450 1284 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H 1900 4450 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H 2000 4450 50  0001 C CNN
+	7    2450 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 13 1 60FD2E39
+P 3500 6050
+F 0 "U1" H 3500 5175 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H 3500 5084 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H 2950 8250 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H 3050 8250 50  0001 C CNN
+	13   3500 6050
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	850  1850 950  1950
+Text Label 950  1950 0    50   ~ 0
+DISPO_DAT14
+Entry Wire Line
+	850  1950 950  2050
+Text Label 950  2050 0    50   ~ 0
+DISPO_DAT15
+Entry Wire Line
+	850  2050 950  2150
+Text Label 950  2150 0    50   ~ 0
+DISPO_DAT16
+Entry Wire Line
+	850  2150 950  2250
+Text Label 950  2250 0    50   ~ 0
+DISPO_DAT17
+Wire Wire Line
+	1450 2250 950  2250
+Entry Wire Line
+	850  2250 950  2350
+Text Label 950  2350 0    50   ~ 0
+DISPO_DAT18
+Wire Wire Line
+	1450 2350 950  2350
+Entry Wire Line
+	850  2350 950  2450
+Text Label 950  2450 0    50   ~ 0
+DISPO_DAT19
+Wire Wire Line
+	1450 2450 950  2450
+Entry Wire Line
+	850  2450 950  2550
+Text Label 950  2550 0    50   ~ 0
+DISPO_DAT20
+Wire Wire Line
+	1450 2550 950  2550
+Text Label 950  2650 0    50   ~ 0
+DISPO_DAT21
+Wire Wire Line
+	1450 2650 950  2650
+Text Label 950  2750 0    50   ~ 0
+DISPO_DAT22
+Wire Wire Line
+	1450 2750 950  2750
+Text Label 950  2850 0    50   ~ 0
+DISPO_DAT23
+Wire Wire Line
+	1450 2850 950  2850
+Text Label 950  1550 0    50   ~ 0
+DISPO_DAT10
+Wire Wire Line
+	1450 1550 950  1550
+Entry Wire Line
+	850  1550 950  1650
+Text Label 950  1650 0    50   ~ 0
+DISPO_DAT11
+Wire Wire Line
+	1450 1650 950  1650
+Entry Wire Line
+	850  1650 950  1750
+Text Label 950  1750 0    50   ~ 0
+DISPO_DAT12
+Wire Wire Line
+	1450 1750 950  1750
+Entry Wire Line
+	850  1750 950  1850
+Text Label 950  1850 0    50   ~ 0
+DISPO_DAT13
+Wire Wire Line
+	1450 1850 950  1850
+Entry Wire Line
+	850  1450 950  1550
+Wire Wire Line
+	1450 2150 950  2150
+Wire Wire Line
+	1450 2050 950  2050
+Wire Wire Line
+	1450 1950 950  1950
+Entry Wire Line
+	850  2750 950  2850
+Entry Wire Line
+	850  2650 950  2750
+Entry Wire Line
+	850  2550 950  2650
+Text HLabel 4500 1050 2    50   Output ~ 0
+DISPO_DAT[0..23]
+Wire Wire Line
+	10000 2350 10500 2350
+Wire Wire Line
+	10000 2650 10500 2650
+Wire Wire Line
+	10000 1750 10500 1750
+Wire Wire Line
+	10000 2050 10500 2050
+Wire Wire Line
+	8000 2650 7850 2650
+Wire Wire Line
+	7850 2650 7850 2850
+$Comp
+L Device:R_Small R15
+U 1 1 615CB20E
+P 7850 2950
+F 0 "R15" H 7909 2996 50  0000 L CNN
+F 1 "1.6K" H 7909 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7850 2950 50  0001 C CNN
+F 3 "~" H 7850 2950 50  0001 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3050 7850 3150
+$Comp
+L power:GND #PWR0196
+U 1 1 615D0491
+P 7850 3150
+F 0 "#PWR0196" H 7850 2900 50  0001 C CNN
+F 1 "GND" H 7855 2977 50  0000 C CNN
+F 2 "" H 7850 3150 50  0001 C CNN
+F 3 "" H 7850 3150 50  0001 C CNN
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C138
+U 1 1 615DADD2
+P 7650 1500
+F 0 "C138" H 7742 1546 50  0000 L CNN
+F 1 "220nF" H 7742 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7650 1500 50  0001 C CNN
+F 3 "~" H 7650 1500 50  0001 C CNN
+	1    7650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C137
+U 1 1 616680D8
+P 7250 1500
+F 0 "C137" H 7342 1546 50  0000 L CNN
+F 1 "4.7uF" H 7342 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7250 1500 50  0001 C CNN
+F 3 "~" H 7250 1500 50  0001 C CNN
+	1    7250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1300 7650 1300
+Wire Wire Line
+	7250 1400 7250 1300
+Connection ~ 7250 1300
+Wire Wire Line
+	7250 1300 6800 1300
+Wire Wire Line
+	7650 1400 7650 1300
+Connection ~ 7650 1300
+Wire Wire Line
+	7650 1300 7250 1300
+Wire Wire Line
+	7650 1600 7650 1700
+Wire Wire Line
+	7250 1600 7250 1700
+Wire Wire Line
+	7250 1700 7400 1700
+Wire Wire Line
+	7400 1700 7400 1750
+Connection ~ 7400 1700
+Wire Wire Line
+	7400 1700 7650 1700
+$Comp
+L power:GND #PWR0197
+U 1 1 616F5288
+P 7400 1750
+F 0 "#PWR0197" H 7400 1500 50  0001 C CNN
+F 1 "GND" H 7405 1577 50  0000 C CNN
+F 2 "" H 7400 1750 50  0001 C CNN
+F 3 "" H 7400 1750 50  0001 C CNN
+	1    7400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1350 8900 1300
+Wire Wire Line
+	10000 2550 10500 2550
+Wire Wire Line
+	10000 2250 10500 2250
+Wire Wire Line
+	10000 1950 10500 1950
+Wire Wire Line
+	10000 1650 10500 1650
+$Comp
+L CPU_NXP_IMX:MCIMX6QP5EVT U1
+U 11 1 60FD2E33
+P 9000 2150
+F 0 "U1" H 9000 1475 50  0000 C CNN
+F 1 "MCIMX6QP5EVT" H 9000 1384 50  0000 C CNN
+F 2 "Package_BGA:BGA-624_21.0x21.0mm_Layout25x25_P0.8mm" H 8450 4350 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf" H 8550 4350 50  0001 C CNN
+	11   9000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C139
+U 1 1 61775DC2
+P 9900 1000
+F 0 "C139" H 9992 1046 50  0000 L CNN
+F 1 "220nF" H 9992 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 9900 1000 50  0001 C CNN
+F 3 "~" H 9900 1000 50  0001 C CNN
+	1    9900 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C140
+U 1 1 61775DC8
+P 10300 1000
+F 0 "C140" H 10392 1046 50  0000 L CNN
+F 1 "4.7uF" H 10392 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10300 1000 50  0001 C CNN
+F 3 "~" H 10300 1000 50  0001 C CNN
+	1    10300 1000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 900  10300 800 
+Connection ~ 10300 800 
+Wire Wire Line
+	10300 800  10750 800 
+Wire Wire Line
+	9900 900  9900 800 
+Connection ~ 9900 800 
+Wire Wire Line
+	9900 800  10300 800 
+Wire Wire Line
+	9900 1100 9900 1200
+Wire Wire Line
+	10300 1100 10300 1200
+Wire Wire Line
+	10300 1200 10150 1200
+Wire Wire Line
+	10150 1200 10150 1250
+Connection ~ 10150 1200
+Wire Wire Line
+	10150 1200 9900 1200
+$Comp
+L power:GND #PWR0198
+U 1 1 61775DDC
+P 10150 1250
+F 0 "#PWR0198" H 10150 1000 50  0001 C CNN
+F 1 "GND" H 10155 1077 50  0000 C CNN
+F 2 "" H 10150 1250 50  0001 C CNN
+F 3 "" H 10150 1250 50  0001 C CNN
+	1    10150 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1350 9100 800 
+Wire Wire Line
+	9100 800  9900 800 
+Wire Wire Line
+	1950 6650 2500 6650
+Wire Wire Line
+	1950 6350 2500 6350
+Wire Wire Line
+	1950 6050 2500 6050
+Wire Wire Line
+	1950 5750 2500 5750
+Wire Wire Line
+	3450 1650 3650 1650
+Wire Wire Line
+	3650 1650 3650 1550
+Wire Wire Line
+	3450 1550 3550 1550
+Wire Wire Line
+	3550 1550 3550 1450
+Text HLabel 4700 1450 2    50   Input ~ 0
+DI0_DISP_CLK
+Wire Wire Line
+	1950 6750 2500 6750
+Wire Wire Line
+	1950 6450 2500 6450
+Wire Wire Line
+	1950 6150 2500 6150
+Wire Wire Line
+	1950 5850 2500 5850
+Wire Wire Line
+	3550 1450 4700 1450
+Wire Wire Line
+	3650 1550 4700 1550
+Wire Wire Line
+	3700 1650 4700 1650
+Wire Wire Line
+	3700 1750 3700 1650
+Wire Wire Line
+	3450 1750 3700 1750
+Wire Wire Line
+	3800 1750 4700 1750
+Wire Wire Line
+	3800 1850 3800 1750
+Wire Wire Line
+	3450 1850 3800 1850
+Wire Wire Line
+	3900 1850 4700 1850
+Wire Wire Line
+	3900 1950 3900 1850
+Wire Wire Line
+	3450 1950 3900 1950
+Wire Wire Line
+	3450 2950 3950 2950
+Text Label 3950 2950 2    50   ~ 0
+DISPO_DAT9
+Entry Wire Line
+	4050 2850 3950 2950
+Wire Wire Line
+	3450 2850 3950 2850
+Text Label 3950 2850 2    50   ~ 0
+DISPO_DAT8
+Entry Wire Line
+	4050 2750 3950 2850
+Wire Wire Line
+	3450 2750 3950 2750
+Text Label 3950 2750 2    50   ~ 0
+DISPO_DAT7
+Entry Wire Line
+	4050 2650 3950 2750
+Wire Wire Line
+	3450 2650 3950 2650
+Text Label 3950 2650 2    50   ~ 0
+DISPO_DAT6
+Entry Wire Line
+	4050 2550 3950 2650
+Wire Wire Line
+	3450 2550 3950 2550
+Text Label 3950 2550 2    50   ~ 0
+DISPO_DAT5
+Entry Wire Line
+	4050 2450 3950 2550
+Wire Wire Line
+	3450 2450 3950 2450
+Text Label 3950 2450 2    50   ~ 0
+DISPO_DAT4
+Entry Wire Line
+	4050 2350 3950 2450
+Wire Wire Line
+	3450 2350 3950 2350
+Text Label 3950 2350 2    50   ~ 0
+DISPO_DAT3
+Entry Wire Line
+	4050 2250 3950 2350
+Wire Wire Line
+	3450 2250 3950 2250
+Text Label 3950 2250 2    50   ~ 0
+DISPO_DAT2
+Entry Wire Line
+	4050 2150 3950 2250
+Wire Wire Line
+	3450 2150 3950 2150
+Text Label 3950 2150 2    50   ~ 0
+DISPO_DAT1
+Entry Wire Line
+	4050 2050 3950 2150
+Wire Wire Line
+	3450 2050 3950 2050
+Text Label 3950 2050 2    50   ~ 0
+DISPO_DAT0
+Entry Wire Line
+	4050 1950 3950 2050
+Wire Bus Line
+	850  1050 4050 1050
+Connection ~ 4050 1050
+Wire Bus Line
+	4050 1050 4500 1050
+Text HLabel 1950 5750 0    50   Input ~ 0
+LVDS0_TX0-
+Text HLabel 1950 6050 0    50   Input ~ 0
+LVDS0_TX1-
+Text HLabel 1950 6350 0    50   Input ~ 0
+LVDS0_TX2-
+Text HLabel 1950 6650 0    50   Input ~ 0
+LVDS0_TX3-
+Text HLabel 1950 5850 0    50   Input ~ 0
+LVDS0_TX0+
+Text HLabel 1950 6150 0    50   Input ~ 0
+LVDS0_TX1+
+Text HLabel 1950 6450 0    50   Input ~ 0
+LVDS0_TX2+
+Text HLabel 1950 6750 0    50   Input ~ 0
+LVDS0_TX3+
+Text HLabel 5050 6750 2    50   Input ~ 0
+LVDS1_TX3+
+Text HLabel 5050 6450 2    50   Input ~ 0
+LVDS1_TX2+
+Text HLabel 5050 6150 2    50   Input ~ 0
+LVDS1_TX1+
+Text HLabel 5050 5850 2    50   Input ~ 0
+LVDS1_TX0+
+Text HLabel 5050 6650 2    50   Input ~ 0
+LVDS1_TX3-
+Text HLabel 5050 6350 2    50   Input ~ 0
+LVDS1_TX2-
+Text HLabel 5050 6050 2    50   Input ~ 0
+LVDS1_TX1-
+Wire Wire Line
+	5050 5850 4500 5850
+Wire Wire Line
+	5050 6150 4500 6150
+Wire Wire Line
+	5050 6450 4500 6450
+Wire Wire Line
+	5050 6750 4500 6750
+Wire Wire Line
+	5050 5750 4500 5750
+Wire Wire Line
+	5050 6050 4500 6050
+Wire Wire Line
+	5050 6350 4500 6350
+Wire Wire Line
+	5050 6650 4500 6650
+Text HLabel 5050 5750 2    50   Input ~ 0
+LVDS1_TX0-
+Text HLabel 10500 1650 2    50   Input ~ 0
+HDMI_CLK-
+Text HLabel 10500 1750 2    50   Input ~ 0
+HDMI_CLK+
+Text HLabel 10500 1950 2    50   Input ~ 0
+HDMI_D0-
+Text HLabel 10500 2050 2    50   Input ~ 0
+HDMI_D0+
+Text HLabel 10500 2250 2    50   Input ~ 0
+HDMI_D1-
+Text HLabel 10500 2350 2    50   Input ~ 0
+HDMI_D1+
+Text HLabel 10500 2550 2    50   Input ~ 0
+HDMI_D2-
+Text HLabel 10500 2650 2    50   Input ~ 0
+HDMI_D2+
+Text GLabel 6800 1300 0    50   Input ~ 0
++1V1_VDDSOC_VP
+Text GLabel 10750 800  2    50   Input Italic 0
++2V5
+Wire Wire Line
+	3500 5050 3500 4750
+Text GLabel 1600 4750 0    50   Input Italic 0
++2V5
+$Comp
+L Device:C_Small C146
+U 1 1 614DF706
+P 2300 4950
+F 0 "C146" H 2392 4996 50  0000 L CNN
+F 1 "220nF" H 2392 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 2300 4950 50  0001 C CNN
+F 3 "~" H 2300 4950 50  0001 C CNN
+	1    2300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C145
+U 1 1 614DF70C
+P 1900 4950
+F 0 "C145" H 1992 4996 50  0000 L CNN
+F 1 "4.7uF" H 1992 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1900 4950 50  0001 C CNN
+F 3 "~" H 1900 4950 50  0001 C CNN
+	1    1900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4850 1900 4750
+Wire Wire Line
+	2300 4850 2300 4750
+Wire Wire Line
+	2300 5050 2300 5150
+Wire Wire Line
+	1900 5050 1900 5150
+Wire Wire Line
+	1900 5150 2050 5150
+Wire Wire Line
+	2050 5150 2050 5200
+Connection ~ 2050 5150
+Wire Wire Line
+	2050 5150 2300 5150
+$Comp
+L power:GND #PWR0213
+U 1 1 614DF71A
+P 2050 5200
+F 0 "#PWR0213" H 2050 4950 50  0001 C CNN
+F 1 "GND" H 2055 5027 50  0000 C CNN
+F 2 "" H 2050 5200 50  0001 C CNN
+F 3 "" H 2050 5200 50  0001 C CNN
+	1    2050 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4750 1900 4750
+Wire Wire Line
+	1900 4750 2300 4750
+Connection ~ 1900 4750
+Wire Wire Line
+	2300 4750 3500 4750
+Connection ~ 2300 4750
+Text HLabel 4700 1550 2    50   Input ~ 0
+DI0_PIN15
+Text HLabel 4700 1650 2    50   Input ~ 0
+DI0_PIN2
+Text HLabel 4700 1750 2    50   Input ~ 0
+DI0_PIN3
+Text HLabel 4700 1850 2    50   Input ~ 0
+DI0_PIN4
+Wire Bus Line
+	850  1050 850  2750
+Wire Bus Line
+	4050 1050 4050 2850
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-update=mar 06 jul 2021 17:25:39
+update=mar 15 feb 2022 09:14:55
 version=1
 last_client=kicad
 [general]
@@ -52,9 +52,9 @@ dPairWidth2=0.09398
 dPairGap2=0.13462
 dPairViaGap2=0
 SilkLineWidth=0.12
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkTextSizeV=0.5
+SilkTextSizeH=0.5
+SilkTextSizeThickness=0.09999999999999999
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -244,6 +244,17 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
+Clearance=0.1
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Top
 Clearance=0.1
 TrackWidth=0.25
 ViaDiameter=0.8

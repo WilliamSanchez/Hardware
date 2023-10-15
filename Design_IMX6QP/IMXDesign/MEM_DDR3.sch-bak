@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 12
+Sheet 3 17
 Title ""
 Date ""
 Rev ""
@@ -14,21 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MT41K128M16JT-107_K:MT41K128M16JT-107_K U2
-U 1 1 61822642
-P 4550 3200
-F 0 "U2" H 4550 5267 50  0000 C CNN
-F 1 "MT41K128M16JT-107_K" H 4550 5176 50  0000 C CNN
-F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 4550 3200 50  0001 L BNN
-F 3 "" H 4550 3200 50  0001 L BNN
-F 4 "Micron" H 4550 3200 50  0001 L BNN "MANUFACTURER"
-	1    4550 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MT41K128M16JT-107_K:MT41K128M16JT-107_K U4
+L IMXDesign-rescue:MT41K128M16JT-107_K-MT41K128M16JT-107_K U4
 U 1 1 61823D08
 P 7200 3300
+AR Path="/61823D08" Ref="U4"  Part="1" 
+AR Path="/6303F7B8/632D5505/61823D08" Ref="U4"  Part="1" 
 F 0 "U4" H 7200 5367 50  0000 C CNN
 F 1 "MT41K128M16JT-107_K" H 7200 5276 50  0000 C CNN
 F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 7200 3300 50  0001 L BNN
@@ -37,128 +27,62 @@ F 4 "Micron" H 7200 3300 50  0001 L BNN "MANUFACTURER"
 	1    7200 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L MT41K128M16JT-107_K:MT41K128M16JT-107_K U5
-U 1 1 61824D70
-P 9900 3300
-F 0 "U5" H 9900 5367 50  0000 C CNN
-F 1 "MT41K128M16JT-107_K" H 9900 5276 50  0000 C CNN
-F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 9900 3300 50  0001 L BNN
-F 3 "" H 9900 3300 50  0001 L BNN
-F 4 "Micron" H 9900 3300 50  0001 L BNN "MANUFACTURER"
-	1    9900 3300
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	1350 5850 1450 5850
 Entry Wire Line
 	850  2800 750  2700
 Entry Wire Line
 	850  2900 750  2800
 Entry Wire Line
 	850  3000 750  2900
-Wire Wire Line
-	1350 4000 850  4000
 Text Label 850  4000 0    50   ~ 0
 DRAM_A12
 Entry Wire Line
 	850  3100 750  3000
-Wire Wire Line
-	1350 3900 850  3900
 Text Label 850  3900 0    50   ~ 0
 DRAM_A11
 Entry Wire Line
 	850  3200 750  3100
-Wire Wire Line
-	1350 3800 850  3800
 Text Label 850  3800 0    50   ~ 0
 DRAM_A10
 Entry Wire Line
 	850  3300 750  3200
-Wire Wire Line
-	1350 3700 850  3700
 Text Label 850  3700 0    50   ~ 0
 DRAM_A9
 Entry Wire Line
 	850  3400 750  3300
-Wire Wire Line
-	1350 3600 850  3600
 Text Label 850  3600 0    50   ~ 0
 DRAM_A8
 Entry Wire Line
 	850  3500 750  3400
-Wire Wire Line
-	1350 3500 850  3500
 Text Label 850  3500 0    50   ~ 0
 DRAM_A7
 Entry Wire Line
 	850  3600 750  3500
-Wire Wire Line
-	1350 3400 850  3400
 Text Label 850  3400 0    50   ~ 0
 DRAM_A6
 Entry Wire Line
 	850  3700 750  3600
-Wire Wire Line
-	1350 3300 850  3300
 Text Label 850  3300 0    50   ~ 0
 DRAM_A5
 Entry Wire Line
 	850  3800 750  3700
-Wire Wire Line
-	1350 3200 850  3200
 Text Label 850  3200 0    50   ~ 0
 DRAM_A4
 Entry Wire Line
 	850  3900 750  3800
-Wire Wire Line
-	1350 3100 850  3100
 Text Label 850  3100 0    50   ~ 0
 DRAM_A3
 Entry Wire Line
 	850  4000 750  3900
-Wire Wire Line
-	1350 3000 850  3000
 Text Label 850  3000 0    50   ~ 0
 DRAM_A2
-Wire Wire Line
-	1350 2900 850  2900
 Text Label 850  2900 0    50   ~ 0
 DRAM_A1
-Wire Wire Line
-	1350 2800 850  2800
 Text Label 850  2800 0    50   ~ 0
 DRAM_A0
-Entry Wire Line
-	850  4300 750  4200
 Entry Wire Line
 	850  4100 750  4000
 Text Label 850  4100 0    50   ~ 0
 DRAM_A13
-Wire Wire Line
-	1350 4100 850  4100
-Text Label 850  4300 0    50   ~ 0
-DRAM_A14
-Wire Wire Line
-	1350 4300 850  4300
-Text Label 850  4400 0    50   ~ 0
-DRAM_A15
-Wire Wire Line
-	1350 4400 850  4400
-Entry Wire Line
-	850  4400 750  4300
-$Comp
-L MT41K128M16JT-107_K:MT41K128M16JT-107_K U3
-U 1 1 632D9723
-P 1950 3100
-F 0 "U3" H 1950 5167 50  0000 C CNN
-F 1 "MT41K128M16JT-107_K" H 1950 5076 50  0000 C CNN
-F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 1950 3100 50  0001 L BNN
-F 3 "" H 1950 3100 50  0001 L BNN
-F 4 "Micron" H 1950 3100 50  0001 L BNN "MANUFACTURER"
-	1    1950 3100
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	3450 2900 3350 2800
 Entry Wire Line
@@ -453,107 +377,11 @@ Wire Wire Line
 	10650 1700 10650 1800
 Wire Wire Line
 	10650 1800 10500 1800
-Wire Wire Line
-	2550 2600 3050 2600
-Text Label 3050 2600 2    50   ~ 0
-DRAM_D0
-Entry Wire Line
-	3050 2600 3150 2500
-Wire Wire Line
-	2550 2700 3050 2700
-Text Label 3050 2700 2    50   ~ 0
-DRAM_D1
-Entry Wire Line
-	3050 2700 3150 2600
-Wire Wire Line
-	2550 2800 3050 2800
-Text Label 3050 2800 2    50   ~ 0
-DRAM_D2
-Entry Wire Line
-	3050 2800 3150 2700
-Wire Wire Line
-	2550 2900 3050 2900
-Text Label 3050 2900 2    50   ~ 0
-DRAM_D3
-Entry Wire Line
-	3050 2900 3150 2800
-Wire Wire Line
-	2550 3000 3050 3000
-Text Label 3050 3000 2    50   ~ 0
-DRAM_D4
-Entry Wire Line
-	3050 3000 3150 2900
-Wire Wire Line
-	2550 3100 3050 3100
-Text Label 3050 3100 2    50   ~ 0
-DRAM_D5
-Entry Wire Line
-	3050 3100 3150 3000
-Wire Wire Line
-	2550 3200 3050 3200
-Entry Wire Line
-	3050 3200 3150 3100
-Entry Wire Line
-	3050 3300 3150 3200
-Text Label 3050 3300 2    50   ~ 0
-DRAM_D7
-Wire Wire Line
-	2550 3300 3050 3300
-Text Label 3050 3200 2    50   ~ 0
-DRAM_D6
-Entry Wire Line
-	3050 4200 3150 4100
-Text Label 3050 4200 2    50   ~ 0
-DRAM_D15
-Wire Wire Line
-	2550 4200 3050 4200
-Entry Wire Line
-	3050 4100 3150 4000
-Text Label 3050 4100 2    50   ~ 0
-DRAM_D14
-Wire Wire Line
-	2550 4100 3050 4100
-Entry Wire Line
-	3050 4000 3150 3900
-Text Label 3050 4000 2    50   ~ 0
-DRAM_D13
-Wire Wire Line
-	2550 4000 3050 4000
-Entry Wire Line
-	3050 3900 3150 3800
-Text Label 3050 3900 2    50   ~ 0
-DRAM_D12
-Wire Wire Line
-	2550 3900 3050 3900
-Entry Wire Line
-	3050 3800 3150 3700
-Text Label 3050 3800 2    50   ~ 0
-DRAM_D11
-Wire Wire Line
-	2550 3800 3050 3800
-Entry Wire Line
-	3050 3700 3150 3600
-Text Label 3050 3700 2    50   ~ 0
-DRAM_D10
-Wire Wire Line
-	2550 3700 3050 3700
-Entry Wire Line
-	3050 3600 3150 3500
-Text Label 3050 3600 2    50   ~ 0
-DRAM_D9
-Wire Wire Line
-	2550 3600 3050 3600
-Entry Wire Line
-	3050 3500 3150 3400
-Text Label 3050 3500 2    50   ~ 0
-DRAM_D8
-Wire Wire Line
-	2550 3500 3050 3500
 Wire Notes Line
-	1550 6900 2950 6900
+	1550 5150 2950 5150
 Wire Notes Line
 	2950 6900 2950 4450
-Text Notes 1450 6950 0    50   ~ 0
+Text Notes 1450 5200 0    50   ~ 0
 hay que modificar la posicion de los \ndatos
 Wire Wire Line
 	2550 4600 2650 4600
@@ -773,17 +601,17 @@ U 60D5B4A3
 F0 "Power_DDRAM" 118
 F1 "Power_DDRAM.sch" 118
 $EndSheet
-Text HLabel 1400 6400 0    50   Input ~ 0
+Text HLabel 1350 6350 0    50   Input ~ 0
 DRAM_SDCLK_0-
-Text HLabel 1400 6500 0    50   Input ~ 0
+Text HLabel 1350 6450 0    50   Input ~ 0
 DRAM_SDCLK_0+
 Wire Wire Line
-	1400 6400 1550 6400
+	1350 6350 1500 6350
 Wire Wire Line
-	1400 6500 1550 6500
-Text Label 1550 6400 0    50   ~ 0
+	1350 6450 1500 6450
+Text Label 1500 6350 0    50   ~ 0
 CLK0-
-Text Label 1550 6500 0    50   ~ 0
+Text Label 1500 6450 0    50   ~ 0
 CLK0+
 Text HLabel 1350 6200 0    50   Input ~ 0
 DRAM_SDCLK_1-
@@ -797,38 +625,30 @@ Wire Wire Line
 	1350 6100 1550 6100
 Wire Wire Line
 	1350 6200 1550 6200
-Text Label 1150 2500 2    50   ~ 0
+Text Label 2750 2350 0    50   ~ 0
 CLK1+
-Text Label 1150 2600 2    50   ~ 0
+Text Label 2750 2450 0    50   ~ 0
 CLK1-
 Wire Wire Line
-	1350 2500 1150 2500
+	2550 2350 2750 2350
 Wire Wire Line
-	1350 2600 1150 2600
+	2550 2450 2750 2450
 Wire Wire Line
-	9300 2800 9150 2800
+	10500 2650 10650 2650
 Wire Wire Line
-	9300 2700 9150 2700
-Text Label 9150 2800 2    50   ~ 0
+	10500 2550 10650 2550
+Text Label 10650 2650 0    50   ~ 0
 CLK0-
-Text Label 9150 2700 2    50   ~ 0
+Text Label 10650 2550 0    50   ~ 0
 CLK0+
 Wire Wire Line
-	3950 2700 3800 2700
+	5150 2550 5300 2550
 Wire Wire Line
-	3950 2600 3800 2600
-Text Label 3800 2700 2    50   ~ 0
+	5150 2450 5300 2450
+Text Label 5300 2550 0    50   ~ 0
 CLK0-
-Text Label 3800 2600 2    50   ~ 0
+Text Label 5300 2450 0    50   ~ 0
 CLK0+
-Text Label 6400 2700 2    50   ~ 0
-CLK1+
-Text Label 6400 2800 2    50   ~ 0
-CLK1-
-Wire Wire Line
-	6600 2700 6400 2700
-Wire Wire Line
-	6600 2800 6400 2800
 Text GLabel 5500 1600 2    50   Input ~ 0
 DDR_VREF
 Text GLabel 2800 1300 2    50   Input ~ 0
@@ -872,6 +692,804 @@ Wire Wire Line
 Connection ~ 10650 1500
 Wire Wire Line
 	10750 1700 10650 1700
+Connection ~ 10650 1700
+Wire Wire Line
+	3050 3500 2550 3500
+Text Label 2550 3500 0    50   ~ 0
+DRAM_D8
+Entry Wire Line
+	3050 3300 3150 3400
+Wire Wire Line
+	3050 3600 2550 3600
+Text Label 2550 3600 0    50   ~ 0
+DRAM_D14
+Entry Wire Line
+	3050 3200 3150 3300
+Wire Wire Line
+	3050 3700 2550 3700
+Text Label 2550 3700 0    50   ~ 0
+DRAM_D15
+Entry Wire Line
+	3050 3100 3150 3200
+Wire Wire Line
+	3050 3800 2550 3800
+Text Label 2550 3800 0    50   ~ 0
+DRAM_D13
+Entry Wire Line
+	3050 3000 3150 3100
+Wire Wire Line
+	3050 3900 2550 3900
+Text Label 2550 3900 0    50   ~ 0
+DRAM_D9
+Entry Wire Line
+	3050 2900 3150 3000
+Wire Wire Line
+	3050 4000 2550 4000
+Text Label 2550 4000 0    50   ~ 0
+DRAM_D10
+Entry Wire Line
+	3050 2800 3150 2900
+Wire Wire Line
+	3050 4100 2550 4100
+Text Label 2550 4100 0    50   ~ 0
+DRAM_D11
+Entry Wire Line
+	3050 2700 3150 2800
+Wire Wire Line
+	3050 4200 2550 4200
+Text Label 2550 4200 0    50   ~ 0
+DRAM_D12
+Entry Wire Line
+	3050 2600 3150 2700
+Text Label 2550 3200 0    50   ~ 0
+DRAM_D4
+Wire Wire Line
+	3050 3300 2550 3300
+Text Label 2550 3300 0    50   ~ 0
+DRAM_D6
+Entry Wire Line
+	3050 3500 3150 3600
+Entry Wire Line
+	3050 3600 3150 3700
+Wire Wire Line
+	3050 3200 2550 3200
+Entry Wire Line
+	3050 3700 3150 3800
+Text Label 2550 3100 0    50   ~ 0
+DRAM_D5
+Wire Wire Line
+	3050 3100 2550 3100
+Entry Wire Line
+	3050 3800 3150 3900
+Text Label 2550 3000 0    50   ~ 0
+DRAM_D3
+Wire Wire Line
+	3050 3000 2550 3000
+Entry Wire Line
+	3050 3900 3150 4000
+Text Label 2550 2900 0    50   ~ 0
+DRAM_D1
+Wire Wire Line
+	3050 2900 2550 2900
+Entry Wire Line
+	3050 4000 3150 4100
+Text Label 2550 2800 0    50   ~ 0
+DRAM_D2
+Wire Wire Line
+	3050 2800 2550 2800
+Entry Wire Line
+	3050 4100 3150 4200
+Text Label 2550 2700 0    50   ~ 0
+DRAM_D7
+Wire Wire Line
+	3050 2700 2550 2700
+Entry Wire Line
+	3050 4200 3150 4300
+Text Label 2550 2600 0    50   ~ 0
+DRAM_D0
+Wire Wire Line
+	3050 2600 2550 2600
+Wire Bus Line
+	1350 5850 3150 5850
+Wire Bus Line
+	3150 5850 3600 5850
+Wire Bus Line
+	3600 5850 3600 5600
+Wire Bus Line
+	3600 5600 5750 5600
+Connection ~ 3150 5850
+Connection ~ 8400 5600
+Wire Bus Line
+	8400 5600 11100 5600
+Connection ~ 5750 5600
+Wire Bus Line
+	5750 5600 8400 5600
+Entry Wire Line
+	11000 2800 11100 2900
+Entry Wire Line
+	8300 3700 8400 3800
+Text Label 8300 2800 2    50   ~ 0
+DRAM_D32
+Entry Wire Line
+	8300 3800 8400 3900
+Text Label 8300 2900 2    50   ~ 0
+DRAM_D38
+Wire Wire Line
+	7800 2900 8300 2900
+Entry Wire Line
+	8300 3900 8400 4000
+Wire Wire Line
+	7800 3000 8300 3000
+Entry Wire Line
+	8300 4000 8400 4100
+Text Label 8300 3100 2    50   ~ 0
+DRAM_D35
+Wire Wire Line
+	7800 3100 8300 3100
+Entry Wire Line
+	8300 4100 8400 4200
+Text Label 8300 3200 2    50   ~ 0
+DRAM_D37
+Wire Wire Line
+	7800 3200 8300 3200
+Entry Wire Line
+	8300 4200 8400 4300
+Text Label 8300 3300 2    50   ~ 0
+DRAM_D33
+Wire Wire Line
+	7800 3300 8300 3300
+Entry Wire Line
+	8300 4300 8400 4400
+Text Label 8300 3400 2    50   ~ 0
+DRAM_D34
+Wire Wire Line
+	7800 3400 8300 3400
+Entry Wire Line
+	8300 4400 8400 4500
+Text Label 8300 3500 2    50   ~ 0
+DRAM_D36
+Wire Wire Line
+	7800 3500 8300 3500
+Text Label 8300 3000 2    50   ~ 0
+DRAM_D39
+Wire Wire Line
+	10500 3500 11000 3500
+Text Label 11000 3500 2    50   ~ 0
+DRAM_D57
+Entry Wire Line
+	11000 3500 11100 3600
+Wire Wire Line
+	10500 3400 11000 3400
+Text Label 11000 3400 2    50   ~ 0
+DRAM_D63
+Entry Wire Line
+	11000 3400 11100 3500
+Wire Wire Line
+	10500 3300 11000 3300
+Entry Wire Line
+	11000 3300 11100 3400
+Wire Wire Line
+	10500 3200 11000 3200
+Text Label 11000 3200 2    50   ~ 0
+DRAM_D58
+Entry Wire Line
+	11000 3200 11100 3300
+Wire Wire Line
+	10500 3100 11000 3100
+Entry Wire Line
+	11000 3100 11100 3200
+Wire Wire Line
+	10500 3000 11000 3000
+Text Label 11000 3000 2    50   ~ 0
+DRAM_D61
+Entry Wire Line
+	11000 3000 11100 3100
+Wire Wire Line
+	10500 2900 11000 2900
+Text Label 11000 2900 2    50   ~ 0
+DRAM_D62
+Entry Wire Line
+	11000 2900 11100 3000
+Wire Wire Line
+	10500 2800 11000 2800
+Text Label 11000 2800 2    50   ~ 0
+DRAM_D56
+Wire Wire Line
+	10500 4400 11000 4400
+Text Label 11000 4400 2    50   ~ 0
+DRAM_D50
+Entry Wire Line
+	11000 4400 11100 4500
+Wire Wire Line
+	10500 4300 11000 4300
+Text Label 11000 4300 2    50   ~ 0
+DRAM_D52
+Entry Wire Line
+	11000 4300 11100 4400
+Wire Wire Line
+	10500 4200 11000 4200
+Text Label 11000 4200 2    50   ~ 0
+DRAM_D54
+Entry Wire Line
+	11000 4200 11100 4300
+Wire Wire Line
+	10500 4100 11000 4100
+Text Label 11000 4100 2    50   ~ 0
+DRAM_D53
+Entry Wire Line
+	11000 4100 11100 4200
+Wire Wire Line
+	10500 4000 11000 4000
+Text Label 11000 4000 2    50   ~ 0
+DRAM_D55
+Entry Wire Line
+	11000 4000 11100 4100
+Wire Wire Line
+	10500 3900 11000 3900
+Text Label 11000 3900 2    50   ~ 0
+DRAM_D49
+Entry Wire Line
+	11000 3900 11100 4000
+Wire Wire Line
+	10500 3800 11000 3800
+Text Label 11000 3800 2    50   ~ 0
+DRAM_D51
+Entry Wire Line
+	11000 3800 11100 3900
+Text Label 11000 3700 2    50   ~ 0
+DRAM_D48
+Entry Wire Line
+	11000 3700 11100 3800
+Wire Wire Line
+	7800 4400 8300 4400
+Text Label 8300 4400 2    50   ~ 0
+DRAM_D41
+Entry Wire Line
+	8300 3500 8400 3600
+Wire Wire Line
+	7800 4300 8300 4300
+Text Label 8300 4300 2    50   ~ 0
+DRAM_D42
+Entry Wire Line
+	8300 3400 8400 3500
+Wire Wire Line
+	7800 4200 8300 4200
+Text Label 8300 4200 2    50   ~ 0
+DRAM_D43
+Entry Wire Line
+	8300 3300 8400 3400
+Wire Wire Line
+	7800 4100 8300 4100
+Text Label 8300 4100 2    50   ~ 0
+DRAM_D46
+Entry Wire Line
+	8300 3200 8400 3300
+Wire Wire Line
+	7800 4000 8300 4000
+Text Label 8300 4000 2    50   ~ 0
+DRAM_D44
+Entry Wire Line
+	8300 3100 8400 3200
+Wire Wire Line
+	7800 3900 8300 3900
+Text Label 8300 3900 2    50   ~ 0
+DRAM_D47
+Entry Wire Line
+	8300 3000 8400 3100
+Wire Wire Line
+	7800 3800 8300 3800
+Text Label 8300 3800 2    50   ~ 0
+DRAM_D45
+Entry Wire Line
+	8300 2900 8400 3000
+Wire Wire Line
+	7800 3700 8300 3700
+Text Label 8300 3700 2    50   ~ 0
+DRAM_D40
+Entry Wire Line
+	8300 2800 8400 2900
+Wire Wire Line
+	10500 3700 11000 3700
+Entry Wire Line
+	5650 3600 5750 3700
+Entry Wire Line
+	5650 3700 5750 3800
+Entry Wire Line
+	5650 3800 5750 3900
+Entry Wire Line
+	5650 3900 5750 4000
+Entry Wire Line
+	5650 4000 5750 4100
+Entry Wire Line
+	5650 4100 5750 4200
+Entry Wire Line
+	5650 4200 5750 4300
+Entry Wire Line
+	5650 2700 5750 2800
+Entry Wire Line
+	5650 2800 5750 2900
+Entry Wire Line
+	5650 2900 5750 3000
+Entry Wire Line
+	5650 3000 5750 3100
+Entry Wire Line
+	5650 3100 5750 3200
+Entry Wire Line
+	5650 3200 5750 3300
+Entry Wire Line
+	5650 3300 5750 3400
+Entry Wire Line
+	5650 4300 5750 4400
+Entry Wire Line
+	5650 3400 5750 3500
+Text HLabel 3400 1800 2    50   Output ~ 0
+DRAM_SDWE_B
+Text HLabel 3400 1700 2    50   Output ~ 0
+DRAM_CAS_B
+Text HLabel 3400 1600 2    50   Output ~ 0
+DRAM_RAS_B
+Text HLabel 3400 1900 2    50   Output ~ 0
+DRAM_CS0_B
+Wire Wire Line
+	3400 1600 3950 1600
+Wire Wire Line
+	3400 1700 3950 1700
+Wire Wire Line
+	3400 1800 3950 1800
+Wire Wire Line
+	3400 1900 3950 1900
+Text HLabel 800  1700 2    50   Output ~ 0
+DRAM_SDWE_B
+Text HLabel 800  1600 2    50   Output ~ 0
+DRAM_CAS_B
+Text HLabel 800  1500 2    50   Output ~ 0
+DRAM_RAS_B
+Text HLabel 800  1800 2    50   Output ~ 0
+DRAM_CS0_B
+Text HLabel 6050 1900 2    50   Output ~ 0
+DRAM_SDWE_B
+Text HLabel 6050 1800 2    50   Output ~ 0
+DRAM_CAS_B
+Text HLabel 6050 1700 2    50   Output ~ 0
+DRAM_RAS_B
+Text HLabel 6050 2000 2    50   Output ~ 0
+DRAM_CS0_B
+Wire Wire Line
+	6050 1700 6600 1700
+Wire Wire Line
+	6050 1800 6600 1800
+Wire Wire Line
+	6050 1900 6600 1900
+Wire Wire Line
+	6050 2000 6600 2000
+Text HLabel 8750 1900 2    50   Output ~ 0
+DRAM_SDWE_B
+Text HLabel 8750 1800 2    50   Output ~ 0
+DRAM_CAS_B
+Text HLabel 8750 1700 2    50   Output ~ 0
+DRAM_RAS_B
+Text HLabel 8750 2000 2    50   Output ~ 0
+DRAM_CS0_B
+Wire Wire Line
+	8750 1700 9300 1700
+Wire Wire Line
+	8750 1800 9300 1800
+Wire Wire Line
+	8750 1900 9300 1900
+Wire Wire Line
+	8750 2000 9300 2000
+Text HLabel 1200 6800 0    50   Output ~ 0
+DRAM_SDWE_B
+Text HLabel 1200 6700 0    50   Output ~ 0
+DRAM_CAS_B
+Text HLabel 1200 6600 0    50   Output ~ 0
+DRAM_RAS_B
+Text HLabel 1200 6900 0    50   Output ~ 0
+DRAM_CS0_B
+Entry Wire Line
+	1950 7000 1850 7100
+Wire Wire Line
+	2450 7000 1950 7000
+Text Label 2450 7000 2    50   ~ 0
+DRAM_SDBA2
+Wire Wire Line
+	2450 7100 1950 7100
+Text Label 2450 7100 2    50   ~ 0
+DRAM_SDBA1
+Wire Wire Line
+	2450 7200 1950 7200
+Text Label 2450 7200 2    50   ~ 0
+DRAM_SDBA0
+Entry Wire Line
+	1950 7100 1850 7200
+Entry Wire Line
+	1950 7200 1850 7300
+Wire Bus Line
+	1850 7350 1300 7350
+Text HLabel 1300 7350 0    50   Input ~ 0
+DRAM_SDBA[0..2]
+Text Label 850  4400 0    50   ~ 0
+DRAM_SDBA1
+Text Label 850  4500 0    50   ~ 0
+DRAM_SDBA0
+Text Label 850  4300 0    50   ~ 0
+DRAM_SDBA2
+Wire Wire Line
+	800  1500 1350 1500
+Wire Wire Line
+	800  1600 1350 1600
+Wire Wire Line
+	800  1700 1350 1700
+Wire Wire Line
+	800  1800 1350 1800
+Wire Wire Line
+	1350 4500 850  4500
+Wire Wire Line
+	1350 4400 850  4400
+Wire Wire Line
+	1350 4300 850  4300
+Wire Wire Line
+	1350 4100 850  4100
+Wire Wire Line
+	1350 4000 850  4000
+Wire Wire Line
+	1350 3900 850  3900
+Wire Wire Line
+	1350 3800 850  3800
+Wire Wire Line
+	1350 3700 850  3700
+Wire Wire Line
+	1350 3600 850  3600
+Wire Wire Line
+	1350 3500 850  3500
+Wire Wire Line
+	1350 3400 850  3400
+Wire Wire Line
+	1350 3300 850  3300
+Wire Wire Line
+	1350 3200 850  3200
+Wire Wire Line
+	1350 3100 850  3100
+Wire Wire Line
+	1350 3000 850  3000
+Wire Wire Line
+	1350 2900 850  2900
+Wire Wire Line
+	1350 2800 850  2800
+$Comp
+L IMXDesign-rescue:MT41K128M16JT-107_K-MT41K128M16JT-107_K U3
+U 1 1 632D9723
+P 1950 3100
+AR Path="/632D9723" Ref="U3"  Part="1" 
+AR Path="/6303F7B8/632D5505/632D9723" Ref="U3"  Part="1" 
+F 0 "U3" H 1950 5167 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K" H 1950 5076 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 1950 3100 50  0001 L BNN
+F 3 "" H 1950 3100 50  0001 L BNN
+F 4 "Micron" H 1950 3100 50  0001 L BNN "MANUFACTURER"
+	1    1950 3100
+	1    0    0    -1  
+$EndComp
+Text Label 3450 4500 0    50   ~ 0
+DRAM_SDBA1
+Text Label 3450 4600 0    50   ~ 0
+DRAM_SDBA0
+Text Label 3450 4400 0    50   ~ 0
+DRAM_SDBA2
+Wire Wire Line
+	3950 4600 3450 4600
+Wire Wire Line
+	3950 4500 3450 4500
+Wire Wire Line
+	3950 4400 3450 4400
+Text Label 6100 4600 0    50   ~ 0
+DRAM_SDBA1
+Text Label 6100 4700 0    50   ~ 0
+DRAM_SDBA0
+Text Label 6100 4500 0    50   ~ 0
+DRAM_SDBA2
+Wire Wire Line
+	6600 4700 6100 4700
+Wire Wire Line
+	6600 4600 6100 4600
+Wire Wire Line
+	6600 4500 6100 4500
+Text Label 8800 4600 0    50   ~ 0
+DRAM_SDBA1
+Text Label 8800 4700 0    50   ~ 0
+DRAM_SDBA0
+Text Label 8800 4500 0    50   ~ 0
+DRAM_SDBA2
+Wire Wire Line
+	9300 4700 8800 4700
+Wire Wire Line
+	9300 4600 8800 4600
+Wire Wire Line
+	9300 4500 8800 4500
+Text HLabel 3400 2200 2    50   Output ~ 0
+DRAM_DQM3
+Text HLabel 5250 2000 2    50   Output ~ 0
+DRAM_SDQS3-
+Text HLabel 5250 1900 2    50   Output ~ 0
+DRAM_SDQS3+
+Text HLabel 3400 2300 2    50   Output ~ 0
+DRAM_DQM2
+Text HLabel 2600 2100 2    50   Output ~ 0
+DRAM_SDQS1-
+Text HLabel 2600 2000 2    50   Output ~ 0
+DRAM_SDQS1+
+Text HLabel 2600 1900 2    50   Output ~ 0
+DRAM_SDQS0-
+Text HLabel 2600 1800 2    50   Output ~ 0
+DRAM_SDQS0+
+Text HLabel 6100 2300 2    50   Output ~ 0
+DRAM_DQM4
+Text HLabel 6100 2400 2    50   Output ~ 0
+DRAM_DQM5
+Text HLabel 8750 2400 2    50   Output ~ 0
+DRAM_DQM6
+Text HLabel 10600 2300 2    50   Output ~ 0
+DRAM_SDQS6-
+Text HLabel 10600 2200 2    50   Output ~ 0
+DRAM_SDQS6+
+Text HLabel 8750 2300 2    50   Output ~ 0
+DRAM_DQM7
+Text HLabel 10600 2100 2    50   Output ~ 0
+DRAM_SDQS7-
+Text HLabel 10600 2000 2    50   Output ~ 0
+DRAM_SDQS7+
+Wire Wire Line
+	850  2200 1350 2200
+Wire Wire Line
+	850  2100 1350 2100
+Text HLabel 800  2000 2    50   Output ~ 0
+DRAM_SDODT0
+Wire Wire Line
+	800  2000 1350 2000
+Wire Wire Line
+	2550 1800 2600 1800
+Wire Wire Line
+	2550 1900 2600 1900
+Wire Wire Line
+	2550 2000 2600 2000
+Wire Wire Line
+	2600 2100 2550 2100
+Text HLabel 3400 2100 2    50   Output ~ 0
+DRAM_SDODT0
+Wire Wire Line
+	3400 2100 3950 2100
+Wire Wire Line
+	3400 2200 3950 2200
+Wire Wire Line
+	3400 2300 3950 2300
+Text HLabel 5250 2100 2    50   Output ~ 0
+DRAM_SDQS2+
+Text HLabel 5250 2200 2    50   Output ~ 0
+DRAM_SDQS2-
+$Comp
+L IMXDesign-rescue:MT41K128M16JT-107_K-MT41K128M16JT-107_K U2
+U 1 1 61822642
+P 4550 3200
+AR Path="/61822642" Ref="U2"  Part="1" 
+AR Path="/6303F7B8/632D5505/61822642" Ref="U2"  Part="1" 
+F 0 "U2" H 4550 5267 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K" H 4550 5176 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 4550 3200 50  0001 L BNN
+F 3 "" H 4550 3200 50  0001 L BNN
+F 4 "Micron" H 4550 3200 50  0001 L BNN "MANUFACTURER"
+	1    4550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1900 5250 1900
+Wire Wire Line
+	5250 2000 5150 2000
+Wire Wire Line
+	5250 2100 5150 2100
+Wire Wire Line
+	5250 2200 5150 2200
+Wire Wire Line
+	6600 2300 6100 2300
+Text HLabel 6050 2200 2    50   Output ~ 0
+DRAM_SDODT0
+Wire Wire Line
+	6050 2200 6600 2200
+Text HLabel 8750 2200 2    50   Output ~ 0
+DRAM_SDODT0
+Wire Wire Line
+	8750 2200 9300 2200
+Wire Wire Line
+	8750 2300 9300 2300
+Wire Wire Line
+	8750 2400 9300 2400
+Wire Wire Line
+	10500 2000 10600 2000
+Wire Wire Line
+	10600 2100 10500 2100
+Wire Wire Line
+	10600 2200 10500 2200
+Wire Wire Line
+	10600 2300 10500 2300
+Text HLabel 3100 2250 0    50   Output ~ 0
+DRAM_SDCKE0
+Wire Wire Line
+	3100 2250 2550 2250
+Text HLabel 5700 2350 0    50   Output ~ 0
+DRAM_SDCKE0
+Wire Wire Line
+	5700 2350 5150 2350
+Wire Wire Line
+	6100 2400 6600 2400
+Text HLabel 11050 2450 0    50   Output ~ 0
+DRAM_SDCKE0
+Wire Wire Line
+	11050 2450 10500 2450
+Wire Wire Line
+	5650 3600 5150 3600
+Wire Wire Line
+	5650 3400 5150 3400
+Text Label 5150 3400 0    50   ~ 0
+DRAM_D30
+Wire Wire Line
+	5650 3300 5150 3300
+Wire Wire Line
+	5650 3200 5150 3200
+Text Label 5150 3200 0    50   ~ 0
+DRAM_D26
+Wire Wire Line
+	5650 3100 5150 3100
+Text Label 5150 3100 0    50   ~ 0
+DRAM_D25
+Wire Wire Line
+	5650 3000 5150 3000
+Wire Wire Line
+	5650 2900 5150 2900
+Text Label 5150 2900 0    50   ~ 0
+DRAM_D29
+Wire Wire Line
+	5650 2800 5150 2800
+Wire Wire Line
+	5650 2700 5150 2700
+Text Label 5150 2700 0    50   ~ 0
+DRAM_D24
+Wire Wire Line
+	5650 4300 5150 4300
+Text Label 5150 4300 0    50   ~ 0
+DRAM_D23
+Wire Wire Line
+	5650 4200 5150 4200
+Text Label 5150 4200 0    50   ~ 0
+DRAM_D20
+Wire Wire Line
+	5650 4100 5150 4100
+Text Label 5150 4100 0    50   ~ 0
+DRAM_D19
+Wire Wire Line
+	5650 4000 5150 4000
+Text Label 5150 4000 0    50   ~ 0
+DRAM_D21
+Wire Wire Line
+	5650 3900 5150 3900
+Text Label 5150 3900 0    50   ~ 0
+DRAM_D22
+Wire Wire Line
+	5650 3800 5150 3800
+Text Label 5150 3800 0    50   ~ 0
+DRAM_D17
+Wire Wire Line
+	5650 3700 5150 3700
+Text Label 5150 3700 0    50   ~ 0
+DRAM_D18
+Text Label 5150 3600 0    50   ~ 0
+DRAM_D16
+Text HLabel 850  2200 2    50   Output ~ 0
+DRAM_DQM1
+Text HLabel 850  2100 2    50   Output ~ 0
+DRAM_DQM0
+Text Label 5150 3300 0    50   ~ 0
+DRAM_D31
+Text Label 5150 2800 0    50   ~ 0
+DRAM_D28
+Text Label 5150 3000 0    50   ~ 0
+DRAM_D27
+Wire Wire Line
+	7800 2800 8300 2800
+Text HLabel 7850 2300 2    50   Output ~ 0
+DRAM_SDQS5-
+Text HLabel 7850 2200 2    50   Output ~ 0
+DRAM_SDQS5+
+Text HLabel 7850 2000 2    50   Output ~ 0
+DRAM_SDQS4+
+Text HLabel 7850 2100 2    50   Output ~ 0
+DRAM_SDQS4-
+Wire Wire Line
+	7850 2000 7800 2000
+Wire Wire Line
+	7850 2100 7800 2100
+Wire Wire Line
+	7850 2200 7800 2200
+Wire Wire Line
+	7850 2300 7800 2300
+Wire Wire Line
+	8350 2450 7800 2450
+Text HLabel 8350 2450 0    50   Output ~ 0
+DRAM_SDCKE0
+Wire Wire Line
+	7800 2650 8000 2650
+Wire Wire Line
+	7800 2550 8000 2550
+Text Label 8000 2650 0    50   ~ 0
+CLK1-
+Text Label 8000 2550 0    50   ~ 0
+CLK1+
+Entry Wire Line
+	850  2550 750  2450
+Entry Wire Line
+	850  2650 750  2550
+Text Label 850  2650 0    50   ~ 0
+DRAM_A14
+Text Label 850  2550 0    50   ~ 0
+DRAM_A15
+Wire Wire Line
+	850  2550 1450 2550
+Wire Wire Line
+	850  2650 1450 2650
+Entry Wire Line
+	3450 2650 3350 2550
+Entry Wire Line
+	3450 2750 3350 2650
+Text Label 3450 2750 0    50   ~ 0
+DRAM_A14
+Text Label 3450 2650 0    50   ~ 0
+DRAM_A15
+Wire Wire Line
+	3450 2650 4050 2650
+Wire Wire Line
+	3450 2750 4050 2750
+Entry Wire Line
+	6100 2750 6000 2650
+Entry Wire Line
+	6100 2850 6000 2750
+Text Label 6100 2850 0    50   ~ 0
+DRAM_A14
+Text Label 6100 2750 0    50   ~ 0
+DRAM_A15
+Wire Wire Line
+	6100 2750 6700 2750
+Wire Wire Line
+	6100 2850 6700 2850
+Entry Wire Line
+	8800 2750 8700 2650
+Entry Wire Line
+	8800 2850 8700 2750
+Text Label 8800 2850 0    50   ~ 0
+DRAM_A14
+Text Label 8800 2750 0    50   ~ 0
+DRAM_A15
+Wire Wire Line
+	8800 2750 9400 2750
+Wire Wire Line
+	8800 2850 9400 2850
+Text Label 11000 3300 2    50   ~ 0
+DRAM_D59
+Text Label 11000 3100 2    50   ~ 0
+DRAM_D60
+$Comp
+L IMXDesign-rescue:MT41K128M16JT-107_K-MT41K128M16JT-107_K U5
+U 1 1 61BA5860
+P 9900 3300
+F 0 "U5" H 9900 5367 50  0000 C CNN
+F 1 "MT41K128M16JT-107_K-MT41K128M16JT-107_K" H 9900 5276 50  0000 C CNN
+F 2 "IMX6QP:BGA80P96C6X16_800X1400X110" H 9900 3300 50  0001 L BNN
+F 3 "" H 9900 3300 50  0001 L BNN
+F 4 "Micron" H 9900 3300 50  0001 L BNN "MANUFACTURER"
+	1    9900 3300
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1850 7100 1850 7350
+Wire Bus Line
+	750  650  750  4950
 Wire Bus Line
 	3350 650  3350 4100
 Wire Bus Line
@@ -879,6 +1497,11 @@ Wire Bus Line
 Wire Bus Line
 	8700 650  8700 4200
 Wire Bus Line
-	750  650  750  4950
-Connection ~ 10650 1700
+	5750 2800 5750 5600
+Wire Bus Line
+	11100 2900 11100 5600
+Wire Bus Line
+	8400 2900 8400 5600
+Wire Bus Line
+	3150 2700 3150 5850
 $EndSCHEMATC
