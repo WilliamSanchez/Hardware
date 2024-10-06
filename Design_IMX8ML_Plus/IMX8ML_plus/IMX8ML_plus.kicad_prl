@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -64,7 +64,6 @@
       "/Processor/Up_memorie_lpddr4/DRAM_DATA8_B",
       "/Processor/Up_memorie_lpddr4/DRAM_CA5_B",
       "/Processor/Up_memorie_lpddr4/DRAM_DATA9_B",
-      "Net-(U1G-NVCC_DRAM-PadAA10)",
       "/Processor/Up_memorie_lpddr4/DRAM_CK_C_B",
       "/Processor/Up_memorie_lpddr4/DRAM_CK_T_B",
       "/Processor/Up_memorie_lpddr4/DRAM_CA0_B",
@@ -122,6 +121,7 @@
       11,
       12,
       13,
+      15,
       16,
       17,
       18,
@@ -145,7 +145,7 @@
       39,
       40
     ],
-    "visible_layers": "80017ff_ffffffe0",
+    "visible_layers": "80017ff_ffffffe1",
     "zone_display_mode": 0
   },
   "meta": {

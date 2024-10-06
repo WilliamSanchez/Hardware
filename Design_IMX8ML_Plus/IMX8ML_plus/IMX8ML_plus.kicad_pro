@@ -508,6 +508,10 @@
     [
       "8f608011-e987-44d7-b1ea-700327a85caa",
       "imx8ml_power"
+    ],
+    [
+      "af21041f-cba7-4274-98fb-d460b4227d94",
+      "storage"
     ]
   ],
   "text_variables": {}
