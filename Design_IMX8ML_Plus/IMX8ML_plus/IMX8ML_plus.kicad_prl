@@ -80,7 +80,7 @@
       "/Processor/Up_memorie_lpddr4/DRAM_CA3_B",
       "/Processor/Up_memorie_lpddr4/DRAM_DMI1_B",
       "/Processor/Up_memorie_lpddr4/x",
-      "VDD_ARM_S",
+      "Net-(U3-VDDI)",
       "/power/XTAL_OUT",
       "/power/XTAL_IN",
       "LPD4_VDD1",

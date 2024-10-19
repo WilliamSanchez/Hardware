@@ -512,6 +512,14 @@
     [
       "af21041f-cba7-4274-98fb-d460b4227d94",
       "storage"
+    ],
+    [
+      "17276033-3ecd-4b96-8958-7c4d548214f7",
+      "io-interface"
+    ],
+    [
+      "17e995b4-9d0e-4742-bc8a-27c457a1136a",
+      "up_config"
     ]
   ],
   "text_variables": {}
