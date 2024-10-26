@@ -431,7 +431,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(143, 255, 61)",
+      "PM_VDD_SoC": "rgb(255, 36, 47)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
