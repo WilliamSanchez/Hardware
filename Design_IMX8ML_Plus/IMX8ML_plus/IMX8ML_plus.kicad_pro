@@ -111,7 +111,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.08127999999999999,
+        "min_clearance": 0.0508,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.2032,
@@ -173,7 +173,7 @@
       ],
       "track_widths": [
         0.0,
-        0.09144,
+        0.08128,
         0.11176
       ],
       "via_dimensions": [
@@ -435,7 +435,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08128,
+        "clearance": 0.0508,
         "diff_pair_gap": 0.14224,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.08636,
@@ -452,7 +452,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08128,
+        "clearance": 0.0508,
         "diff_pair_gap": 0.11176,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.11684,
@@ -547,6 +547,54 @@
       },
       {
         "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA1_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA2_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA3_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA8_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA9_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA10_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA11_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA12_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA13_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA14_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA15_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DMI1_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
         "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA4_A"
       },
       {
@@ -555,7 +603,75 @@
       },
       {
         "netclass": "Lpddr4-Signal_t",
-        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA1_A"
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA6_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA7_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA0_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA1_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA2_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA3_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA4_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA5_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA6_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA7_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA8_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA9_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA10_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA11_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA12_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA13_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA14_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA15_B"
       }
     ]
   },
