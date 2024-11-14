@@ -672,6 +672,78 @@
       {
         "netclass": "Lpddr4-Signal_t",
         "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DATA15_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DMI0_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_DMI0_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_nCS1_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_nCS0_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_CKE1_A"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_CKE0_A"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS1_A-"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS1_A+"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS0_A-"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS0_A+"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS1_B+"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS1_B-"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS0_B+"
+      },
+      {
+        "netclass": "Lpddr4-CLK_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_SDQS0_B-"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_nCS0_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_nCS1_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_CKE1_B"
+      },
+      {
+        "netclass": "Lpddr4-Signal_t",
+        "pattern": "/Processor/Up_memorie_lpddr4/DRAM_CKE0_B"
       }
     ]
   },
@@ -760,6 +832,10 @@
     [
       "17e995b4-9d0e-4742-bc8a-27c457a1136a",
       "up_config"
+    ],
+    [
+      "704f9c98-aa71-4e38-b26f-d3f74511898b",
+      "Pin-IO"
     ]
   ],
   "text_variables": {}
