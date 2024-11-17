@@ -114,7 +114,7 @@
         "min_clearance": 0.0508,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.2032,
+        "min_hole_clearance": 0.1016,
         "min_hole_to_hole": 0.1016,
         "min_microvia_diameter": 0.4064,
         "min_microvia_drill": 0.2032,
@@ -418,6 +418,23 @@
     "classes": [
       {
         "bus_width": 12,
+        "clearance": 0.0508,
+        "diff_pair_gap": 0.08128,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.08128,
+        "line_style": 0,
+        "microvia_diameter": 0.4064,
+        "microvia_drill": 0.2032,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.08128,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -425,7 +442,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Default",
+        "name": "Default_Kicad",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -744,6 +761,14 @@
       {
         "netclass": "Lpddr4-Signal_t",
         "pattern": "/Processor/Up_memorie_lpddr4/DRAM_CKE0_B"
+      },
+      {
+        "netclass": "minimum_Default",
+        "pattern": "GPIO1_IO00"
+      },
+      {
+        "netclass": "minimum_Default",
+        "pattern": "GPIO1_IO01"
       }
     ]
   },
@@ -836,6 +861,14 @@
     [
       "704f9c98-aa71-4e38-b26f-d3f74511898b",
       "Pin-IO"
+    ],
+    [
+      "76089295-e1c0-4c66-8c6d-0c9c62e01bfe",
+      "pin_io_left"
+    ],
+    [
+      "13c267cc-e13d-4a24-a172-70b4c8b8c831",
+      "pin_io_rigth"
     ]
   ],
   "text_variables": {}

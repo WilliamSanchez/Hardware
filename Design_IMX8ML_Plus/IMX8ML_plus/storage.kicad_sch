@@ -4106,7 +4106,7 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "DSI2_D3_P" (shape input) (at 40.64 71.12 180) (fields_autoplaced)
+  (global_label "CSI2_D3_P" (shape input) (at 40.64 71.12 180) (fields_autoplaced)
     (effects (font (size 1 1)) (justify right))
     (uuid 1351abe6-f4d5-4d12-ae7f-f1fd7ccbfee1)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.4949 71.12 0)
