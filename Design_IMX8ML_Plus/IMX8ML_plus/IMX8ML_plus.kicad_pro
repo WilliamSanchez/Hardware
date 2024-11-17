@@ -490,7 +490,8 @@
     },
     "net_colors": {
       "GND": "rgb(143, 255, 61)",
-      "PM_VDD_SoC": "rgb(255, 36, 47)"
+      "PM_VDD_SoC": "rgb(255, 52, 147)",
+      "VDD_SYS": "rgb(255, 7, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
