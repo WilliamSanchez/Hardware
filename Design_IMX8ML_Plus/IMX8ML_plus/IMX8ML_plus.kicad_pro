@@ -490,6 +490,10 @@
     },
     "net_colors": {
       "GND": "rgb(143, 255, 61)",
+      "NVCC_DRAM_1V1": "rgb(47, 53, 255)",
+      "PM_VDD_1V8": "rgb(43, 42, 255)",
+      "PM_VDD_3V3": "rgb(49, 68, 255)",
+      "PM_VDD_ARM": "rgb(44, 57, 255)",
       "PM_VDD_SoC": "rgb(255, 52, 147)",
       "VDD_SYS": "rgb(255, 7, 0)"
     },

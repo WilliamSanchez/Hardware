@@ -2398,8 +2398,8 @@
     (property "Datasheet" "~" (at 64.77 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8416b41c-9e63-4957-84a7-b0a173b096d6))
-    (pin "2" (uuid 2e480f4a-3efd-4c6a-b024-f62b936d0b9d))
+    (pin "1" (uuid 35e24a55-80b0-434a-823a-aa250dd6331e))
+    (pin "2" (uuid d077be17-71b8-4fda-9d87-813b079ce27a))
     (instances
       (project "IMX8ML_plus"
         (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/0f9447d4-7a95-466a-adb7-639b0294b239"
@@ -3943,8 +3943,8 @@
     (property "Datasheet" "~" (at 74.93 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a53a764e-ef2f-4820-a1c8-ed5a352ba1cc))
-    (pin "2" (uuid fab2727d-ccf2-4bcc-82f9-925d00a6ee94))
+    (pin "1" (uuid 4a4ab232-284c-4fe5-bcba-39a70c036196))
+    (pin "2" (uuid fe2da3d7-63df-4f56-8fa8-c09b3dbfbc6f))
     (instances
       (project "IMX8ML_plus"
         (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/0f9447d4-7a95-466a-adb7-639b0294b239"
