@@ -1,0 +1,150 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cd2fb234-91e5-476f-84ed-38419b628dc6)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 107.95 30.48) (size 49.53 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 10d20c27-4659-4308-9de4-12cbd617d636)
+    (property "Sheetname" "Ethernet" (at 107.95 29.4034 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "ethernet.kicad_sch" (at 107.95 65.6466 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 30.48 86.36) (size 69.85 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 31f681b0-ed9a-409b-a541-94a4d8d5d11d)
+    (property "Sheetname" "power_unit" (at 30.48 85.2834 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_unit.kicad_sch" (at 30.48 124.0666 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 30.48 30.48) (size 69.85 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 654a2f2f-b0bc-45e1-bc79-3ecb22a05819)
+    (property "Sheetname" "imx8mlp_pio" (at 30.48 29.4034 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "imx8mlp_pio.kicad_sch" (at 30.48 71.9966 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 222.25 110.49) (size 53.34 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a0df9e5d-3d7f-4d2b-9f2e-c22726438d3a)
+    (property "Sheetname" "MCU" (at 222.25 109.4134 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at 222.25 144.3866 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 143.51) (size 66.04 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid afcd2e24-a23c-4131-88d7-b4e4cc1847fe)
+    (property "Sheetname" "CSI_DSI" (at 41.91 142.4334 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "csi_dsi.kicad_sch" (at 41.91 174.8666 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 172.72 31.75) (size 52.07 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d45ee961-7c38-470c-a7ea-0552d843cfb4)
+    (property "Sheetname" "USB" (at 172.72 30.6734 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 172.72 66.9166 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 124.46 86.36) (size 53.34 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d6dc9945-1df7-4624-8f27-7360b0b9c0df)
+    (property "Sheetname" "PCIe" (at 124.46 85.2834 0)
+      (effects (font (size 2 2)) (justify left bottom))
+    )
+    (property "Sheetfile" "pci_e.kicad_sch" (at 124.46 115.1766 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 124.46 134.62) (size 63.5 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fabf144f-7078-4de8-86ad-539ef5f82b16)
+    (property "Sheetname" "LVDS_HDMI" (at 124.46 133.9084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "lvds_hdmi.kicad_sch" (at 124.46 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BB_IMX8MLP"
+        (path "/cd2fb234-91e5-476f-84ed-38419b628dc6" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
