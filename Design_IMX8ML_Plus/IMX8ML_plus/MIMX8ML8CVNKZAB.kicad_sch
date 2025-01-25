@@ -1,95 +1,236 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 00047247-0992-47c4-af4b-1103475c5630)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 133.35 39.37) (size 63.5 36.83) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 01570a0c-9cb0-4b1d-a44b-cc546f2d1f37)
-    (property "Sheetname" "Up_memorie_lpddr4" (at 133.35 38.2934 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "up_memorie_lpddr4.kicad_sch" (at 133.35 77.0766 0)
-      (effects (font (size 2 2)) (justify left top))
-    )
-    (instances
-      (project "IMX8ML_plus"
-        (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 104.14) (size 45.72 36.83) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 17276033-3ecd-4b96-8958-7c4d548214f7)
-    (property "Sheetname" "io-interface" (at 139.7 103.0634 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "io-interface.kicad_sch" (at 139.7 141.8466 0)
-      (effects (font (size 2 2)) (justify left top))
-    )
-    (instances
-      (project "IMX8ML_plus"
-        (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 219.71 93.98) (size 35.56 33.02) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 17e995b4-9d0e-4742-bc8a-27c457a1136a)
-    (property "Sheetname" "up_config" (at 219.71 92.9034 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "up_config.kicad_sch" (at 219.71 127.8766 0)
-      (effects (font (size 2 2)) (justify left top))
-    )
-    (instances
-      (project "IMX8ML_plus"
-        (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 36.83 102.87) (size 68.58 45.72) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid af21041f-cba7-4274-98fb-d460b4227d94)
-    (property "Sheetname" "storage" (at 36.83 101.7934 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "storage.kicad_sch" (at 36.83 149.4666 0)
-      (effects (font (size 2 2)) (justify left top))
-    )
-    (instances
-      (project "IMX8ML_plus"
-        (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 34.29 30.48) (size 64.77 48.26) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ff1e19bc-8af5-40c7-aebc-3ecef7e734aa)
-    (property "Sheetname" "up_power" (at 34.29 29.4034 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "up_power.kicad_sch" (at 34.29 79.6166 0)
-      (effects (font (size 2 2)) (justify left top))
-    )
-    (instances
-      (project "IMX8ML_plus"
-        (path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9" (page "3"))
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00047247-0992-47c4-af4b-1103475c5630")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 133.35 39.37)
+		(size 63.5 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01570a0c-9cb0-4b1d-a44b-cc546f2d1f37")
+		(property "Sheetname" "Up_memorie_lpddr4"
+			(at 133.35 38.2934 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "up_memorie_lpddr4.kicad_sch"
+			(at 133.35 77.0766 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX8ML_plus"
+				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 104.14)
+		(size 45.72 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17276033-3ecd-4b96-8958-7c4d548214f7")
+		(property "Sheetname" "io-interface"
+			(at 139.7 103.0634 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-interface.kicad_sch"
+			(at 139.7 141.8466 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX8ML_plus"
+				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 93.98)
+		(size 35.56 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17e995b4-9d0e-4742-bc8a-27c457a1136a")
+		(property "Sheetname" "up_config"
+			(at 219.71 92.9034 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "up_config.kicad_sch"
+			(at 219.71 127.8766 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX8ML_plus"
+				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 34.29)
+		(size 43.18 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "804f4928-8c22-420f-a4f0-1d3c149734bd")
+		(property "Sheetname" "wireless"
+			(at 218.44 33.2134 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless_module.kicad_sch"
+			(at 218.44 70.7266 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX8ML_plus"
+				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 102.87)
+		(size 68.58 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af21041f-cba7-4274-98fb-d460b4227d94")
+		(property "Sheetname" "storage"
+			(at 36.83 101.7934 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 36.83 149.4666 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX8ML_plus"
+				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 30.48)
+		(size 64.77 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff1e19bc-8af5-40c7-aebc-3ecef7e734aa")
+		(property "Sheetname" "up_power"
+			(at 34.29 29.4034 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "up_power.kicad_sch"
+			(at 34.29 79.6166 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX8ML_plus"
+				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9"
+					(page "3")
+				)
+			)
+		)
+	)
 )
