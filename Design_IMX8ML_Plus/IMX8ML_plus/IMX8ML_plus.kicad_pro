@@ -536,6 +536,13 @@
       "PM_VDD_3V3": "rgb(49, 68, 255)",
       "PM_VDD_ARM": "rgb(44, 57, 255)",
       "PM_VDD_SoC": "rgb(255, 52, 147)",
+      "SDC2_CMD": "rgb(173, 31, 255)",
+      "SDC2_DATA0": "rgb(173, 31, 255)",
+      "SDC2_DATA1": "rgb(173, 31, 255)",
+      "SDC2_DATA2": "rgb(173, 31, 255)",
+      "SDC2_DATA3": "rgb(173, 31, 255)",
+      "SDC2_RESET_B": "rgb(173, 31, 255)",
+      "SDC2_WP": "rgb(173, 31, 255)",
       "VDD_SYS": "rgb(255, 7, 0)"
     },
     "netclass_assignments": null,
