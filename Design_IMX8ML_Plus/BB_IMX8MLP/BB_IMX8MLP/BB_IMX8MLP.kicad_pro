@@ -936,6 +936,10 @@
     [
       "d45ee961-7c38-470c-a7ea-0552d843cfb4",
       "USB"
+    ],
+    [
+      "872b5dc5-5c05-49bc-a709-b10ca48565b5",
+      "usb_connectors"
     ]
   ],
   "text_variables": {}

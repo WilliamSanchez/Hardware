@@ -1854,6 +1854,12 @@
 		(uuid "a0bbeacc-7d7d-41bc-83cc-d18ba12b0b80")
 	)
 	(junction
+		(at 175.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce88720e-58fc-4869-9577-b0ddcff97025")
+	)
+	(junction
 		(at 200.66 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1872,6 +1878,10 @@
 	(no_connect
 		(at 185.42 110.49)
 		(uuid "58543f40-6b63-4e56-9232-1c8efdfcbfe5")
+	)
+	(no_connect
+		(at 149.86 128.27)
+		(uuid "5c3fb774-9184-403e-8f51-b92a014b8305")
 	)
 	(no_connect
 		(at 185.42 113.03)
@@ -1951,6 +1961,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 113.03) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b56232c-4198-4c39-9302-6bbf68b319f9")
+	)
+	(wire
+		(pts
 			(xy 160.02 71.12) (xy 160.02 74.93)
 		)
 		(stroke
@@ -1961,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 71.12) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2292ade5-f77e-4302-9e11-f611555a78d7")
+	)
+	(wire
+		(pts
 			(xy 208.28 90.17) (xy 214.63 90.17)
 		)
 		(stroke
@@ -1968,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "2a0b7aa7-8600-40ce-bdbd-b963ca883f98")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b02160e-8f1e-4777-9fe3-6a18a16f6ed1")
 	)
 	(wire
 		(pts
@@ -2008,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "31dddb5c-8385-41b0-8d3e-2752c0b195d0")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c6b88e-120b-4916-8f51-92edcef4ff18")
 	)
 	(wire
 		(pts
@@ -2071,6 +2121,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2ad5cd-2e11-40cc-ae2c-97a7cf7da377")
+	)
+	(wire
+		(pts
 			(xy 185.42 120.65) (xy 200.66 120.65)
 		)
 		(stroke
@@ -2108,6 +2168,26 @@
 			(type default)
 		)
 		(uuid "69f06750-9f92-494b-90b6-11c4724c8d95")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f59784e-525b-46e2-aeb4-b29236595de5")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719b36e8-54c8-47ac-99ef-5bdbd89546ae")
 	)
 	(wire
 		(pts
@@ -2161,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 110.49) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be5c4c2-ac99-4e78-b608-f0470b89de04")
+	)
+	(wire
+		(pts
 			(xy 185.42 92.71) (xy 194.31 92.71)
 		)
 		(stroke
@@ -2168,6 +2258,16 @@
 			(type default)
 		)
 		(uuid "7ed1f6f2-4661-4d11-92e1-2a53f1065ce6")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8277bacb-1011-42ac-bdf3-cfbe68d110f4")
 	)
 	(wire
 		(pts
@@ -2261,6 +2361,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 74.93) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd93d15f-55c8-404f-a7e7-8c24b86412d3")
+	)
+	(wire
+		(pts
 			(xy 157.48 74.93) (xy 157.48 71.12)
 		)
 		(stroke
@@ -2278,6 +2388,16 @@
 			(type default)
 		)
 		(uuid "bf81f3b1-efbe-4e20-b40c-a37b712a3128")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 149.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe5dca8-a6be-4e08-8fa5-12236c48d5dc")
 	)
 	(wire
 		(pts
@@ -2389,6 +2509,82 @@
 		)
 		(uuid "fb27fcd8-bc61-476e-bc2a-4a32879d49df")
 	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc1de05-2ab4-4ada-bc8c-11341e457098")
+	)
+	(global_label "PCIE_REF_PAD_CLK_N"
+		(shape input)
+		(at 144.78 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "0f16c009-a2f4-46c3-a4e9-b4cec78ca450")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.5874 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RXN_N"
+		(shape input)
+		(at 143.51 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "39bdfbdf-f9ec-47ae-a5af-5034b337e036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.2697 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TXN_P"
+		(shape input)
+		(at 143.51 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "439a2d6e-c7e8-4a37-92a0-a7fcf06a5538")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.5554 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBDN_D3+"
 		(shape input)
 		(at 139.7 90.17 180)
@@ -2411,6 +2607,28 @@
 			)
 		)
 	)
+	(global_label "PCIE_RXN_P"
+		(shape input)
+		(at 143.51 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "6e6de654-5a52-4b75-b510-9c4b529aa700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.3173 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBDN_D3-"
 		(shape input)
 		(at 139.7 92.71 180)
@@ -2424,6 +2642,50 @@
 		(uuid "7a2e7a55-bbb9-4797-af99-37707933a5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.3497 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TXN_N"
+		(shape input)
+		(at 143.51 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "83f4e9ff-0902-463d-a5a6-df7f9be08774")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.5078 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_REF_PAD_CLK_P"
+		(shape input)
+		(at 144.78 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "848c099b-9d60-41d1-85ea-d022261e50f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.635 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
