@@ -940,6 +940,14 @@
     [
       "872b5dc5-5c05-49bc-a709-b10ca48565b5",
       "usb_connectors"
+    ],
+    [
+      "343bab02-0dbe-44a2-ba41-96a54d4cb02f",
+      "power_5v"
+    ],
+    [
+      "583f6650-5c67-445a-815c-965c2c738d37",
+      "power_3V3_1V8_1V2"
     ]
   ],
   "text_variables": {}

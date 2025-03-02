@@ -1161,6 +1161,246 @@
 				)
 			)
 		)
+		(symbol "power:+1V2"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V2"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V2\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+1V8"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -1522,6 +1762,50 @@
 		)
 		(uuid "ffb59bde-e8e9-45e7-82f8-9bc4b98232fa")
 	)
+	(global_label "HDM_DDC_SCL"
+		(shape input)
+		(at 152.4 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "00695a46-8cb0-46d6-8e72-28f210989e39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.6359 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_TXC_P"
+		(shape input)
+		(at 119.38 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "16f01248-42fa-48b9-9df6-b999bcb0fcf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6635 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LVDS0_D1_P"
 		(shape input)
 		(at 57.15 143.51 180)
@@ -1698,6 +1982,72 @@
 			)
 		)
 	)
+	(global_label "HDM_TX2_N"
+		(shape input)
+		(at 119.38 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "5ed3cb8c-7425-4c5e-8763-90f85a9f0050")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6635 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_TX0_N"
+		(shape input)
+		(at 119.38 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "61a78717-a556-4580-a33b-8609e781dbcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6635 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_DDC_SDA"
+		(shape input)
+		(at 152.4 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "63255417-ab43-432b-ac05-f340ef050183")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.5883 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LVDS1_D1_P"
 		(shape input)
 		(at 54.61 50.8 180)
@@ -1786,6 +2136,28 @@
 			)
 		)
 	)
+	(global_label "HDM_TXC_N"
+		(shape input)
+		(at 119.38 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "7c94bcaf-a5a7-4c9c-8dea-6270be6a819b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6159 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LVDS0_D2_N"
 		(shape input)
 		(at 57.15 140.97 180)
@@ -1799,6 +2171,94 @@
 		(uuid "89835713-a18f-4461-9f4b-6dd17a2d4a13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.7669 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_TX1_P"
+		(shape input)
+		(at 119.38 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "913a9226-d3a6-4b9b-9e70-da0a96d3624d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.7111 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_CEC"
+		(shape input)
+		(at 152.4 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "927d5c98-b1a1-4c67-959f-6944d307ff7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.2549 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_HPD"
+		(shape input)
+		(at 152.4 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "9854c8e3-dc2f-44db-8fdc-d1f6428dcf3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.1121 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_TX2_P"
+		(shape input)
+		(at 119.38 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "aece8f17-7b8f-4170-ab71-57a52d30dc68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.7111 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,6 +2334,28 @@
 			)
 		)
 	)
+	(global_label "HDM_TX1_N"
+		(shape input)
+		(at 119.38 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "b468068e-7cf8-48bc-8e11-6c92306e13a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6635 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LVDS0_D2_P"
 		(shape input)
 		(at 57.15 138.43 180)
@@ -1887,6 +2369,28 @@
 		(uuid "b8931053-354e-4d0a-85f9-7abccc8e45fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.8145 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDM_TX0_P"
+		(shape input)
+		(at 119.38 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "c77bb7de-d917-4fc1-b496-44aa6e911223")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.7111 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,6 +2584,138 @@
 			(project "BB_IMX8MLP"
 				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/fabf144f-7078-4de8-86ad-539ef5f82b16"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 105.41 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c058a828-3bae-4bdb-9263-e5cee02bbc47")
+		(property "Reference" "#PWR113"
+			(at 105.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2"
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88679e92-50be-4deb-87bb-55ab2388c9ee")
+		)
+		(instances
+			(project "BB_IMX8MLP"
+				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/fabf144f-7078-4de8-86ad-539ef5f82b16"
+					(reference "#PWR113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 96.52 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c60cd68b-70b3-499d-80df-f61a6c99bdd8")
+		(property "Reference" "#PWR112"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 96.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bef3837-9d80-4930-ab96-c3142d6e2b53")
+		)
+		(instances
+			(project "BB_IMX8MLP"
+				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/fabf144f-7078-4de8-86ad-539ef5f82b16"
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
