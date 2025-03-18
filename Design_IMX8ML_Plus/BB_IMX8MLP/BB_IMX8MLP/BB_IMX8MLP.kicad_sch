@@ -120,6 +120,44 @@
 		)
 	)
 	(sheet
+		(at 195.58 139.7)
+		(size 64.77 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b35cf2a-ff76-4c8b-8fd9-fa59a1552b9f")
+		(property "Sheetname" "Audio"
+			(at 195.58 138.6234 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 195.58 160.8966 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BB_IMX8MLP"
+				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 184.15 91.44)
 		(size 63.5 35.56)
 		(fields_autoplaced yes)

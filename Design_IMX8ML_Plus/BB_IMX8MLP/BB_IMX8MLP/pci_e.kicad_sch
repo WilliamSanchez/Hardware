@@ -2894,6 +2894,16 @@
 		)
 		(uuid "ffc1de05-2ab4-4ada-bc8c-11341e457098")
 	)
+	(label "3V3_PCIe"
+		(at 161.29 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f99620f-dc3b-481e-a1ee-a6a0b7dcf2a6")
+	)
 	(label "PCIe_SDA"
 		(at 69.85 123.19 0)
 		(effects
@@ -2903,6 +2913,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c6c49d3-3dd5-457c-b94a-c342e5a7e69c")
+	)
+	(label "1V5_PCIe"
+		(at 175.26 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c143a28-7ac0-430f-b487-469f8362f007")
 	)
 	(label "PCIe_SDA"
 		(at 144.78 118.11 180)

@@ -948,6 +948,10 @@
     [
       "583f6650-5c67-445a-815c-965c2c738d37",
       "power_3V3_1V8_1V2"
+    ],
+    [
+      "6b35cf2a-ff76-4c8b-8fd9-fa59a1552b9f",
+      "Audio"
     ]
   ],
   "text_variables": {}
