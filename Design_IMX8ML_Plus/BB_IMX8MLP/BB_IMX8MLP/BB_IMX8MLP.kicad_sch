@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 111.76 30.48)
+		(at 101.6 17.78)
 		(size 62.23 41.91)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "10d20c27-4659-4308-9de4-12cbd617d636")
 		(property "Sheetname" "Ethernet"
-			(at 111.76 29.4034 0)
+			(at 101.6 16.7034 0)
 			(effects
 				(font
 					(size 2 2)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 111.76 73.2666 0)
+			(at 101.6 60.5666 0)
 			(effects
 				(font
 					(size 2 2)
@@ -44,7 +44,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 92.71)
+		(at 17.78 69.85)
 		(size 68.58 35.56)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +56,7 @@
 		)
 		(uuid "31f681b0-ed9a-409b-a541-94a4d8d5d11d")
 		(property "Sheetname" "power_unit"
-			(at 30.48 91.6334 0)
+			(at 17.78 68.7734 0)
 			(effects
 				(font
 					(size 2 2)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "power_unit.kicad_sch"
-			(at 30.48 129.1466 0)
+			(at 17.78 106.2866 0)
 			(effects
 				(font
 					(size 2 2)
@@ -82,7 +82,45 @@
 		)
 	)
 	(sheet
-		(at 30.48 30.48)
+		(at 20.32 166.37)
+		(size 93.98 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37b9196a-4723-43b8-a172-79ad98469db6")
+		(property "Sheetname" "serial_interface"
+			(at 20.32 165.2934 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial_interface.kicad_sch"
+			(at 20.32 192.6466 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BB_IMX8MLP"
+				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 19.05)
 		(size 67.31 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,7 +132,7 @@
 		)
 		(uuid "654a2f2f-b0bc-45e1-bc79-3ecb22a05819")
 		(property "Sheetname" "imx8mlp_pio"
-			(at 30.48 29.4034 0)
+			(at 19.05 17.9734 0)
 			(effects
 				(font
 					(size 2 2)
@@ -103,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "imx8mlp_pio.kicad_sch"
-			(at 30.48 71.9966 0)
+			(at 19.05 60.5666 0)
 			(effects
 				(font
 					(size 2 2)
@@ -120,8 +158,8 @@
 		)
 	)
 	(sheet
-		(at 195.58 139.7)
-		(size 64.77 20.32)
+		(at 176.53 119.38)
+		(size 72.39 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -132,7 +170,7 @@
 		)
 		(uuid "6b35cf2a-ff76-4c8b-8fd9-fa59a1552b9f")
 		(property "Sheetname" "Audio"
-			(at 195.58 138.6234 0)
+			(at 176.53 118.3034 0)
 			(effects
 				(font
 					(size 2 2)
@@ -141,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 195.58 160.8966 0)
+			(at 176.53 154.5466 0)
 			(effects
 				(font
 					(size 2 2)
@@ -158,8 +196,8 @@
 		)
 	)
 	(sheet
-		(at 184.15 91.44)
-		(size 63.5 35.56)
+		(at 177.8 71.12)
+		(size 71.12 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -170,7 +208,7 @@
 		)
 		(uuid "a0df9e5d-3d7f-4d2b-9f2e-c22726438d3a")
 		(property "Sheetname" "MCU"
-			(at 184.15 90.3634 0)
+			(at 177.8 70.0434 0)
 			(effects
 				(font
 					(size 2 2)
@@ -179,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 184.15 127.8766 0)
+			(at 177.8 106.2866 0)
 			(effects
 				(font
 					(size 2 2)
@@ -196,7 +234,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 146.05)
+		(at 17.78 116.84)
 		(size 69.85 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -208,7 +246,7 @@
 		)
 		(uuid "afcd2e24-a23c-4131-88d7-b4e4cc1847fe")
 		(property "Sheetname" "CSI_DSI"
-			(at 29.21 144.9734 0)
+			(at 17.78 115.7634 0)
 			(effects
 				(font
 					(size 2 2)
@@ -217,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "csi_dsi.kicad_sch"
-			(at 29.21 183.7566 0)
+			(at 17.78 154.5466 0)
 			(effects
 				(font
 					(size 2 2)
@@ -234,8 +272,8 @@
 		)
 	)
 	(sheet
-		(at 184.15 31.75)
-		(size 62.23 43.18)
+		(at 179.07 19.05)
+		(size 68.58 39.37)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -246,7 +284,7 @@
 		)
 		(uuid "d45ee961-7c38-470c-a7ea-0552d843cfb4")
 		(property "Sheetname" "USB"
-			(at 184.15 30.6734 0)
+			(at 179.07 17.9734 0)
 			(effects
 				(font
 					(size 2 2)
@@ -255,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 184.15 75.8066 0)
+			(at 179.07 59.2966 0)
 			(effects
 				(font
 					(size 2 2)
@@ -272,8 +310,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 91.44)
-		(size 62.23 36.83)
+		(at 100.33 69.85)
+		(size 63.5 36.83)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -284,7 +322,7 @@
 		)
 		(uuid "d6dc9945-1df7-4624-8f27-7360b0b9c0df")
 		(property "Sheetname" "PCIe"
-			(at 111.76 90.3634 0)
+			(at 100.33 68.7734 0)
 			(effects
 				(font
 					(size 2 2)
@@ -293,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "pci_e.kicad_sch"
-			(at 111.76 129.1466 0)
+			(at 100.33 107.5566 0)
 			(effects
 				(font
 					(size 2 2)
@@ -310,8 +348,8 @@
 		)
 	)
 	(sheet
-		(at 107.95 146.05)
-		(size 67.31 36.83)
+		(at 99.06 118.11)
+		(size 64.77 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -322,7 +360,7 @@
 		)
 		(uuid "fabf144f-7078-4de8-86ad-539ef5f82b16")
 		(property "Sheetname" "LVDS_HDMI"
-			(at 107.95 144.9734 0)
+			(at 99.06 117.0334 0)
 			(effects
 				(font
 					(size 2 2)
@@ -331,7 +369,7 @@
 			)
 		)
 		(property "Sheetfile" "lvds_hdmi.kicad_sch"
-			(at 107.95 183.7566 0)
+			(at 99.06 154.5466 0)
 			(effects
 				(font
 					(size 2 2)

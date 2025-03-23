@@ -952,6 +952,10 @@
     [
       "6b35cf2a-ff76-4c8b-8fd9-fa59a1552b9f",
       "Audio"
+    ],
+    [
+      "37b9196a-4723-43b8-a172-79ad98469db6",
+      "serial_interface"
     ]
   ],
   "text_variables": {}
