@@ -321,7 +321,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d6dc9945-1df7-4624-8f27-7360b0b9c0df")
-		(property "Sheetname" "PCIe"
+		(property "Sheetname" "PCIe_SDCard"
 			(at 100.33 68.7734 0)
 			(effects
 				(font

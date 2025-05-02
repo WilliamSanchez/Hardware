@@ -5,4 +5,14 @@
 	(uuid "c5b4ed00-9266-465c-88d5-f3ea365fab9f")
 	(paper "A4")
 	(lib_symbols)
+	(text "Memeoria EEPROM\nPWM \nCAN\nI2C\nSPI\nUART"
+		(exclude_from_sim no)
+		(at 72.136 56.642 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "b0068abe-28ef-4ec4-a809-27d6a2142495")
+	)
 )
