@@ -13180,7 +13180,7 @@
 		)
 	)
 	(junction
-		(at 251.46 134.62)
+		(at 220.98 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "138b071f-95ce-4aff-be0f-c32390f23339")
@@ -13192,19 +13192,19 @@
 		(uuid "1562671b-589e-4184-80d1-a9c39753a2c0")
 	)
 	(junction
-		(at 251.46 147.32)
+		(at 220.98 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "374dd507-5e05-4be7-ac9b-b83000e11cdd")
 	)
 	(junction
-		(at 251.46 144.78)
+		(at 220.98 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4451fed6-70ca-46cb-b081-d750a8036d3e")
 	)
 	(junction
-		(at 251.46 154.94)
+		(at 220.98 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48fe0f6c-423f-4d6b-8b59-dc8cc7f86fb3")
@@ -13228,7 +13228,7 @@
 		(uuid "b9288281-6a59-40b1-9912-44d1c65942e0")
 	)
 	(junction
-		(at 251.46 142.24)
+		(at 220.98 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d459d68f-af73-43e8-ac8e-1e101849cd73")
@@ -13245,7 +13245,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 147.32) (xy 251.46 149.86)
+			(xy 220.98 143.51) (xy 220.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13275,7 +13275,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 139.7) (xy 251.46 139.7)
+			(xy 224.79 135.89) (xy 220.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -13375,7 +13375,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 255.27 144.78)
+			(xy 220.98 140.97) (xy 224.79 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13405,7 +13405,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 147.32) (xy 255.27 147.32)
+			(xy 220.98 143.51) (xy 224.79 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13415,7 +13415,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 152.4) (xy 251.46 152.4)
+			(xy 224.79 148.59) (xy 220.98 148.59)
 		)
 		(stroke
 			(width 0)
@@ -13495,7 +13495,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 154.94) (xy 255.27 154.94)
+			(xy 220.98 151.13) (xy 224.79 151.13)
 		)
 		(stroke
 			(width 0)
@@ -13535,7 +13535,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 132.08) (xy 255.27 132.08)
+			(xy 220.98 128.27) (xy 224.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -13625,7 +13625,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 134.62) (xy 255.27 134.62)
+			(xy 220.98 130.81) (xy 224.79 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13655,7 +13655,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 142.24) (xy 255.27 142.24)
+			(xy 220.98 138.43) (xy 224.79 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13705,7 +13705,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 154.94) (xy 251.46 160.02)
+			(xy 220.98 151.13) (xy 220.98 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13745,7 +13745,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 137.16) (xy 251.46 137.16)
+			(xy 224.79 133.35) (xy 220.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -13835,7 +13835,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 149.86) (xy 255.27 149.86)
+			(xy 220.98 146.05) (xy 224.79 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13895,7 +13895,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 152.4) (xy 251.46 154.94)
+			(xy 220.98 148.59) (xy 220.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -13905,7 +13905,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 134.62) (xy 251.46 132.08)
+			(xy 220.98 130.81) (xy 220.98 128.27)
 		)
 		(stroke
 			(width 0)
@@ -13925,7 +13925,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 142.24) (xy 251.46 144.78)
+			(xy 220.98 138.43) (xy 220.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13935,7 +13935,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 137.16) (xy 251.46 134.62)
+			(xy 220.98 133.35) (xy 220.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13965,7 +13965,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 251.46 147.32)
+			(xy 220.98 140.97) (xy 220.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13975,7 +13975,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 139.7) (xy 251.46 142.24)
+			(xy 220.98 135.89) (xy 220.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -14873,7 +14873,7 @@
 	)
 	(symbol
 		(lib_id "KSZ9131RNXI:KSZ9131RNXI")
-		(at 255.27 106.68 0)
+		(at 224.79 102.87 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14882,7 +14882,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ab29533-5e46-415c-909d-6f0272146ebc")
 		(property "Reference" "U6"
-			(at 290.83 128.27 0)
+			(at 260.35 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14891,7 +14891,7 @@
 			)
 		)
 		(property "Value" "KSZ9131RNXI"
-			(at 290.83 130.81 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14900,7 +14900,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 255.27 106.68 0)
+			(at 224.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14910,7 +14910,7 @@
 			)
 		)
 		(property "Datasheet" "KSZ9131RNXI"
-			(at 255.27 106.68 0)
+			(at 224.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +14920,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 106.68 0)
+			(at 224.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19062,7 +19062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 160.02 0)
+		(at 220.98 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19071,7 +19071,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca9cde5a-e57c-453c-a921-a304aa5d938b")
 		(property "Reference" "#PWR05"
-			(at 251.46 166.37 0)
+			(at 220.98 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19080,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 165.1 0)
+			(at 220.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +19088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 160.02 0)
+			(at 220.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,7 +19097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 160.02 0)
+			(at 220.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19106,7 +19106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 160.02 0)
+			(at 220.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

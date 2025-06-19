@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 96.52 166.37)
+		(size 67.31 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15dab2e6-44f5-4c4d-8894-d0f831c5d60a")
+		(property "Sheetname" "OutGPIO_CAN"
+			(at 96.52 165.2934 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outGpio_CAN.kicad_sch"
+			(at 96.52 192.6466 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BB_IMX8MLP"
+				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 69.85)
 		(size 68.58 35.56)
 		(fields_autoplaced yes)
@@ -83,7 +121,7 @@
 	)
 	(sheet
 		(at 20.32 166.37)
-		(size 93.98 25.4)
+		(size 67.31 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)

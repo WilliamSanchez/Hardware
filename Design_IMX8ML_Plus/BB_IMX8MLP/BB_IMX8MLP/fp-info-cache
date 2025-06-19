@@ -1,4 +1,4 @@
-24748739219578135
+24752230109585891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99505,6 +99505,13 @@ MP8759GD-Z
 12
 12
 _W_SBC
+NTE_SINGLE_M_MUR-L
+
+NTE0505MC 
+0
+8
+8
+_W_SBC
 NTMFS5C670NLT1G_ONS
 
 NTMFS5C670NLT1G 
@@ -99546,6 +99553,13 @@ QFN50P500X500X80-33N
 0
 33
 33
+_W_SBC
+SJ1-3535NG-PI
+
+
+0
+5
+5
 _W_SBC
 SPB228-QFN-96_11.55x15.55_Pitch0.5mm
 

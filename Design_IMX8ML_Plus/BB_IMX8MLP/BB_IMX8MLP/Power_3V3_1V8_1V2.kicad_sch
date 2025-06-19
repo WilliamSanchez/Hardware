@@ -1571,520 +1571,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:PMDT290UCE"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMDT290UCE"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMDT290UCE.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Nexperia 20 / 20 V, 800 / 550 mA N/P-channel Trench MOSFET, SOT-666"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Trench MOSFET complementary nmos pmos nexperia"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?666*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMDT290UCE_1_1"
-				(polyline
-					(pts
-						(xy 0.254 -1.905) (xy 0.254 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.286) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.508) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0.762 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PMDT290UCE_2_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.905) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "SP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "_W_MX8M:PAM2310BECADJR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2828,12 +2314,6 @@
 		(uuid "7b35163d-47fa-4858-a262-92911749b2bd")
 	)
 	(junction
-		(at 185.42 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86fecf1f-1461-4c2c-a03e-4a0b9d1b3156")
-	)
-	(junction
 		(at 121.92 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2924,12 +2404,6 @@
 		(uuid "d2a30b8f-439d-4f60-af87-9b6ece445ffc")
 	)
 	(junction
-		(at 185.42 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d44e312f-57cc-42df-9fc7-16b9e049f4cd")
-	)
-	(junction
 		(at 234.95 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2992,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "00590244-7b62-4562-a10c-625e126509b7")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a6d916-87de-4281-9507-b94434f236ee")
 	)
 	(wire
 		(pts
@@ -3165,26 +2649,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 52.07) (xy 185.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2676e827-27c6-4712-89b6-6dcdbb65748b")
-	)
-	(wire
-		(pts
-			(xy 172.72 53.34) (xy 177.8 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27f61c6c-4521-4110-bc5d-a843fabc3625")
-	)
-	(wire
-		(pts
 			(xy 215.9 59.69) (xy 215.9 62.23)
 		)
 		(stroke
@@ -3192,16 +2656,6 @@
 			(type default)
 		)
 		(uuid "27fdf50d-ab76-4434-b45b-caf19d838a6a")
-	)
-	(wire
-		(pts
-			(xy 185.42 44.45) (xy 185.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281273f3-5e81-4550-a022-793245ac48a5")
 	)
 	(wire
 		(pts
@@ -3222,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "2ebb9665-4598-4451-a79f-8ed0300b2940")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 199.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f377385-3ff2-4bbe-858d-1b9f22fc7ff8")
 	)
 	(wire
 		(pts
@@ -3262,26 +2726,6 @@
 			(type default)
 		)
 		(uuid "361ef61e-8242-4465-b393-44c081c037dd")
-	)
-	(wire
-		(pts
-			(xy 185.42 53.34) (xy 182.88 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375d4b30-8a10-451d-9a9d-e39cee1f5748")
-	)
-	(wire
-		(pts
-			(xy 193.04 53.34) (xy 193.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "386aeb50-e223-4808-aa5b-dad59a30d512")
 	)
 	(wire
 		(pts
@@ -3475,16 +2919,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 53.34) (xy 193.04 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5477f8bc-0ca1-400d-be2f-93a2575cfdad")
-	)
-	(wire
-		(pts
 			(xy 125.73 40.64) (xy 128.27 40.64)
 		)
 		(stroke
@@ -3512,16 +2946,6 @@
 			(type default)
 		)
 		(uuid "5c3b215b-a9c0-45c6-8ac3-96e32dbc43b4")
-	)
-	(wire
-		(pts
-			(xy 184.15 39.37) (xy 185.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d7a76a2-068b-4d1a-840a-4b6ba9f5ff4d")
 	)
 	(wire
 		(pts
@@ -3825,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb726ee-cbc4-449b-95a3-1d635af9c36b")
+	)
+	(wire
+		(pts
 			(xy 242.57 135.89) (xy 242.57 137.16)
 		)
 		(stroke
@@ -4115,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 104.14) (xy 199.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5789c23-0b6e-4c81-8914-09eb19cd553c")
+	)
+	(wire
+		(pts
 			(xy 130.81 129.54) (xy 130.81 132.08)
 		)
 		(stroke
@@ -4152,16 +3596,6 @@
 			(type default)
 		)
 		(uuid "cba34ac5-b226-4466-ab81-0945a409925c")
-	)
-	(wire
-		(pts
-			(xy 185.42 44.45) (xy 187.96 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbba9bd0-f89d-43a6-a792-465807644cbe")
 	)
 	(wire
 		(pts
@@ -4305,16 +3739,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 46.99) (xy 185.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d63aed-aad7-456f-8e3a-d5ea718b0625")
-	)
-	(wire
-		(pts
 			(xy 90.17 40.64) (xy 90.17 44.45)
 		)
 		(stroke
@@ -4363,16 +3787,6 @@
 		)
 		(uuid "ffeb37b7-4064-4e2f-b49f-39d9ded1da1a")
 	)
-	(label "5V_EN"
-		(at 172.72 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a508989-5a2b-415e-ada0-923c803f99ae")
-	)
 	(label "SW_1v2"
 		(at 100.33 129.54 180)
 		(effects
@@ -4414,7 +3828,7 @@
 		(uuid "4725dda9-1fbb-4406-a4ac-135dc9abb865")
 	)
 	(label "+V5_STB"
-		(at 184.15 39.37 180)
+		(at 198.12 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,6 +3847,16 @@
 		)
 		(uuid "69b06ccc-9b2a-4440-bb2e-f2cab9548fdc")
 	)
+	(label "+V5_STB"
+		(at 186.69 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "824b4402-20bd-4068-8ff5-ebe88d8b90f1")
+	)
 	(label "+V_SUPPLY_FILT"
 		(at 218.44 58.42 0)
 		(effects
@@ -4442,6 +3866,16 @@
 			(justify left bottom)
 		)
 		(uuid "bd0ec0fb-b840-4788-aadc-4a8fc6f442b8")
+	)
+	(label "+V_SUPPLY_FILT"
+		(at 186.69 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf0b835b-6ec6-4e5e-a089-c26f46d0b895")
 	)
 	(label "+V_STB"
 		(at 115.57 60.96 180)
@@ -4462,6 +3896,94 @@
 			(justify right bottom)
 		)
 		(uuid "f2bad536-2059-41c2-9637-03425fc17556")
+	)
+	(global_label "VDD_3V3"
+		(shape input)
+		(at 199.39 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2410ebea-6d6b-4ff4-b47e-caf9a549537c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.1212 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_1V2"
+		(shape input)
+		(at 199.39 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "28e69d49-b9b2-4794-9ab3-9b6db26c1a98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.1212 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+V5_STB"
+		(shape input)
+		(at 199.39 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "f1c577a5-1df7-4210-83c8-621e6dfe89ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.2641 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+V_SUPPLY_FILT"
+		(shape input)
+		(at 199.39 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "f6acf7f6-7541-46cf-86b4-35302561033b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.9306 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -5722,76 +5244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 180.34 53.34 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4586e128-9d89-4aa5-856d-51a73f720667")
-		(property "Reference" "R16"
-			(at 180.594 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 181.6099 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3fefb97-dd4c-43ec-8d0b-c436a889c72f")
-		)
-		(pin "2"
-			(uuid "550629f9-d0af-44cc-a7e2-0a0674dff682")
-		)
-		(instances
-			(project "BB_IMX8MLP"
-				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/31f681b0-ed9a-409b-a541-94a4d8d5d11d/583f6650-5c67-445a-815c-965c2c738d37"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 46.99 0)
 		(unit 1)
@@ -6739,76 +6191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 185.42 49.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81de3268-93b3-4f65-9b04-1287e28fe58a")
-		(property "Reference" "R17"
-			(at 183.642 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 182.88 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab0287e9-bc3c-4158-b047-2708502b8efe")
-		)
-		(pin "2"
-			(uuid "444440ef-14b6-4393-bf68-b6e7dc7d9e13")
-		)
-		(instances
-			(project "BB_IMX8MLP"
-				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/31f681b0-ed9a-409b-a541-94a4d8d5d11d/583f6650-5c67-445a-815c-965c2c738d37"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 92.71 124.46 0)
 		(unit 1)
@@ -7076,89 +6458,6 @@
 				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/31f681b0-ed9a-409b-a541-94a4d8d5d11d/583f6650-5c67-445a-815c-965c2c738d37"
 					(reference "R20")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:PMDT290UCE")
-		(at 193.04 46.99 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab09b9c9-c7b9-4ea0-a8fd-8bc2fb38dea0")
-		(property "Reference" "Q4"
-			(at 193.04 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMDT290UCE"
-			(at 193.04 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 194.945 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMDT290UCE.pdf"
-			(at 196.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nexperia 20 / 20 V, 800 / 550 mA N/P-channel Trench MOSFET, SOT-666"
-			(at 193.04 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1742fdbb-0814-4dc5-9609-f51c76f53d4b")
-		)
-		(pin "6"
-			(uuid "d79d3de8-8769-44cb-b671-5e49817faad4")
-		)
-		(pin "3"
-			(uuid "2701d44a-c864-422a-b472-231c5c70261e")
-		)
-		(pin "4"
-			(uuid "c6e20e98-b9f5-4520-8361-2d2f4bd1b71a")
-		)
-		(pin "2"
-			(uuid "57a06654-f126-4b84-b1c6-dff6e0620541")
-		)
-		(pin "5"
-			(uuid "563983f3-2dec-46df-8f05-078416c7c985")
-		)
-		(instances
-			(project "BB_IMX8MLP"
-				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/31f681b0-ed9a-409b-a541-94a4d8d5d11d/583f6650-5c67-445a-815c-965c2c738d37"
-					(reference "Q4")
-					(unit 2)
 				)
 			)
 		)

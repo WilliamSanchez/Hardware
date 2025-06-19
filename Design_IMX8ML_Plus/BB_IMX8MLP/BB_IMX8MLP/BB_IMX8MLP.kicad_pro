@@ -890,7 +890,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -956,6 +956,10 @@
     [
       "37b9196a-4723-43b8-a172-79ad98469db6",
       "serial_interface"
+    ],
+    [
+      "15dab2e6-44f5-4c4d-8894-d0f831c5d60a",
+      "OutGPIO_CAN"
     ]
   ],
   "text_variables": {}
