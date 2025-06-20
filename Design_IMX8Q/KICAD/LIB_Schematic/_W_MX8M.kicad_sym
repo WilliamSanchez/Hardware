@@ -718,7 +718,7 @@
 		(symbol "D3V3F4U10LP-7_0_1"
 			(rectangle
 				(start -5.08 3.81)
-				(end 3.81 -8.89)
+				(end 3.81 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -749,8 +749,8 @@
 			)
 			(pin input line
 				(at 6.35 1.27 180)
-				(length 2.54) hide
-				(name "nc"
+				(length 2.54)
+				(name "I/O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -784,7 +784,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -2.54 180)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -802,7 +802,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -3.81 0)
+				(at -7.62 -8.89 0)
 				(length 2.54)
 				(name "I/O"
 					(effects
@@ -820,7 +820,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -6.35 0)
+				(at -7.62 -11.43 0)
 				(length 2.54)
 				(name "I/O"
 					(effects
@@ -838,9 +838,9 @@
 				)
 			)
 			(pin input line
-				(at 6.35 1.27 180)
+				(at 6.35 -11.43 180)
 				(length 2.54)
-				(name "nc"
+				(name "I/O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -856,9 +856,9 @@
 				)
 			)
 			(pin input line
-				(at 6.35 1.27 180)
-				(length 2.54) hide
-				(name "nc"
+				(at 6.35 -8.89 180)
+				(length 2.54)
+				(name "I/O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -874,7 +874,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -6.35 180)
+				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -892,9 +892,9 @@
 				)
 			)
 			(pin input line
-				(at 6.35 1.27 180)
-				(length 2.54) hide
-				(name "nc"
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "I/O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8277,6 +8277,508 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PCMF2HDMI12S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PCMF2HDMI12S_0_1"
+			(rectangle
+				(start -6.35 -5.08)
+				(end 13.97 -24.13)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -10.16) (xy 3.429 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -7.62) (xy 3.429 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 0 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -10.16) (xy 2.54 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 6.477 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 6.477 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.429 -7.6577)
+				(mid 3.937 -8.1294)
+				(end 4.445 -7.6577)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.445 -10.1223)
+				(mid 3.937 -9.6506)
+				(end 3.429 -10.1223)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.445 -7.6577)
+				(mid 4.953 -8.1294)
+				(end 5.461 -7.6577)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.461 -10.1223)
+				(mid 4.953 -9.6506)
+				(end 4.445 -10.1223)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.461 -7.6577)
+				(mid 5.969 -8.1294)
+				(end 6.477 -7.6577)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.477 -10.1223)
+				(mid 5.969 -9.6506)
+				(end 5.461 -10.1223)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PCMF2HDMI12S_1_1"
+			(circle
+				(center 0 -7.62)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -13.97) (xy 0 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -11.811) (xy 0.635 -11.43) (xy -0.635 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -11.811) (xy 3.175 -11.43) (xy 1.905 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -12.7) (xy 0.635 -12.7) (xy 0 -11.43) (xy -0.635 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -12.7) (xy 3.175 -12.7) (xy 2.54 -11.43) (xy 1.905 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -13.97)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -10.16)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 6.858 -9.652)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 6.858 -8.128)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "CH1_IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -10.16 0)
+				(length 2.54)
+				(name "CH1_IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -15.24 0)
+				(length 2.54)
+				(name "CH2_IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -17.78 0)
+				(length 2.54)
+				(name "CH2_IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -21.59 0)
+				(length 2.54)
+				(name "GND_CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 16.51 -21.59 180)
+				(length 2.54)
+				(name "GND_CH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -7.62 180)
+				(length 2.54)
+				(name "CH1_OUT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -10.16 180)
+				(length 2.54)
+				(name "CH1_OUT-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -15.24 180)
+				(length 2.54)
+				(name "CH2_OUT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -17.78 180)
+				(length 2.54)
+				(name "CH2_OUT-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
 					(effects
 						(font
 							(size 1.27 1.27)

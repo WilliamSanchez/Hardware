@@ -1765,38 +1765,32 @@
 				)
 			)
 		)
-		(symbol "HDMI2C1-14HDS:HDMI2C1-14HDS"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "_W_MX8M:PCMF2HDMI12S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -15.24 28.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "HDMI2C1-14HDS"
-				(at -15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "HDMI2C1-14HDS:QFN50P400X400X105-25N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -1818,130 +1812,10 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "STMicroelectronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/HDMI2C1-14HDS/STMicroelectronics/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HDMI2C1-14HDS/STMicroelectronics/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "HDMI2C1-14HDS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Video Signal Conditioner IC I2C HDMI 2.0 24-QFN (4x4) Package\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "STMicroelectronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "HDMI2C1-14HDS_0_0"
+			(symbol "PCMF2HDMI12S_0_1"
 				(rectangle
-					(start -15.24 -27.94)
-					(end 15.24 27.94)
+					(start -6.35 -5.08)
+					(end 13.97 -24.13)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1950,452 +1824,443 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "FAULT_IC"
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 3.429 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy 3.429 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 2.54 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 6.477 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 6.477 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.429 -7.6577)
+					(mid 3.937 -8.1294)
+					(end 4.445 -7.6577)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -10.1223)
+					(mid 3.937 -9.6506)
+					(end 3.429 -10.1223)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -7.6577)
+					(mid 4.953 -8.1294)
+					(end 5.461 -7.6577)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.461 -10.1223)
+					(mid 4.953 -9.6506)
+					(end 4.445 -10.1223)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.461 -7.6577)
+					(mid 5.969 -8.1294)
+					(end 6.477 -7.6577)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.477 -10.1223)
+					(mid 5.969 -9.6506)
+					(end 5.461 -10.1223)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PCMF2HDMI12S_1_1"
+				(circle
+					(center 0 -7.62)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -13.97) (xy 0 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -11.811) (xy 0.635 -11.43) (xy -0.635 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -11.811) (xy 3.175 -11.43) (xy 1.905 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -12.7) (xy 0.635 -12.7) (xy 0 -11.43) (xy -0.635 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -12.7) (xy 3.175 -12.7) (xy 2.54 -11.43) (xy 1.905 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -13.97)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.858 -9.652)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.858 -8.128)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "CH1_IN+"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "A1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -20.32 5.08 0)
-					(length 5.08)
-					(name "CK-"
+				(pin passive line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "CH1_IN-"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "A2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 7.62 0)
-					(length 5.08)
-					(name "CK+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin no_connect line
-					(at 20.32 -20.32 180)
-					(length 5.08)
-					(name "NC"
+				(pin passive line
+					(at -8.89 -15.24 0)
+					(length 2.54)
+					(name "CH2_IN+"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "A3"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 0 0)
-					(length 5.08)
-					(name "DAT_D0-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -20.32 2.54 0)
-					(length 5.08)
-					(name "DAT_D0+"
+				(pin passive line
+					(at -8.89 -17.78 0)
+					(length 2.54)
+					(name "CH2_IN-"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "A4"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -5.08 0)
-					(length 5.08)
-					(name "DAT_D1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -2.54 0)
-					(length 5.08)
-					(name "DAT_D1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -10.16 0)
-					(length 5.08)
-					(name "DAT_D2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -7.62 0)
-					(length 5.08)
-					(name "DAT_D2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "CEC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -15.24 180)
-					(length 5.08)
-					(name "CEC_IC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 20.32 22.86 180)
-					(length 5.08)
-					(name "VDD_CEC"
+					(at -8.89 -21.59 0)
+					(length 2.54)
+					(name "GND_CH1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
+					(number "B1"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "5V_OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 20.32 25.4 180)
-					(length 5.08)
-					(name "VDD_5V"
+					(at 16.51 -21.59 180)
+					(length 2.54)
+					(name "GND_CH2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "22"
+					(number "B2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 20.32 180)
-					(length 5.08)
-					(name "VDD_CEC_IC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 17.78 180)
-					(length 5.08)
-					(name "VDD_IC"
+				(pin passive line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "CH1_OUT+"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "C1"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -25.4 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output clock
-					(at 20.32 -12.7 180)
-					(length 5.08)
-					(name "SCL_IC"
+				(pin passive line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "CH1_OUT-"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "C2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -10.16 180)
-					(length 5.08)
-					(name "SDA_IC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "HPD_IC"
+				(pin passive line
+					(at 16.51 -15.24 180)
+					(length 2.54)
+					(name "CH2_OUT+"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "C3"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "UTILITY"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "HPD"
+				(pin passive line
+					(at 16.51 -17.78 180)
+					(length 2.54)
+					(name "CH2_OUT-"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "C4"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output clock
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2555,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 72.39) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a6190d-e6b4-4005-99c1-24a78eda2585")
+	)
+	(wire
+		(pts
 			(xy 142.24 123.19) (xy 151.13 123.19)
 		)
 		(stroke
@@ -2575,16 +2450,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 67.31) (xy 233.68 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "099c57e3-3297-4cba-89be-7778eaee1bbd")
-	)
-	(wire
-		(pts
 			(xy 147.32 133.35) (xy 142.24 133.35)
 		)
 		(stroke
@@ -2592,16 +2457,6 @@
 			(type default)
 		)
 		(uuid "0accb447-9835-4a1e-b9cf-c5f6ade3add2")
-	)
-	(wire
-		(pts
-			(xy 203.2 67.31) (xy 215.9 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b132965-9990-4b40-8569-ccdbccfd30db")
 	)
 	(wire
 		(pts
@@ -2615,13 +2470,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 82.55) (xy 229.87 77.47)
+			(xy 215.9 96.52) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dd5a425-bd0a-4ee7-9322-780a1cef3290")
+		(uuid "0f960caa-8aaa-4926-9df3-0ef3188066ba")
 	)
 	(wire
 		(pts
@@ -2632,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "11b80ce2-aa0e-4ef9-b637-82bbe2bd8e32")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132b3745-10d8-4b13-bf49-f0fda7e97c0b")
 	)
 	(wire
 		(pts
@@ -2655,6 +2520,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 99.06) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1599a021-a9e0-4754-a9b0-22683a3afdd6")
+	)
+	(wire
+		(pts
 			(xy 124.46 153.67) (xy 124.46 173.99)
 		)
 		(stroke
@@ -2672,6 +2547,16 @@
 			(type default)
 		)
 		(uuid "1c465594-37aa-44e8-b101-2b86cbae2af0")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 220.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fc076c-9385-4208-aeff-95fdc79a61a1")
 	)
 	(wire
 		(pts
@@ -2695,6 +2580,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 72.39) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3d4e9a-4ab5-40cb-8ec5-7e002e640d4b")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffda63a-9f6c-42d2-9598-192bbf49780a")
+	)
+	(wire
+		(pts
 			(xy 129.54 128.27) (xy 120.65 128.27)
 		)
 		(stroke
@@ -2715,6 +2620,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 77.47) (xy 233.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363b1d62-01ac-4298-9bb3-57800d10dba2")
+	)
+	(wire
+		(pts
 			(xy 124.46 146.05) (xy 124.46 153.67)
 		)
 		(stroke
@@ -2725,13 +2640,33 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 62.23) (xy 233.68 62.23)
+			(xy 196.85 96.52) (xy 215.9 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "425c4e16-55c3-4d82-995d-182be0bc1440")
+		(uuid "3954b15a-5942-477c-8a5f-060e3d8d67e3")
+	)
+	(wire
+		(pts
+			(xy 196.85 91.44) (xy 212.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd7c7fe-a03f-414f-b458-af2755c442a4")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8e753d-0786-4ff6-b768-e6bc2a07fca3")
 	)
 	(wire
 		(pts
@@ -2755,6 +2690,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 67.31) (xy 233.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4613ac6c-265c-4d9b-a725-8e0949543816")
+	)
+	(wire
+		(pts
 			(xy 36.83 90.17) (xy 45.72 90.17)
 		)
 		(stroke
@@ -2762,6 +2707,16 @@
 			(type default)
 		)
 		(uuid "49889617-2940-4e1d-a6f6-ef31be76145a")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 233.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c79a59e-f10b-4808-900d-3573e1704992")
 	)
 	(wire
 		(pts
@@ -2775,6 +2730,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 72.39) (xy 201.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5002a97e-8e61-483c-bb94-c67d427e00a9")
+	)
+	(wire
+		(pts
+			(xy 212.09 91.44) (xy 212.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503ce379-385b-4f37-b3a8-7105a289257a")
+	)
+	(wire
+		(pts
 			(xy 147.32 148.59) (xy 142.24 148.59)
 		)
 		(stroke
@@ -2785,13 +2760,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 72.39) (xy 222.25 67.31)
+			(xy 200.66 69.85) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "594c7f14-7532-48b2-99db-1ec64434c38a")
+		(uuid "59a433a4-0952-4993-9c41-a69317eda1cb")
 	)
 	(wire
 		(pts
@@ -2815,13 +2790,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 229.87 82.55)
+			(xy 163.83 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fedf429-2d27-4753-a5ac-fa648e2a80f9")
+		(uuid "5fb70bbb-7da9-41ba-9a49-ee691549b9a2")
+	)
+	(wire
+		(pts
+			(xy 163.83 64.77) (xy 171.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68542dea-10d5-4417-ab82-fe099c03927f")
 	)
 	(wire
 		(pts
@@ -2842,6 +2827,26 @@
 			(type default)
 		)
 		(uuid "6bca1762-b0ff-4c69-a368-7fd92e83759b")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa81b83-89c6-48a4-99a7-357747478776")
+	)
+	(wire
+		(pts
+			(xy 209.55 88.9) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d6405a-25c0-434e-a633-04b9f077fc0b")
 	)
 	(wire
 		(pts
@@ -2905,13 +2910,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 77.47) (xy 233.68 77.47)
+			(xy 163.83 96.52) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ce72cb4-6748-494f-9fa2-35bee1e80aaf")
+		(uuid "86cd5148-ec23-4ca6-aea8-986651601399")
+	)
+	(wire
+		(pts
+			(xy 220.98 80.01) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874c9144-9fec-4dbb-aca6-1fc34f2acc0a")
 	)
 	(wire
 		(pts
@@ -2925,23 +2940,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 80.01) (xy 233.68 80.01)
+			(xy 196.85 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "993b19fa-17d9-4190-a26e-1e2592a866db")
-	)
-	(wire
-		(pts
-			(xy 203.2 74.93) (xy 233.68 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa98526d-dc09-4128-9daa-e7f12232060e")
+		(uuid "a0bcea16-3d65-473d-80a8-28b56a5896b4")
 	)
 	(wire
 		(pts
@@ -2952,6 +2957,16 @@
 			(type default)
 		)
 		(uuid "aabe601c-dff0-476b-90aa-27cf7ffa995b")
+	)
+	(wire
+		(pts
+			(xy 212.09 74.93) (xy 233.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f316f8-67ef-43ae-9bf5-a8e9aa6ea1cd")
 	)
 	(wire
 		(pts
@@ -2975,26 +2990,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 77.47) (xy 226.06 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b654d1-7786-47dd-8fc9-ad9dc85f1bdf")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 226.06 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d117b1-433a-4f26-b39e-546d1b54f8a8")
-	)
-	(wire
-		(pts
 			(xy 124.46 138.43) (xy 124.46 146.05)
 		)
 		(stroke
@@ -3005,13 +3000,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 64.77) (xy 233.68 64.77)
+			(xy 196.85 62.23) (xy 233.68 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1957d24-d40f-4b29-ba99-47d909993446")
+		(uuid "c0be149a-cb36-4398-802d-747f303a1faf")
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dbb7cc-f457-4b15-a24b-2e5791cbd1fd")
 	)
 	(wire
 		(pts
@@ -3042,16 +3047,6 @@
 			(type default)
 		)
 		(uuid "cc1f3e5c-1356-4d22-b284-7cc3cdc93758")
-	)
-	(wire
-		(pts
-			(xy 226.06 72.39) (xy 233.68 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc35e5eb-f46f-4b8d-86f2-34ac211fb0eb")
 	)
 	(wire
 		(pts
@@ -3125,13 +3120,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 69.85) (xy 233.68 69.85)
+			(xy 163.83 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7317536-d9d6-488e-9fc7-c81475773060")
+		(uuid "ead5cb42-5d96-4188-9fbe-fd477e3b9aaf")
 	)
 	(wire
 		(pts
@@ -3145,13 +3140,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 72.39) (xy 222.25 72.39)
+			(xy 196.85 64.77) (xy 233.68 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eba1641e-064a-4846-a262-aba512a542bb")
+		(uuid "ecaa3e14-d2cb-4d8b-af9e-cebd73527e5d")
 	)
 	(wire
 		(pts
@@ -3192,16 +3187,6 @@
 			(type default)
 		)
 		(uuid "f41735fe-236c-463f-a960-1762651a97f4")
-	)
-	(wire
-		(pts
-			(xy 215.9 67.31) (xy 215.9 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f657fec6-c48d-4d65-9e5d-38fbf2e80be6")
 	)
 	(wire
 		(pts
@@ -3375,7 +3360,7 @@
 	)
 	(global_label "HDM_DDC_SCL"
 		(shape input)
-		(at 152.4 64.77 180)
+		(at 114.3 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3385,7 +3370,7 @@
 		)
 		(uuid "00695a46-8cb0-46d6-8e72-28f210989e39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6359 64.77 0)
+			(at 101.5359 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3382,7 @@
 	)
 	(global_label "HDM_TXC_P"
 		(shape input)
-		(at 119.38 58.42 180)
+		(at 163.83 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3407,7 +3392,7 @@
 		)
 		(uuid "16f01248-42fa-48b9-9df6-b999bcb0fcf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6635 58.42 0)
+			(at 153.1135 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3580,7 @@
 	)
 	(global_label "HDM_TX2_N"
 		(shape input)
-		(at 119.38 66.04 180)
+		(at 163.83 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3605,7 +3590,7 @@
 		)
 		(uuid "5ed3cb8c-7425-4c5e-8763-90f85a9f0050")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6635 66.04 0)
+			(at 153.1135 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3602,7 @@
 	)
 	(global_label "HDM_TX0_N"
 		(shape input)
-		(at 119.38 76.2 180)
+		(at 163.83 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3627,7 +3612,7 @@
 		)
 		(uuid "61a78717-a556-4580-a33b-8609e781dbcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6635 76.2 0)
+			(at 153.1135 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3624,7 @@
 	)
 	(global_label "HDM_DDC_SDA"
 		(shape input)
-		(at 152.4 62.23 180)
+		(at 114.3 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3649,7 +3634,7 @@
 		)
 		(uuid "63255417-ab43-432b-ac05-f340ef050183")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.5883 62.23 0)
+			(at 101.4883 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3734,7 @@
 	)
 	(global_label "HDM_TXC_N"
 		(shape input)
-		(at 119.38 60.96 180)
+		(at 163.83 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3759,7 +3744,7 @@
 		)
 		(uuid "7c94bcaf-a5a7-4c9c-8dea-6270be6a819b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6159 60.96 0)
+			(at 153.0659 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3778,7 @@
 	)
 	(global_label "HDM_TX1_P"
 		(shape input)
-		(at 119.38 68.58 180)
+		(at 163.83 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3803,7 +3788,7 @@
 		)
 		(uuid "913a9226-d3a6-4b9b-9e70-da0a96d3624d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7111 68.58 0)
+			(at 153.1611 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3800,7 @@
 	)
 	(global_label "HDM_CEC"
 		(shape input)
-		(at 152.4 59.69 180)
+		(at 114.3 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3825,7 +3810,7 @@
 		)
 		(uuid "927d5c98-b1a1-4c67-959f-6944d307ff7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.2549 59.69 0)
+			(at 105.1549 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3822,7 @@
 	)
 	(global_label "HDM_HPD"
 		(shape input)
-		(at 152.4 67.31 180)
+		(at 114.3 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3847,7 +3832,7 @@
 		)
 		(uuid "9854c8e3-dc2f-44db-8fdc-d1f6428dcf3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1121 67.31 0)
+			(at 105.0121 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3844,7 @@
 	)
 	(global_label "HDM_TX2_P"
 		(shape input)
-		(at 119.38 63.5 180)
+		(at 163.83 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3869,7 +3854,7 @@
 		)
 		(uuid "aece8f17-7b8f-4170-ab71-57a52d30dc68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7111 63.5 0)
+			(at 153.1611 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3932,7 @@
 	)
 	(global_label "HDM_TX1_N"
 		(shape input)
-		(at 119.38 71.12 180)
+		(at 163.83 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3957,7 +3942,7 @@
 		)
 		(uuid "b468068e-7cf8-48bc-8e11-6c92306e13a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6635 71.12 0)
+			(at 153.1135 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3976,7 @@
 	)
 	(global_label "HDM_TX0_P"
 		(shape input)
-		(at 119.38 73.66 180)
+		(at 163.83 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4001,7 +3986,7 @@
 		)
 		(uuid "c77bb7de-d917-4fc1-b496-44aa6e911223")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7111 73.66 0)
+			(at 153.1611 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,6 +4180,98 @@
 			(project "BB_IMX8MLP"
 				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/fabf144f-7078-4de8-86ad-539ef5f82b16"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_W_MX8M:PCMF2HDMI12S")
+		(at 180.34 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e59ff0b-fddc-49f8-9dd1-cd7676a9f9d8")
+		(property "Reference" "U2"
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_W_SBC:WLCSP10_4-2-4_NEX"
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "92e5c9af-0e67-438c-b4cc-29fa3bab540b")
+		)
+		(pin "C1"
+			(uuid "7bc39169-5c34-4d2d-877a-343bc3cbdb3d")
+		)
+		(pin "A3"
+			(uuid "efeaacee-e35b-45c6-8123-274f726ef8a5")
+		)
+		(pin "A2"
+			(uuid "e65750e6-ba87-4f8e-a0f6-6cd2c3dfd8b1")
+		)
+		(pin "B1"
+			(uuid "6077dd67-61b4-4aa1-a74d-807da17de085")
+		)
+		(pin "B2"
+			(uuid "feef2ef3-0d38-4822-8d8a-3dc60df36841")
+		)
+		(pin "C4"
+			(uuid "5fd05189-a751-4191-992a-bcbee1756cdd")
+		)
+		(pin "C2"
+			(uuid "6481e2b3-7cc4-4a0c-8c54-8ebeda074356")
+		)
+		(pin "C3"
+			(uuid "a70141aa-e114-4e19-b087-dcabf177ce20")
+		)
+		(pin "A4"
+			(uuid "ce4b1f94-9f05-4e45-b941-83a466da6821")
+		)
+		(instances
+			(project ""
+				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/fabf144f-7078-4de8-86ad-539ef5f82b16"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4450,42 +4527,42 @@
 		)
 	)
 	(symbol
-		(lib_id "HDMI2C1-14HDS:HDMI2C1-14HDS")
-		(at 182.88 74.93 180)
+		(lib_id "_W_MX8M:PCMF2HDMI12S")
+		(at 180.34 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dabc6f7f-9dd8-47cb-8e90-b7e8a5868e36")
-		(property "Reference" "U2"
-			(at 182.88 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "da580ae0-81c1-412a-b9da-667c7d16a1c1")
+		(property "Reference" "U37"
+			(at 184.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "HDMI2C1-14HDS"
-			(at 182.88 105.41 0)
+		(property "Value" "~"
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-			(at 182.88 74.93 0)
+		(property "Footprint" "_W_SBC:WLCSP10_4-2-4_NEX"
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 74.93 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 74.93 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,205 +4579,40 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "STMicroelectronics"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "A1"
+			(uuid "6994d672-633a-408e-89c0-d98919c0f261")
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.05 mm"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "C1"
+			(uuid "da3b1373-cf41-4eb2-a2e5-11bba62b4dd0")
 		)
-		(property "Package" "None"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "A3"
+			(uuid "37bff1b4-9df9-4d3c-9fdb-2230987e261b")
 		)
-		(property "Price" "None"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "A2"
+			(uuid "d709a451-98e7-4a3f-a937-b7a6ddbbb906")
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/HDMI2C1-14HDS/STMicroelectronics/view-part/?ref=eda"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "B1"
+			(uuid "fafbdfe5-be84-4d4e-90e2-0d83a6de8ce1")
 		)
-		(property "STANDARD" "IPC 7351B"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "B2"
+			(uuid "14aedc94-b7f1-4de2-a804-14d8dc57e2fc")
 		)
-		(property "PARTREV" "3"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "C4"
+			(uuid "0786fbd9-7f2a-43fc-910b-f5df1ffee5b1")
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HDMI2C1-14HDS/STMicroelectronics/view-part/?ref=snap"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "C2"
+			(uuid "bd956472-7144-4459-8231-0c2c13b2d7bd")
 		)
-		(property "MP" "HDMI2C1-14HDS"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "C3"
+			(uuid "9b0f703e-2431-497e-98ab-b47a30c6f991")
 		)
-		(property "Description_1" "\n                        \n                            Video Signal Conditioner IC I2C HDMI 2.0 24-QFN (4x4) Package\n                        \n"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STMicroelectronics"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "23"
-			(uuid "fbfd9fdb-aa77-44d0-b193-074b92fddb84")
-		)
-		(pin "19"
-			(uuid "48f1d47f-2592-4cc1-bd67-ff60622cb94b")
-		)
-		(pin "20"
-			(uuid "63fa6d61-5521-43b0-96d6-5eba6b30860a")
-		)
-		(pin "16"
-			(uuid "d33e3286-e9d0-4ee2-925e-711b460c7010")
-		)
-		(pin "4"
-			(uuid "0cbb8925-1241-4389-855d-d968151d7c23")
-		)
-		(pin "6"
-			(uuid "94ffaab3-1a1e-4143-a83f-e7a951f7bb46")
-		)
-		(pin "21"
-			(uuid "f25a4a39-c15a-4438-a597-bb98a0f9471a")
-		)
-		(pin "24"
-			(uuid "6dfc8c3f-59e8-46ca-9883-6979686743e4")
-		)
-		(pin "17"
-			(uuid "653aa504-b5de-4b50-b2cd-ce02a4f9988f")
-		)
-		(pin "8"
-			(uuid "26745779-f35b-4c44-b9fb-c6844089c144")
-		)
-		(pin "25"
-			(uuid "103a5664-9466-47e7-ad2a-c1eb9fae9c2d")
-		)
-		(pin "1"
-			(uuid "fbdf7dc1-099e-47c1-be82-4d735f59313b")
-		)
-		(pin "9"
-			(uuid "a0342bef-1581-43bd-b5fa-9bbbf60f2250")
-		)
-		(pin "22"
-			(uuid "26013bcc-883c-43c0-83b8-68d21ea77aa5")
-		)
-		(pin "18"
-			(uuid "cf581abe-05ed-4493-bd58-65aedbe6dc49")
-		)
-		(pin "2"
-			(uuid "3a0a9ba8-211f-4e92-b6d7-6576b4d73c1a")
-		)
-		(pin "14"
-			(uuid "92e00d5c-2d87-4e8d-81c0-3103d0e07129")
-		)
-		(pin "13"
-			(uuid "ac971133-7fa2-4b84-b0d4-ee3de7687d7c")
-		)
-		(pin "11"
-			(uuid "7b8da166-0638-4d79-8948-f8e5f5307fd9")
-		)
-		(pin "15"
-			(uuid "5d2654c2-cdb3-4568-9b80-25f1cf79d714")
-		)
-		(pin "10"
-			(uuid "a35cd27f-f4e9-484a-9c85-1427814b1341")
-		)
-		(pin "12"
-			(uuid "c812d4dc-6da9-4a5a-afab-844be00ea5a8")
-		)
-		(pin "5"
-			(uuid "28a64bff-f397-491b-a2ec-662a6c38e19f")
-		)
-		(pin "3"
-			(uuid "ab2bc7f2-66a5-4b02-bb9a-f4264233e404")
-		)
-		(pin "7"
-			(uuid "999b6416-63a2-42f6-a016-29fa49c23da5")
+		(pin "A4"
+			(uuid "e37d3b63-f1e0-4291-bb32-2583d9860a8e")
 		)
 		(instances
-			(project ""
+			(project "BB_IMX8MLP"
 				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6/fabf144f-7078-4de8-86ad-539ef5f82b16"
-					(reference "U2")
+					(reference "U37")
 					(unit 1)
 				)
 			)
