@@ -3714,16 +3714,6 @@
 		)
 		(uuid "efb1636c-290a-416a-8667-2f85da06ea60")
 	)
-	(label "+V5_STB"
-		(at 181.61 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "efc8c16f-9953-4f84-84d8-3951c58940ca")
-	)
 	(global_label "+V5_STB"
 		(shape input)
 		(at 233.68 101.6 0)
@@ -3786,6 +3776,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC_EN_5V"
+		(shape input)
+		(at 181.61 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "d6843ccf-085c-4664-af56-2abfe32f865c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3549 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5327,7 +5339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "_W_SBC:IND_PA4342.222NLT"
 			(at 97.79 39.37 0)
 			(effects
 				(font

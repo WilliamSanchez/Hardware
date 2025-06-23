@@ -5201,7 +5201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "_W_SBC:IND_SRP4020TA-1R0M_BRN"
 			(at 101.6 117.602 90)
 			(effects
 				(font
@@ -5739,7 +5739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "_W_SBC:IND_PA4342.222NLT"
 			(at 113.03 40.64 0)
 			(effects
 				(font
@@ -7557,7 +7557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "_W_SBC:IND_SRP4020TA-1R0M_BRN"
 			(at 222.25 116.332 90)
 			(effects
 				(font

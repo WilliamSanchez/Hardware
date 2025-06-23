@@ -9370,7 +9370,7 @@
 		(uuid "11dd92d2-9c23-4ac5-bb2c-a8562d0a310f")
 	)
 	(label "ETH2_MDI3+"
-		(at 175.26 134.62 0)
+		(at 175.26 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9380,7 +9380,7 @@
 		(uuid "13c29d3a-a2b7-46bc-988c-c4da58b676d0")
 	)
 	(label "ETH2_MDI3-"
-		(at 175.26 132.08 0)
+		(at 175.26 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9410,7 +9410,7 @@
 		(uuid "184ab534-6d0e-488b-820c-87d18a5f1396")
 	)
 	(label "ETH2_MDI1+"
-		(at 175.26 162.56 0)
+		(at 175.26 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9480,7 +9480,7 @@
 		(uuid "30efd6dd-44bd-4a18-9cee-281d883b5c6a")
 	)
 	(label "ETH2_MDI1-"
-		(at 154.94 160.02 180)
+		(at 154.94 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9570,7 +9570,7 @@
 		(uuid "5a839d0c-5d97-4167-ba9b-36dfb3115ad8")
 	)
 	(label "ETH2_MDI1-"
-		(at 175.26 160.02 0)
+		(at 175.26 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9610,7 +9610,7 @@
 		(uuid "7022eb06-b009-47bf-be90-7f70f340508c")
 	)
 	(label "ETH2_MDI3+"
-		(at 151.13 134.62 180)
+		(at 151.13 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9630,7 +9630,7 @@
 		(uuid "71b09ca4-bb8f-445e-a43d-24f784daaa21")
 	)
 	(label "ETH2_MDI1+"
-		(at 154.94 162.56 180)
+		(at 154.94 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9660,7 +9660,7 @@
 		(uuid "7d79b056-263c-4711-a024-10b873d807cb")
 	)
 	(label "ETH2_MDI3-"
-		(at 151.13 132.08 180)
+		(at 151.13 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
