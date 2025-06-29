@@ -13239,9 +13239,15 @@
 		(color 0 0 0 0)
 		(uuid "e812a742-8948-4d97-b1f2-062013e7a741")
 	)
-	(no_connect
-		(at 99.06 30.48)
-		(uuid "6ff5fea5-245b-4176-a280-bdf58e3b29a4")
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d6d303-31c8-4fbc-ab7a-2621b525537f")
 	)
 	(wire
 		(pts
@@ -13422,6 +13428,16 @@
 			(type default)
 		)
 		(uuid "3a4c27aa-33af-4c4f-98ae-7f710a6d1888")
+	)
+	(wire
+		(pts
+			(xy 99.06 30.48) (xy 107.95 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d048380-4d47-4372-86da-0f4623b95fa7")
 	)
 	(wire
 		(pts
@@ -14145,6 +14161,28 @@
 			)
 		)
 	)
+	(global_label "USB2_TXRTUNE"
+		(shape input)
+		(at 107.95 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1763c75b-ab77-4487-b27d-eaaaab10a337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.4908 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENET_RD2"
 		(shape input)
 		(at 66.04 144.78 180)
@@ -14273,6 +14311,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2_DNU"
+		(shape input)
+		(at 107.95 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "38b28f85-389e-40b4-967f-d38c05c1cdb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.1098 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

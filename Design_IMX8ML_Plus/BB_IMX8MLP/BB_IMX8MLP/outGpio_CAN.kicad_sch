@@ -790,7 +790,7 @@
 				)
 			)
 		)
-		(symbol "NTE0505MC_1"
+		(symbol "NTE0505MEC-R:NTE0505MC"
 			(pin_names
 				(offset 0.254)
 			)
@@ -868,7 +868,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NTE0505MC_1_0_1"
+			(symbol "NTE0505MC_0_1"
 				(pin power_in line
 					(at -15.24 -1.27 0)
 					(length 7.62)
@@ -1014,7 +1014,7 @@
 					)
 				)
 			)
-			(symbol "NTE0505MC_1_1_1"
+			(symbol "NTE0505MC_1_1"
 				(rectangle
 					(start -7.62 3.81)
 					(end 8.89 -6.35)
@@ -3138,7 +3138,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NTE0505MC_1")
 		(lib_id "NTE0505MEC-R:NTE0505MC")
 		(at 157.48 45.72 0)
 		(unit 1)
@@ -3164,7 +3163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_W_SBC:NTE_SINGLE_M_MUR-L"
+		(property "Footprint" "NTE_SINGLE_M_MUR"
 			(at 163.83 64.77 90)
 			(effects
 				(font
@@ -3941,7 +3940,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NTE0505MC_1")
 		(lib_id "NTE0505MEC-R:NTE0505MC")
 		(at 80.01 172.72 0)
 		(unit 1)
@@ -3967,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_W_SBC:NTE_SINGLE_M_MUR-L"
+		(property "Footprint" "NTE_SINGLE_M_MUR"
 			(at 86.36 191.77 90)
 			(effects
 				(font

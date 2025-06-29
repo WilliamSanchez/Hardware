@@ -11116,6 +11116,7 @@
 		)
 	)
 	(symbol
+		(lib_name "_W_MX8M:SN74AVC4T774RSVR")
 		(lib_id "_W_MX8M:SN74AVC4T774RSVR")
 		(at 234.95 106.68 0)
 		(mirror y)

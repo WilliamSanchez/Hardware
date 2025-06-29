@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -11,10 +11,6 @@
     ],
     "hidden_nets": [
       "",
-      "unconnected-(U1E-USB1_DNU-PadB11)",
-      "unconnected-(U1F-USB2_DNU-PadE12)",
-      "unconnected-(U1E-USB1_TXRTUNE-PadF10)",
-      "unconnected-(U1F-USB2_TXRTUNE-PadF12)",
       "unconnected-(U1D-MIPI_VREG1_CAP-PadF18)",
       "unconnected-(U1H-VDD_MIPI_1P2_CAP-PadF20)",
       "unconnected-(U1D-MIPI_TEST_DNU-PadF24)",
@@ -750,7 +746,6 @@
       9,
       10,
       11,
-      12,
       13,
       15,
       16,

@@ -7022,7 +7022,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-100DP-0.4V_51_"
+		(property "Value" "Front_Left"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -7496,7 +7496,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-100DP-0.4V_51_"
+		(property "Value" "Back_Left"
 			(at 226.06 22.86 0)
 			(effects
 				(font

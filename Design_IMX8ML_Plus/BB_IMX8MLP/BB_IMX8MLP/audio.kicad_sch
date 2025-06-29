@@ -5118,7 +5118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 241.935 109.22 0)
 			(effects
 				(font
@@ -6270,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_W_SBC:QFN50P500X500X80-33N"
+		(property "Footprint" "NAU88C22YG:QFN50P500X500X80-33N"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_W_SBC:SJ1-3535NG-PI"
+		(property "Footprint" "SJ1-3535NG-PI:CUI_SJ1-3535NG-PI"
 			(at 270.51 95.25 0)
 			(effects
 				(font
@@ -7490,7 +7490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 241.935 72.39 0)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 247.015 147.32 0)
 			(effects
 				(font
@@ -8237,7 +8237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_W_SBC:SJ1-3535NG-PI"
+		(property "Footprint" "SJ1-3535NG-PI:CUI_SJ1-3535NG-PI"
 			(at 270.51 58.42 0)
 			(effects
 				(font
@@ -8902,7 +8902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 248.285 109.22 0)
 			(effects
 				(font
@@ -8972,7 +8972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 249.555 35.56 0)
 			(effects
 				(font
@@ -9317,7 +9317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 243.205 35.56 0)
 			(effects
 				(font
@@ -9522,7 +9522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_W_SBC:SJ1-3535NG-PI"
+		(property "Footprint" "SJ1-3535NG-PI:CUI_SJ1-3535NG-PI"
 			(at 269.24 133.35 0)
 			(effects
 				(font
@@ -11137,7 +11137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_W_SBC:SJ1-3535NG-PI"
+		(property "Footprint" "SJ1-3535NG-PI:CUI_SJ1-3535NG-PI"
 			(at 271.78 21.59 0)
 			(effects
 				(font
@@ -11939,7 +11939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 248.285 72.39 0)
 			(effects
 				(font
@@ -12075,7 +12075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 240.665 147.32 0)
 			(effects
 				(font

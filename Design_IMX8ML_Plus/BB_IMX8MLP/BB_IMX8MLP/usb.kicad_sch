@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_W_SBC:QFN40P700X700X100-57N"
+		(property "Footprint" "USB5744_2G:QFN40P700X700X100-57N"
 			(at 105.41 106.68 0)
 			(effects
 				(font

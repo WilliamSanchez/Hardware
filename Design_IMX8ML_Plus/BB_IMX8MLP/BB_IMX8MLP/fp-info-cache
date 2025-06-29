@@ -1,4 +1,4 @@
-24764494982937911
+24766245701044677
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99602,6 +99602,13 @@ SPB228-QFN-96_11.55x15.55_Pitch0.5mm
 0
 96
 96
+_W_SBC
+UFQFPN-48_STM
+
+STM32H523CCU6 
+0
+49
+49
 _W_SBC
 UM805RE
 

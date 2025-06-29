@@ -14658,6 +14658,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 45.72) (xy 196.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148a0b11-aa4c-44fe-a325-dfe456ca5c31")
+	)
+	(wire
+		(pts
 			(xy 179.07 35.56) (xy 196.85 35.56)
 		)
 		(stroke
@@ -15685,6 +15695,16 @@
 			(type default)
 		)
 		(uuid "ac4285d6-f1f3-4352-b145-d27efe26ccdb")
+	)
+	(wire
+		(pts
+			(xy 179.07 43.18) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af871795-1b9a-4308-a87e-61bd1afdfff8")
 	)
 	(wire
 		(pts
@@ -17286,6 +17306,16 @@
 		)
 		(uuid "bf7325e3-2846-4608-858c-71f3cdeaf18e")
 	)
+	(label "DRAM_CA6_A"
+		(at 179.07 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1248be6-edce-491c-a307-7eecab8c869c")
+	)
 	(label "DRAM_CA4_A"
 		(at 101.6 151.13 180)
 		(effects
@@ -17645,6 +17675,16 @@
 			(justify left bottom)
 		)
 		(uuid "f7dfcd13-77cb-4824-a436-46de89ae2f0b")
+	)
+	(label "DRAM_CA7_A"
+		(at 179.07 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7fae4be-4efb-4d66-9f4c-a56493939cd4")
 	)
 	(label "DRAM_DATA10_A"
 		(at 101.6 180.34 180)
