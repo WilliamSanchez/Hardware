@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 133.35 39.37)
-		(size 63.5 36.83)
+		(at 120.65 31.75)
+		(size 66.04 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,16 +18,16 @@
 		)
 		(uuid "01570a0c-9cb0-4b1d-a44b-cc546f2d1f37")
 		(property "Sheetname" "Up_memorie_lpddr4"
-			(at 133.35 38.2934 0)
+			(at 120.65 30.4234 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "up_memorie_lpddr4.kicad_sch"
-			(at 133.35 77.0766 0)
+			(at 120.65 83.4266 0)
 			(effects
 				(font
 					(size 2 2)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 104.14)
-		(size 45.72 36.83)
+		(at 121.92 101.6)
+		(size 68.58 52.07)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,16 +56,16 @@
 		)
 		(uuid "17276033-3ecd-4b96-8958-7c4d548214f7")
 		(property "Sheetname" "io-interface"
-			(at 139.7 103.0634 0)
+			(at 121.92 100.2734 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "io-interface.kicad_sch"
-			(at 139.7 141.8466 0)
+			(at 121.92 154.5466 0)
 			(effects
 				(font
 					(size 2 2)
@@ -82,8 +82,8 @@
 		)
 	)
 	(sheet
-		(at 219.71 93.98)
-		(size 35.56 33.02)
+		(at 203.2 101.6)
+		(size 67.31 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,16 +94,16 @@
 		)
 		(uuid "17e995b4-9d0e-4742-bc8a-27c457a1136a")
 		(property "Sheetname" "up_config"
-			(at 219.71 92.9034 0)
+			(at 203.2 100.2734 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "up_config.kicad_sch"
-			(at 219.71 127.8766 0)
+			(at 203.2 153.2766 0)
 			(effects
 				(font
 					(size 2 2)
@@ -120,9 +120,8 @@
 		)
 	)
 	(sheet
-		(at 218.44 34.29)
-		(size 43.18 35.56)
-		(fields_autoplaced yes)
+		(at 201.93 31.75)
+		(size 66.04 50.8)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -132,16 +131,16 @@
 		)
 		(uuid "804f4928-8c22-420f-a4f0-1d3c149734bd")
 		(property "Sheetname" "wireless"
-			(at 218.44 33.2134 0)
+			(at 201.93 30.6734 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "wireless_module.kicad_sch"
-			(at 218.44 70.7266 0)
+			(at 202.184 84.836 0)
 			(effects
 				(font
 					(size 2 2)
@@ -159,7 +158,7 @@
 	)
 	(sheet
 		(at 36.83 102.87)
-		(size 68.58 45.72)
+		(size 69.85 52.07)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -170,16 +169,16 @@
 		)
 		(uuid "af21041f-cba7-4274-98fb-d460b4227d94")
 		(property "Sheetname" "storage"
-			(at 36.83 101.7934 0)
+			(at 36.83 101.5434 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "storage.kicad_sch"
-			(at 36.83 149.4666 0)
+			(at 36.83 155.8166 0)
 			(effects
 				(font
 					(size 2 2)
@@ -197,7 +196,7 @@
 	)
 	(sheet
 		(at 34.29 30.48)
-		(size 64.77 48.26)
+		(size 72.39 53.34)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -208,16 +207,16 @@
 		)
 		(uuid "ff1e19bc-8af5-40c7-aebc-3ecef7e734aa")
 		(property "Sheetname" "up_power"
-			(at 34.29 29.4034 0)
+			(at 34.29 29.1534 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "up_power.kicad_sch"
-			(at 34.29 79.6166 0)
+			(at 34.29 84.6966 0)
 			(effects
 				(font
 					(size 2 2)

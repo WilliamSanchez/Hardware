@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 20.32 22.86)
-		(size 69.85 49.53)
+		(at 40.64 41.91)
+		(size 91.44 53.34)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,16 +18,16 @@
 		)
 		(uuid "0f9447d4-7a95-466a-adb7-639b0294b239")
 		(property "Sheetname" "power"
-			(at 20.32 21.7834 0)
+			(at 40.64 40.5834 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 20.32 73.2666 0)
+			(at 40.64 96.1266 0)
 			(effects
 				(font
 					(size 2 2)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 34.29)
-		(size 74.93 36.83)
+		(at 170.18 69.85)
+		(size 85.09 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,16 +56,16 @@
 		)
 		(uuid "704f9c98-aa71-4e38-b26f-d3f74511898b")
 		(property "Sheetname" "Pin-IO"
-			(at 135.89 33.2134 0)
+			(at 170.18 68.5234 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "Pin-IO.kicad_sch"
-			(at 135.89 71.9966 0)
+			(at 170.18 121.5266 0)
 			(effects
 				(font
 					(size 2 2)
@@ -82,7 +82,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 138.43)
+		(at 43.18 118.11)
 		(size 88.9 45.72)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,16 +94,16 @@
 		)
 		(uuid "c2b8be6d-439a-444c-a168-f4e9f22d3fc9")
 		(property "Sheetname" "Processor"
-			(at 26.67 137.3534 0)
+			(at 43.18 116.7834 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "MIMX8ML8CVNKZAB.kicad_sch"
-			(at 26.67 185.0266 0)
+			(at 43.18 164.7066 0)
 			(effects
 				(font
 					(size 2 2)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 171.45 31.75)
-		(size 82.55 88.9)
+		(at 153.67 26.67)
+		(size 85.09 120.65)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,16 +18,16 @@
 		)
 		(uuid "13c267cc-e13d-4a24-a172-70b4c8b8c831")
 		(property "Sheetname" "pin_io_rigth"
-			(at 171.45 30.6734 0)
+			(at 153.67 25.3434 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "pin_io_rigth.kicad_sch"
-			(at 171.45 121.5266 0)
+			(at 153.67 148.1966 0)
 			(effects
 				(font
 					(size 2 2)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 24.13 39.37)
-		(size 88.9 85.09)
+		(at 24.13 25.4)
+		(size 93.98 124.46)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,16 +56,16 @@
 		)
 		(uuid "76089295-e1c0-4c66-8c6d-0c9c62e01bfe")
 		(property "Sheetname" "pin_io_left"
-			(at 24.13 38.2934 0)
+			(at 24.13 24.0734 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "pin_io_left.kicad_sch"
-			(at 24.13 125.3366 0)
+			(at 24.13 150.7366 0)
 			(effects
 				(font
 					(size 2 2)
