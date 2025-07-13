@@ -7537,6 +7537,50 @@
 		)
 		(uuid "fff36811-9832-4810-b98c-c2d231ca4ec9")
 	)
+	(global_label "jtag_Tx"
+		(shape input)
+		(at 185.42 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1d5f7322-8c40-43f9-b933-6fb4de7f5685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.9608 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "jtag_Rx"
+		(shape input)
+		(at 185.42 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "624b21c9-dd31-45dd-ae26-41cfe669f3be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.1989 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 76.2 99.06 0)
@@ -11116,7 +11160,6 @@
 		)
 	)
 	(symbol
-		(lib_name "_W_MX8M:SN74AVC4T774RSVR")
 		(lib_id "_W_MX8M:SN74AVC4T774RSVR")
 		(at 234.95 106.68 0)
 		(mirror y)

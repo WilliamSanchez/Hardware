@@ -1091,7 +1091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00b4435c-96ea-40f5-8176-fc0a36f7d436")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR50"
 			(at 165.1 120.65 0)
 			(effects
 				(font
@@ -1141,7 +1141,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0138")
+					(reference "#PWR50")
 					(unit 1)
 				)
 			)
@@ -1157,7 +1157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac76afc-1872-43d5-9eef-8de4556e85be")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR42"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -1207,7 +1207,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR011")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -1224,7 +1224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d09f516-f49f-42d3-a800-0ca946327174")
-		(property "Reference" "C135"
+		(property "Reference" "C46"
 			(at 194.31 86.3663 0)
 			(effects
 				(font
@@ -1278,7 +1278,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C135")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -1295,7 +1295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3deb5b-b417-4571-9a98-59295bd83748")
-		(property "Reference" "C138"
+		(property "Reference" "C49"
 			(at 203.2 107.9563 0)
 			(effects
 				(font
@@ -1349,7 +1349,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C138")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -1365,7 +1365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c923cf-a1af-401e-af3e-ac66edd96111")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR60"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -1415,7 +1415,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0149")
+					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -1431,7 +1431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2241de9f-8d8d-4ab3-b555-5a11660d6254")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR39"
 			(at 49.53 76.2 0)
 			(effects
 				(font
@@ -1481,7 +1481,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR010")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -1498,7 +1498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22bb1504-fecb-4bc0-bb07-407ec5a4edb7")
-		(property "Reference" "C5"
+		(property "Reference" "C30"
 			(at 52.07 63.5063 0)
 			(effects
 				(font
@@ -1552,7 +1552,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C5")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -1569,7 +1569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2697ab2f-9973-4065-8f0e-b8e6a99a0fb0")
-		(property "Reference" "C130"
+		(property "Reference" "C42"
 			(at 176.53 86.3663 0)
 			(effects
 				(font
@@ -1623,7 +1623,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C130")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "281a87eb-5791-446d-a921-5e3fa41a4eb6")
-		(property "Reference" "C139"
+		(property "Reference" "C50"
 			(at 212.09 86.3663 0)
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C139")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -1711,7 +1711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e85863-4c57-4327-8a06-30d1d66d1a9d")
-		(property "Reference" "C131"
+		(property "Reference" "C43"
 			(at 176.53 107.9563 0)
 			(effects
 				(font
@@ -1765,7 +1765,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C131")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -1781,7 +1781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31bf978c-7ef2-4d28-b5a9-e78b8b8b00f8")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR53"
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0142")
+					(reference "#PWR53")
 					(unit 1)
 				)
 			)
@@ -1848,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382ae7bf-9c03-4c2f-b6c7-f10b99e68c19")
-		(property "Reference" "C134"
+		(property "Reference" "C45"
 			(at 185.42 107.9563 0)
 			(effects
 				(font
@@ -1902,7 +1902,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C134")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -1918,7 +1918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401c2449-e696-444b-872f-ab34112aa051")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR59"
 			(at 209.55 99.06 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0148")
+					(reference "#PWR59")
 					(unit 1)
 				)
 			)
@@ -1984,7 +1984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44669aa1-e88b-4b42-963a-d943d0e1b3ab")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR47"
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -2034,7 +2034,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0135")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45d9e5cf-af5c-441f-aee0-13f3150b5d95")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR58"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -2100,7 +2100,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0147")
+					(reference "#PWR58")
 					(unit 1)
 				)
 			)
@@ -2116,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f8f207-3400-4932-b78d-6c4e92963cba")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR56"
 			(at 191.77 120.65 0)
 			(effects
 				(font
@@ -2166,7 +2166,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0145")
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
@@ -2183,7 +2183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ad1a11-236e-4352-9118-7cb948729080")
-		(property "Reference" "C4"
+		(property "Reference" "C31"
 			(at 62.23 63.5063 0)
 			(effects
 				(font
@@ -2237,7 +2237,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C4")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2253,7 +2253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f7959b-709e-4cf8-8af3-d75241de346c")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR55"
 			(at 191.77 99.06 0)
 			(effects
 				(font
@@ -2303,7 +2303,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0144")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fad0786-d2a3-46fc-a1c9-18e889b2090e")
-		(property "Reference" "C133"
+		(property "Reference" "C44"
 			(at 185.42 86.3663 0)
 			(effects
 				(font
@@ -2374,7 +2374,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C133")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "758c50f0-c9e4-4e00-afeb-7d9493ebdfb8")
-		(property "Reference" "C129"
+		(property "Reference" "C41"
 			(at 167.64 107.9563 0)
 			(effects
 				(font
@@ -2445,7 +2445,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C129")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2461,7 +2461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "785556c9-edc2-4b18-8336-2b0316cb4ee7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR43"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -2511,7 +2511,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR012")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fe69242-f0d8-44ca-b80a-bf933b106683")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR45"
 			(at 146.05 99.06 0)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0133")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b34df8-4170-4ee8-b075-a21a469ab759")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR40"
 			(at 59.69 76.2 0)
 			(effects
 				(font
@@ -2643,7 +2643,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR09")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -2660,7 +2660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878c08ea-9667-45d9-ad76-3da73fa5fb68")
-		(property "Reference" "C128"
+		(property "Reference" "C40"
 			(at 167.64 86.3663 0)
 			(effects
 				(font
@@ -2714,7 +2714,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C128")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2731,7 +2731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8973624e-b9a3-4219-bb86-ba4c0b3f8456")
-		(property "Reference" "C125"
+		(property "Reference" "C37"
 			(at 149.86 107.9563 0)
 			(effects
 				(font
@@ -2785,7 +2785,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C125")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2802,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91626cd3-3227-40c9-b020-115b64f5e1ea")
-		(property "Reference" "C127"
+		(property "Reference" "C39"
 			(at 158.75 107.9563 0)
 			(effects
 				(font
@@ -2856,7 +2856,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C127")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2873,7 +2873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "970bf0fc-c3c8-4acf-ae3b-07f024687c92")
-		(property "Reference" "C8"
+		(property "Reference" "C35"
 			(at 99.06 63.5063 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C8")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aaa9857-6b1d-48f2-8a25-9066a4c093f9")
-		(property "Reference" "C140"
+		(property "Reference" "C51"
 			(at 212.09 107.9563 0)
 			(effects
 				(font
@@ -2998,7 +2998,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C140")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba551d3-6377-4644-b80a-bb8c1a08b1c0")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR52"
 			(at 173.99 120.65 0)
 			(effects
 				(font
@@ -3064,7 +3064,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0140")
+					(reference "#PWR52")
 					(unit 1)
 				)
 			)
@@ -3081,7 +3081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1716e43-0429-4581-bc6c-a257d7e03f54")
-		(property "Reference" "C3"
+		(property "Reference" "C32"
 			(at 72.39 63.5063 0)
 			(effects
 				(font
@@ -3135,7 +3135,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C3")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7171f3d-7a9e-4194-8004-92b7c7a83ab4")
-		(property "Reference" "C7"
+		(property "Reference" "C34"
 			(at 90.17 63.5063 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C7")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3222,7 +3222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c44cf2-ed5c-4af7-896a-894dd51f1247")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR54"
 			(at 182.88 120.65 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0143")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc7a49cc-26f4-4613-9ee7-5f7b2cb5f02c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR41"
 			(at 69.85 76.2 0)
 			(effects
 				(font
@@ -3338,7 +3338,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR08")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0bb30c4-4b1c-494b-b107-e281f4dd6209")
-		(property "Reference" "C124"
+		(property "Reference" "C36"
 			(at 148.59 86.3663 0)
 			(effects
 				(font
@@ -3409,7 +3409,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C124")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -3426,7 +3426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf4b1cd-8943-4187-94a9-ec2b38c180b9")
-		(property "Reference" "C6"
+		(property "Reference" "C33"
 			(at 81.28 63.5063 0)
 			(effects
 				(font
@@ -3480,7 +3480,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C6")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e445db-0f7f-490d-b734-a00b188c3a27")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR49"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0137")
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9f73546-b4d3-420b-9a5a-b0210c89b8c0")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR57"
 			(at 200.66 99.06 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0146")
+					(reference "#PWR57")
 					(unit 1)
 				)
 			)
@@ -3628,7 +3628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed019899-170e-4c69-8ecc-b16cba81b2f6")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR46"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0134")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -3694,7 +3694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f06cd1cf-b19e-4a28-86fd-4e6ca9a98812")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR48"
 			(at 156.21 120.65 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0136")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -3760,7 +3760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f107edb0-ba47-44a9-932d-fc7ef3f3a4f0")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR51"
 			(at 173.99 99.06 0)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR0139")
+					(reference "#PWR51")
 					(unit 1)
 				)
 			)
@@ -3826,7 +3826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3de2840-2105-4c62-9af2-68a3b1fbb04a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR44"
 			(at 96.52 76.2 0)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "#PWR013")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -3893,7 +3893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f774ed4f-f6ce-4d09-9355-3c1ebd0b713e")
-		(property "Reference" "C137"
+		(property "Reference" "C48"
 			(at 203.2 86.3663 0)
 			(effects
 				(font
@@ -3947,7 +3947,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C137")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b112fd-8b9c-41fc-a314-c66267565f03")
-		(property "Reference" "C126"
+		(property "Reference" "C38"
 			(at 158.75 86.3663 0)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C126")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -4035,7 +4035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb43acf-c20d-495e-9b91-553f4c695dc8")
-		(property "Reference" "C136"
+		(property "Reference" "C47"
 			(at 194.31 107.9563 0)
 			(effects
 				(font
@@ -4089,7 +4089,7 @@
 		(instances
 			(project "IMX8ML_plus"
 				(path "/1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f/c2b8be6d-439a-444c-a168-f4e9f22d3fc9/01570a0c-9cb0-4b1d-a44b-cc546f2d1f37/18e5e3db-7054-452d-9482-5daa654f196d"
-					(reference "C136")
+					(reference "C47")
 					(unit 1)
 				)
 			)

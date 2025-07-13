@@ -555,14 +555,6 @@
         "pattern": "USBH1_SSRX+"
       },
       {
-        "netclass": "50_90",
-        "pattern": "USBH1_D+"
-      },
-      {
-        "netclass": "50_90",
-        "pattern": "USBH1_D-"
-      },
-      {
         "netclass": "55_100",
         "pattern": "LVDS1_CLK_N"
       },
@@ -700,14 +692,6 @@
       },
       {
         "netclass": "50_90",
-        "pattern": "USB2UP_D+"
-      },
-      {
-        "netclass": "50_90",
-        "pattern": "USB2UP_D-"
-      },
-      {
-        "netclass": "50_90",
         "pattern": "USBH4_D-"
       },
       {
@@ -728,7 +712,39 @@
       },
       {
         "netclass": "50_90",
-        "pattern": "USBH2_D+"
+        "pattern": "USB2_D_P"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB1_TX_P"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB1_RX_P"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB1_RX_N"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB1_D_P"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB1_D_N"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB2_D_N"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB2_RX_P"
+      },
+      {
+        "netclass": "50_90",
+        "pattern": "USB2_RX_N"
       }
     ]
   },
@@ -736,7 +752,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "BB_IMX8MLP.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -1157,7 +1173,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "/media/william/WILLIAM/Imprimir/",
     "spice_current_sheet_as_root": false,
@@ -1229,6 +1245,14 @@
     [
       "15dab2e6-44f5-4c4d-8894-d0f831c5d60a",
       "OutGPIO_CAN"
+    ],
+    [
+      "1d60f035-0f28-465e-b9ad-baa96092a082",
+      "Connector_Right"
+    ],
+    [
+      "5edc45a9-d45b-4bfe-a70e-ddce03847b00",
+      "Connector_Left"
     ]
   ],
   "text_variables": {}
