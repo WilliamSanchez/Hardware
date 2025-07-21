@@ -161,7 +161,6 @@
       "I2C1_SDA",
       "NVCC_SNVS_1V8",
       "NVCC_SD2",
-      "NVCC_DRAM_1V1",
       "PM_VDD_1V8",
       "Net-(U1D-POR_B)",
       "Net-(U1D-PMIC_ON_REQ)",
@@ -676,7 +675,10 @@
       "unconnected-(J1-Pad83)",
       "unconnected-(J1-Pad73)",
       "unconnected-(J1-Pad62)",
-      "unconnected-(J1-Pad50)"
+      "unconnected-(J1-Pad50)",
+      "PM_NVCC_DRAM_1V1",
+      "LP4_VDD1",
+      "LP4_VDD2"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -710,6 +712,7 @@
       9,
       10,
       11,
+      12,
       13,
       15,
       16,
@@ -731,7 +734,7 @@
       35,
       40
     ],
-    "visible_layers": "000d030_7fffffe8",
+    "visible_layers": "000d030_ffffffe5",
     "zone_display_mode": 0
   },
   "git": {
