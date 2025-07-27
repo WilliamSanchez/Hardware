@@ -11071,6 +11071,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 104.14) (xy 265.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e9ba20-3844-4495-83b2-20d75fe4447c")
+	)
+	(wire
+		(pts
 			(xy 176.53 30.48) (xy 167.64 30.48)
 		)
 		(stroke
@@ -11098,6 +11108,16 @@
 			(type default)
 		)
 		(uuid "74fe1940-ae48-41e5-b704-f0e9fdcf1ce0")
+	)
+	(wire
+		(pts
+			(xy 256.54 106.68) (xy 265.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c754e9-5707-440f-b629-70b1267c0b21")
 	)
 	(wire
 		(pts
@@ -11438,6 +11458,16 @@
 			(type default)
 		)
 		(uuid "a45360c3-2c05-4f15-9c4c-73e4c10cf0a5")
+	)
+	(wire
+		(pts
+			(xy 256.54 101.6) (xy 265.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a3360f-6a1e-4ed1-aa3a-5a92efaad5cc")
 	)
 	(wire
 		(pts
@@ -11941,6 +11971,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 99.06) (xy 265.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ae3698-63dc-4f40-a13b-66c495fb7026")
+	)
+	(wire
+		(pts
 			(xy 229.87 109.22) (xy 238.76 109.22)
 		)
 		(stroke
@@ -12029,6 +12069,16 @@
 		)
 		(uuid "0fef3b5a-d6f5-4723-b86d-c16c24251544")
 	)
+	(text "SD1_DATA6"
+		(exclude_from_sim no)
+		(at 281.432 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "134d1c39-35fa-4c12-81b5-0e2853dfdd1d")
+	)
 	(text "CAN2_RX"
 		(exclude_from_sim no)
 		(at 151.892 30.48 0)
@@ -12048,6 +12098,16 @@
 			)
 		)
 		(uuid "1e1e71a8-fd1f-41af-bfce-ec56ff3db556")
+	)
+	(text "SD1_STROBE"
+		(exclude_from_sim no)
+		(at 281.94 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21761307-9eb3-4ad0-bc3c-cd9eeedcd8e0")
 	)
 	(text "I2S_2_SYNC"
 		(exclude_from_sim no)
@@ -12138,6 +12198,16 @@
 			)
 		)
 		(uuid "4d50b4d6-bb5b-4881-92fe-39672e9a7414")
+	)
+	(text "SD1_RESET_B"
+		(exclude_from_sim no)
+		(at 282.448 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5049b577-1a50-4156-8494-ab81d816c9e3")
 	)
 	(text "ETH_2_RGMII_TX_TXC"
 		(exclude_from_sim no)
@@ -12388,6 +12458,16 @@
 			)
 		)
 		(uuid "cff4f726-62ae-42f6-b05e-ee9e29529852")
+	)
+	(text "SD1_DATA7"
+		(exclude_from_sim no)
+		(at 281.686 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dca8a806-47bf-4d5e-bc10-4170fe75e25c")
 	)
 	(text "GPIO_7_CSI"
 		(exclude_from_sim no)
@@ -12913,6 +12993,28 @@
 			)
 		)
 	)
+	(global_label "UART3_CTS"
+		(shape input)
+		(at 265.43 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "252f0fd2-5f3f-4465-ac72-2727638236ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.8755 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SAI1_TXD2"
 		(shape input)
 		(at 238.76 55.88 0)
@@ -13309,6 +13411,28 @@
 			)
 		)
 	)
+	(global_label "UART3_RXD"
+		(shape input)
+		(at 265.43 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "45f1f6c6-a667-4e1f-b528-40b74458f351")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.0512 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SAI1_RXD5"
 		(shape input)
 		(at 238.76 43.18 0)
@@ -13507,7 +13631,7 @@
 			)
 		)
 	)
-	(global_label "SAI_2_TXFS"
+	(global_label "SAI2_TXFS"
 		(shape input)
 		(at 167.64 40.64 180)
 		(fields_autoplaced yes)
@@ -13519,7 +13643,7 @@
 		)
 		(uuid "534ba2fc-9eba-4e0e-af66-fbc6bb0fa92d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.004 40.64 0)
+			(at 157.7659 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14871,6 +14995,28 @@
 			)
 		)
 	)
+	(global_label "UART3_TXD"
+		(shape input)
+		(at 265.43 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "be707dc2-c8c8-4af6-a69d-1092e4990ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.8131 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HDMI_TXC_N"
 		(shape input)
 		(at 34.29 87.63 180)
@@ -15654,6 +15800,28 @@
 		(uuid "ef9eca5a-4acd-460e-a2a2-1a13cc4a573d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.6502 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART3_RTS"
+		(shape input)
+		(at 265.43 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "f2e2b98d-77b6-4853-9708-de457adefbe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.8755 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
