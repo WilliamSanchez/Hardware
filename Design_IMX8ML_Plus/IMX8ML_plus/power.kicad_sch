@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b267c2e6-80a8-43ff-b2b0-1d2fb464c153")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Crystal_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -209,23 +218,23 @@
 				)
 			)
 			(symbol "Crystal_Small_0_1"
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -0.762) (xy -1.27 0.762)
 					)
 					(stroke
 						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -283,11 +292,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -356,32 +370,8 @@
 			)
 			(symbol "L_Small_0_1"
 				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
+					(start 0 2.032)
+					(mid 0.5058 1.524)
 					(end 0 1.016)
 					(stroke
 						(width 0)
@@ -393,8 +383,32 @@
 				)
 				(arc
 					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -442,11 +456,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -564,6 +583,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCA9450CHNY:PCA9450CHNY"
 			(pin_names
@@ -646,18 +666,6 @@
 			(symbol "PCA9450CHNY_1_1"
 				(polyline
 					(pts
-						(xy -15.24 -43.18) (xy 15.24 -43.18)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -15.24 25.4) (xy -15.24 -43.18)
 					)
 					(stroke
@@ -670,7 +678,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 -43.18) (xy 15.24 25.4)
+						(xy -15.24 -43.18) (xy 15.24 -43.18)
 					)
 					(stroke
 						(width 0.127)
@@ -692,17 +700,29 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -22.86 -35.56 0)
+				(polyline
+					(pts
+						(xy 15.24 -43.18) (xy 15.24 25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -22.86 17.78 0)
 					(length 7.62)
-					(name "XTAL_IN"
+					(name "INB13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -710,17 +730,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -22.86 -33.02 0)
+				(pin power_in line
+					(at -22.86 15.24 0)
 					(length 7.62)
-					(name "XTAL_OUT"
+					(name "INB13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -728,17 +748,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -26.67 0)
+				(pin power_in line
+					(at -22.86 12.7 0)
 					(length 7.62)
-					(name "SW_EN"
+					(name "INB13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -746,17 +766,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 22.86 17.78 180)
+				(pin power_in line
+					(at -22.86 10.16 0)
 					(length 7.62)
-					(name "IRQ_B"
+					(name "INB26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -764,17 +784,35 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 22.86 1.27 180)
+				(pin power_in line
+					(at -22.86 7.62 0)
 					(length 7.62)
-					(name "BUCK5FB"
+					(name "INB26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 5.08 0)
+					(length 7.62)
+					(name "INB26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -836,17 +874,233 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 22.86 3.81 180)
+				(pin power_in line
+					(at -22.86 -7.62 0)
 					(length 7.62)
-					(name "BUCK4FB"
+					(name "INL1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -12.7 0)
+					(length 7.62)
+					(name "PMIC_ON_REQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -15.24 0)
+					(length 7.62)
+					(name "PMIC_RST_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -17.78 0)
+					(length 7.62)
+					(name "PMIC_STBY_REQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -20.32 0)
+					(length 7.62)
+					(name "WDOG_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -24.13 0)
+					(length 7.62)
+					(name "SD_VSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -26.67 0)
+					(length 7.62)
+					(name "SW_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -33.02 0)
+					(length 7.62)
+					(name "XTAL_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -35.56 0)
+					(length 7.62)
+					(name "XTAL_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 20.32 180)
+					(length 7.62)
+					(name "CLK_32K_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 17.78 180)
+					(length 7.62)
+					(name "IRQ_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 15.24 180)
+					(length 7.62)
+					(name "POR_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 12.7 180)
+					(length 7.62)
+					(name "RTC_RESET_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -865,6 +1119,150 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 3.81 180)
+					(length 7.62)
+					(name "BUCK4FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 1.27 180)
+					(length 7.62)
+					(name "BUCK5FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -1.27 180)
+					(length 7.62)
+					(name "BUCK6FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -5.08 180)
+					(length 7.62)
+					(name "R_SNSP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -7.62 180)
+					(length 7.62)
+					(name "R_SNSP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -10.16 180)
+					(length 7.62)
+					(name "R_SNSP3_CFG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -13.97 180)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -16.51 180)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -944,398 +1342,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -20.32 0)
-					(length 7.62)
-					(name "WDOG_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -24.13 0)
-					(length 7.62)
-					(name "SD_VSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -10.16 180)
-					(length 7.62)
-					(name "R_SNSP3_CFG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 17.78 0)
-					(length 7.62)
-					(name "INB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 15.24 0)
-					(length 7.62)
-					(name "INB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 12.7 0)
-					(length 7.62)
-					(name "INB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -5.08 180)
-					(length 7.62)
-					(name "R_SNSP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -12.7 0)
-					(length 7.62)
-					(name "PMIC_ON_REQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -17.78 0)
-					(length 7.62)
-					(name "PMIC_STBY_REQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 -16.51 180)
-					(length 7.62)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -13.97 180)
-					(length 7.62)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -7.62 180)
-					(length 7.62)
-					(name "R_SNSP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 10.16 0)
-					(length 7.62)
-					(name "INB26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 7.62 0)
-					(length 7.62)
-					(name "INB26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 5.08 0)
-					(length 7.62)
-					(name "INB26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -1.27 180)
-					(length 7.62)
-					(name "BUCK6FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 -7.62 0)
-					(length 7.62)
-					(name "INL1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 12.7 180)
-					(length 7.62)
-					(name "RTC_RESET_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 20.32 180)
-					(length 7.62)
-					(name "CLK_32K_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -15.24 0)
-					(length 7.62)
-					(name "PMIC_RST_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 15.24 180)
-					(length 7.62)
-					(name "POR_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "PCA9450CHNY_2_1"
-				(polyline
-					(pts
-						(xy -7.62 -59.69) (xy 7.62 -59.69)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -7.62 16.51) (xy -7.62 -59.69)
@@ -1350,7 +1358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -59.69) (xy 7.62 16.51)
+						(xy -7.62 -59.69) (xy 7.62 -59.69)
 					)
 					(stroke
 						(width 0.127)
@@ -1372,53 +1380,29 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at -15.24 3.81 0)
-					(length 7.62)
-					(name "LDO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 7.62 -59.69) (xy 7.62 16.51)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_in line
-					(at -15.24 -29.21 0)
+					(at -15.24 11.43 0)
 					(length 7.62)
-					(name "LX5"
+					(name "LDO1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -19.05 0)
-					(length 7.62)
-					(name "LX4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1445,16 +1429,16 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -21.59 0)
+					(at -15.24 6.35 0)
 					(length 7.62)
-					(name "LX4"
+					(name "LDO3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
+					(number "54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1463,16 +1447,16 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -34.29 0)
+					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "SWIN"
+					(name "LDO4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "22"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1481,52 +1465,16 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 11.43 0)
+					(at -15.24 1.27 0)
 					(length 7.62)
-					(name "LDO1"
+					(name "LDO5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -13.97 0)
-					(length 7.62)
-					(name "LX3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -16.51 0)
-					(length 7.62)
-					(name "LX3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
+					(number "55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,42 +1519,6 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -39.37 0)
-					(length 7.62)
-					(name "VINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -15.24 -54.61 0)
-					(length 7.62)
-					(name "BUCK_AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -15.24 -8.89 0)
 					(length 7.62)
 					(name "LX2"
@@ -1642,17 +1554,71 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -15.24 -46.99 0)
+				(pin power_in line
+					(at -15.24 -13.97 0)
 					(length 7.62)
-					(name "AGND"
+					(name "LX3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -16.51 0)
+					(length 7.62)
+					(name "LX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -19.05 0)
+					(length 7.62)
+					(name "LX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -21.59 0)
+					(length 7.62)
+					(name "LX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1697,6 +1663,60 @@
 					)
 				)
 				(pin power_in line
+					(at -15.24 -29.21 0)
+					(length 7.62)
+					(name "LX5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -34.29 0)
+					(length 7.62)
+					(name "SWIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -39.37 0)
+					(length 7.62)
+					(name "VINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -15.24 -44.45 0)
 					(length 7.62)
 					(name "VSYS"
@@ -1714,35 +1734,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 6.35 0)
+				(pin power_out line
+					(at -15.24 -46.99 0)
 					(length 7.62)
-					(name "LDO3"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 1.27 0)
-					(length 7.62)
-					(name "LDO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1768,7 +1770,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at -15.24 -54.61 0)
+					(length 7.62)
+					(name "BUCK_AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCA9450CHNY_1"
 			(pin_names
@@ -1851,18 +1872,6 @@
 			(symbol "PCA9450CHNY_1_1_1"
 				(polyline
 					(pts
-						(xy -15.24 -43.18) (xy 15.24 -43.18)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -15.24 25.4) (xy -15.24 -43.18)
 					)
 					(stroke
@@ -1875,7 +1884,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 -43.18) (xy 15.24 25.4)
+						(xy -15.24 -43.18) (xy 15.24 -43.18)
 					)
 					(stroke
 						(width 0.127)
@@ -1897,17 +1906,29 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -22.86 -35.56 0)
+				(polyline
+					(pts
+						(xy 15.24 -43.18) (xy 15.24 25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -22.86 17.78 0)
 					(length 7.62)
-					(name "XTAL_IN"
+					(name "INB13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1915,17 +1936,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -22.86 -33.02 0)
+				(pin power_in line
+					(at -22.86 15.24 0)
 					(length 7.62)
-					(name "XTAL_OUT"
+					(name "INB13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1933,17 +1954,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -26.67 0)
+				(pin power_in line
+					(at -22.86 12.7 0)
 					(length 7.62)
-					(name "SW_EN"
+					(name "INB13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1951,17 +1972,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 22.86 17.78 180)
+				(pin power_in line
+					(at -22.86 10.16 0)
 					(length 7.62)
-					(name "IRQ_B"
+					(name "INB26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1969,17 +1990,35 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 22.86 1.27 180)
+				(pin power_in line
+					(at -22.86 7.62 0)
 					(length 7.62)
-					(name "BUCK5FB"
+					(name "INB26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 5.08 0)
+					(length 7.62)
+					(name "INB26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2041,17 +2080,233 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 22.86 3.81 180)
+				(pin power_in line
+					(at -22.86 -7.62 0)
 					(length 7.62)
-					(name "BUCK4FB"
+					(name "INL1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -12.7 0)
+					(length 7.62)
+					(name "PMIC_ON_REQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -15.24 0)
+					(length 7.62)
+					(name "PMIC_RST_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -17.78 0)
+					(length 7.62)
+					(name "PMIC_STBY_REQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -20.32 0)
+					(length 7.62)
+					(name "WDOG_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -24.13 0)
+					(length 7.62)
+					(name "SD_VSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -26.67 0)
+					(length 7.62)
+					(name "SW_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -33.02 0)
+					(length 7.62)
+					(name "XTAL_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -35.56 0)
+					(length 7.62)
+					(name "XTAL_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 20.32 180)
+					(length 7.62)
+					(name "CLK_32K_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 17.78 180)
+					(length 7.62)
+					(name "IRQ_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 15.24 180)
+					(length 7.62)
+					(name "POR_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 12.7 180)
+					(length 7.62)
+					(name "RTC_RESET_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2070,6 +2325,150 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 3.81 180)
+					(length 7.62)
+					(name "BUCK4FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 1.27 180)
+					(length 7.62)
+					(name "BUCK5FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -1.27 180)
+					(length 7.62)
+					(name "BUCK6FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -5.08 180)
+					(length 7.62)
+					(name "R_SNSP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -7.62 180)
+					(length 7.62)
+					(name "R_SNSP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -10.16 180)
+					(length 7.62)
+					(name "R_SNSP3_CFG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -13.97 180)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -16.51 180)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2149,398 +2548,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -20.32 0)
-					(length 7.62)
-					(name "WDOG_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -24.13 0)
-					(length 7.62)
-					(name "SD_VSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -10.16 180)
-					(length 7.62)
-					(name "R_SNSP3_CFG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 17.78 0)
-					(length 7.62)
-					(name "INB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 15.24 0)
-					(length 7.62)
-					(name "INB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 12.7 0)
-					(length 7.62)
-					(name "INB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -5.08 180)
-					(length 7.62)
-					(name "R_SNSP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -12.7 0)
-					(length 7.62)
-					(name "PMIC_ON_REQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -17.78 0)
-					(length 7.62)
-					(name "PMIC_STBY_REQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 -16.51 180)
-					(length 7.62)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -13.97 180)
-					(length 7.62)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -7.62 180)
-					(length 7.62)
-					(name "R_SNSP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 10.16 0)
-					(length 7.62)
-					(name "INB26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 7.62 0)
-					(length 7.62)
-					(name "INB26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 5.08 0)
-					(length 7.62)
-					(name "INB26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -1.27 180)
-					(length 7.62)
-					(name "BUCK6FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 -7.62 0)
-					(length 7.62)
-					(name "INL1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 12.7 180)
-					(length 7.62)
-					(name "RTC_RESET_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 20.32 180)
-					(length 7.62)
-					(name "CLK_32K_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -15.24 0)
-					(length 7.62)
-					(name "PMIC_RST_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 15.24 180)
-					(length 7.62)
-					(name "POR_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "PCA9450CHNY_1_2_1"
-				(polyline
-					(pts
-						(xy -7.62 -59.69) (xy 7.62 -59.69)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -7.62 16.51) (xy -7.62 -59.69)
@@ -2555,7 +2564,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -59.69) (xy 7.62 16.51)
+						(xy -7.62 -59.69) (xy 7.62 -59.69)
 					)
 					(stroke
 						(width 0.127)
@@ -2577,53 +2586,29 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at -15.24 3.81 0)
-					(length 7.62)
-					(name "LDO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 7.62 -59.69) (xy 7.62 16.51)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_in line
-					(at -15.24 -29.21 0)
+					(at -15.24 11.43 0)
 					(length 7.62)
-					(name "LX5"
+					(name "LDO1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -19.05 0)
-					(length 7.62)
-					(name "LX4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2650,16 +2635,16 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -21.59 0)
+					(at -15.24 6.35 0)
 					(length 7.62)
-					(name "LX4"
+					(name "LDO3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
+					(number "54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2668,16 +2653,16 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -34.29 0)
+					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "SWIN"
+					(name "LDO4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "22"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2686,52 +2671,16 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 11.43 0)
+					(at -15.24 1.27 0)
 					(length 7.62)
-					(name "LDO1"
+					(name "LDO5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -13.97 0)
-					(length 7.62)
-					(name "LX3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -16.51 0)
-					(length 7.62)
-					(name "LX3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
+					(number "55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2776,42 +2725,6 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -39.37 0)
-					(length 7.62)
-					(name "VINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -15.24 -54.61 0)
-					(length 7.62)
-					(name "BUCK_AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -15.24 -8.89 0)
 					(length 7.62)
 					(name "LX2"
@@ -2847,17 +2760,71 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -15.24 -46.99 0)
+				(pin power_in line
+					(at -15.24 -13.97 0)
 					(length 7.62)
-					(name "AGND"
+					(name "LX3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -16.51 0)
+					(length 7.62)
+					(name "LX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -19.05 0)
+					(length 7.62)
+					(name "LX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -21.59 0)
+					(length 7.62)
+					(name "LX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2902,6 +2869,60 @@
 					)
 				)
 				(pin power_in line
+					(at -15.24 -29.21 0)
+					(length 7.62)
+					(name "LX5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -34.29 0)
+					(length 7.62)
+					(name "SWIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -39.37 0)
+					(length 7.62)
+					(name "VINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -15.24 -44.45 0)
 					(length 7.62)
 					(name "VSYS"
@@ -2919,35 +2940,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 6.35 0)
+				(pin power_out line
+					(at -15.24 -46.99 0)
 					(length 7.62)
-					(name "LDO3"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 1.27 0)
-					(length 7.62)
-					(name "LDO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2973,7 +2976,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at -15.24 -54.61 0)
+					(length 7.62)
+					(name "BUCK_AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -3053,7 +3075,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -3070,6 +3093,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -6229,7 +6253,7 @@
 			)
 		)
 		(property "Value" "PCA9450CHNY"
-			(at 266.446 17.272 0)
+			(at 265.176 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6237,7 +6261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HVQFN56_SOT949-6_NXP"
+		(property "Footprint" "_W_SBC:HVQFN56_SOT949-6_NXP"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -6258,6 +6282,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "-"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -6604,7 +6637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HVQFN56_SOT949-6_NXP"
+		(property "Footprint" "_W_SBC:HVQFN56_SOT949-6_NXP"
 			(at 125.73 60.96 0)
 			(effects
 				(font
@@ -6625,6 +6658,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "-"
 			(at 125.73 60.96 0)
 			(effects
 				(font
@@ -6908,7 +6950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 22.86 156.21 0)
 			(effects
 				(font
@@ -6927,6 +6969,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 22.86 156.21 0)
 			(effects
 				(font
@@ -7111,7 +7171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 207.01 151.13 0)
 			(effects
 				(font
@@ -7130,6 +7190,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 207.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "02016D105MAT2A"
+			(at 207.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 207.01 151.13 0)
 			(effects
 				(font
@@ -7182,7 +7260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -7201,6 +7279,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM0335C1H180JA01D"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -7253,7 +7349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 38.1 0)
 			(effects
 				(font
@@ -7272,6 +7368,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 27.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 27.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 27.94 38.1 0)
 			(effects
 				(font
@@ -7390,7 +7504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 177.8 0)
 			(effects
 				(font
@@ -7409,6 +7523,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 46.99 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 46.99 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 46.99 177.8 0)
 			(effects
 				(font
@@ -7725,7 +7857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -7744,6 +7876,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "02016D105MAT2A"
+			(at 264.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -7928,7 +8078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 83.82 109.22 0)
 			(effects
 				(font
@@ -7947,6 +8097,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM0335C1H180JA01D"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 83.82 109.22 0)
 			(effects
 				(font
@@ -8154,6 +8322,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "WPN252012ER47MT"
+			(at 246.38 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "ND"
+			(at 246.38 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a2a4bca-315e-4283-a9bc-1da5417d0587")
 		)
@@ -8198,7 +8384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 245.11 152.4 0)
 			(effects
 				(font
@@ -8217,6 +8403,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 245.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "02016D105MAT2A"
+			(at 245.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 245.11 152.4 0)
 			(effects
 				(font
@@ -8269,7 +8473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 156.21 0)
 			(effects
 				(font
@@ -8288,6 +8492,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 46.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 46.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 46.99 156.21 0)
 			(effects
 				(font
@@ -8340,7 +8562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -8359,6 +8581,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -8411,7 +8651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 38.1 0)
 			(effects
 				(font
@@ -8430,6 +8670,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 69.85 38.1 0)
 			(effects
 				(font
@@ -8498,6 +8756,24 @@
 		)
 		(property "Description" ""
 			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "WPN252012HR47MT"
+			(at 246.38 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "ND"
+			(at 246.38 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +9155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -8898,6 +9174,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -8950,7 +9244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 156.21 0)
 			(effects
 				(font
@@ -8969,6 +9263,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 57.15 156.21 0)
 			(effects
 				(font
@@ -9048,6 +9360,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "C1005X5R0J475M050BC"
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4ee1e7d-4b96-41db-841e-4e544f760f0d")
 		)
@@ -9091,7 +9421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -9110,6 +9440,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -9162,7 +9510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 179.07 0)
 			(effects
 				(font
@@ -9181,6 +9529,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 72.39 179.07 0)
 			(effects
 				(font
@@ -9300,7 +9666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 157.48 0)
 			(effects
 				(font
@@ -9319,6 +9685,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 72.39 157.48 0)
 			(effects
 				(font
@@ -9435,7 +9819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 88.9 0)
 			(effects
 				(font
@@ -9455,6 +9839,24 @@
 		)
 		(property "Description" ""
 			(at 234.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL05A106MQ5NUNC"
+			(at 234.95 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 234.95 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,6 +9931,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "WPN252012HR47MT"
+			(at 246.38 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "ND"
+			(at 246.38 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fc56a38-fee1-4605-b786-91a3388ef8e5")
 		)
@@ -9573,7 +9993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -9592,6 +10012,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "02016D105MAT2A"
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -9660,6 +10098,24 @@
 		)
 		(property "Description" ""
 			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "WPN252012ER47MT"
+			(at 246.38 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "ND"
+			(at 246.38 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +10233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -9796,6 +10252,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -9848,7 +10322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 38.1 0)
 			(effects
 				(font
@@ -9867,6 +10341,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 80.01 38.1 0)
 			(effects
 				(font
@@ -9983,7 +10475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -10002,6 +10494,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL05A106MQ5NUNC"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -10054,7 +10564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 179.07 0)
 			(effects
 				(font
@@ -10073,6 +10583,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 82.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 82.55 179.07 0)
 			(effects
 				(font
@@ -10214,6 +10742,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ABS07-32.768KHZ-7-T"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f55c95c-cd86-438b-892f-05ecf8113cf3")
 		)
@@ -10323,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -10483,6 +11029,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "WPN252012ER47MT"
+			(at 246.38 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "ND"
+			(at 246.38 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e50db382-2d3c-4d98-8c77-9be1a6b95c40")
 		)
@@ -10593,7 +11157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -10612,6 +11176,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -10664,7 +11246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.02 177.8 0)
 			(effects
 				(font
@@ -10683,6 +11265,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 33.02 177.8 0)
 			(effects
 				(font
@@ -10956,6 +11556,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "WPN252012ER47MT"
+			(at 246.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "ND"
+			(at 246.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3651a3b-3df3-40b0-b14e-36ae7bc8aa8e")
 		)
@@ -11000,7 +11618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 38.1 0)
 			(effects
 				(font
@@ -11019,6 +11637,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRT188R61C106KE13D"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.4"
 			(at 90.17 38.1 0)
 			(effects
 				(font
@@ -11138,7 +11774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -11157,6 +11793,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "02016D105MAT2A"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -11275,7 +11929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.02 156.21 0)
 			(effects
 				(font
@@ -11294,6 +11948,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 33.02 156.21 0)
 			(effects
 				(font
@@ -11346,7 +12018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 177.8 0)
 			(effects
 				(font
@@ -11365,6 +12037,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 57.15 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 57.15 177.8 0)
 			(effects
 				(font
@@ -11483,7 +12173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -11502,6 +12192,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -11554,7 +12262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 22.86 177.8 0)
 			(effects
 				(font
@@ -11573,6 +12281,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C1608X5R1A226M080AC"
+			(at 22.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3"
 			(at 22.86 177.8 0)
 			(effects
 				(font
