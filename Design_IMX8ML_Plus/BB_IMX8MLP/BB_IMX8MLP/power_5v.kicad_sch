@@ -2056,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 151.13) (xy 148.59 154.94)
+			(xy 180.34 134.62) (xy 180.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 143.51) (xy 148.59 146.05)
+			(xy 180.34 127) (xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3235,7 @@
 		(uuid "feb402a4-8c8e-4910-aae6-c1f07a15dc06")
 	)
 	(label "1v8"
-		(at 148.59 143.51 0)
+		(at 180.34 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4865,6 +4865,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "C2012X5R1A476M125AC"
+			(at 74.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
+			(at 74.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4aa40389-c64d-4cf9-b03b-0cb0d6ca970b")
 		)
@@ -5860,6 +5878,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "C2012X5R1A476M125AC"
+			(at 64.77 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
+			(at 64.77 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d53d40fd-eefe-49d5-af08-7397e74eefa5")
 		)
@@ -6432,7 +6468,7 @@
 		(dnp no)
 		(uuid "b4b1a6cd-cdd1-4d4a-87da-8cc0c574c5fb")
 		(property "Reference" "C139"
-			(at 235.966 49.784 90)
+			(at 235.712 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,6 +6628,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 69.85 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C2012X5R1A476M125AC"
+			(at 69.85 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
 			(at 69.85 45.72 90)
 			(effects
 				(font
@@ -6859,6 +6913,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "C2012X5R1A476M125AC"
+			(at 80.01 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
+			(at 80.01 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f62b36a-2138-45a1-9043-669ddfea1263")
 		)
@@ -6982,7 +7054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 154.94 0)
+		(at 180.34 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6992,7 +7064,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2e8ba7c-5eb8-4ac0-a8f6-c804c73afd72")
 		(property "Reference" "#PWR0266"
-			(at 148.59 161.29 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 160.02 0)
+			(at 180.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +7081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 154.94 0)
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 154.94 0)
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 154.94 0)
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +7129,7 @@
 		(dnp no)
 		(uuid "c62dae2e-9bc4-4fd7-bffe-333558e7f692")
 		(property "Reference" "C188"
-			(at 241.046 49.784 90)
+			(at 241.046 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7720,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 148.59 148.59 0)
+		(at 180.34 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7657,7 +7729,7 @@
 		(dnp no)
 		(uuid "e73d8da2-1e91-4e6f-b7d3-a38411db03a1")
 		(property "Reference" "C75"
-			(at 153.416 146.812 0)
+			(at 185.166 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +7738,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 151.892 148.59 0)
+			(at 183.642 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +7747,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +7756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +7765,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7774,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RACTU"
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7783,7 @@
 			)
 		)
 		(property "Price" "0.1"
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7792,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7801,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 148.59 148.59 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

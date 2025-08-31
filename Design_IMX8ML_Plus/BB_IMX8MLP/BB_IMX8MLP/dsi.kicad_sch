@@ -3654,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "D3V3F4U10LP-7"
 			(at 126.365 152.4 0)
 			(effects
 				(font
@@ -3699,6 +3699,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "D3V3F4U10LP-7"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.35"
 			(at 127 157.48 0)
 			(effects
 				(font

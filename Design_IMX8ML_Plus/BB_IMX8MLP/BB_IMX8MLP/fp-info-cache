@@ -1,4 +1,4 @@
-26508167721067710
+26513436102340737
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105602,6 +105602,13 @@ Varistor VF
 2
 2
 _W_SBC
+687124182122
+
+
+0
+26
+26
+_W_SBC
 AMPHENOL_GSB311231HR
 
 
@@ -105615,6 +105622,13 @@ BEL_A829-1J1T-KM
 0
 19
 19
+_W_SBC
+BGA5N35P3X2_109X74X40N
+
+
+0
+5
+5
 _W_SBC
 BGA153C50P14X14_1300X1150X80N
 
@@ -105916,3 +105930,10 @@ NX20P0407UKZ
 0
 12
 12
+_W_SBC
+WLCSP52-1-2_NEX
+
+PCMF1USB3SZ 
+0
+5
+5

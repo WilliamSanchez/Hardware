@@ -310,7 +310,6 @@
       "Net-(U3-SPI_DI{slash}CFG_BC_EN{slash}GPIO9)",
       "Net-(U3-RBIAS)",
       "Net-(U3-ATEST)",
-      "unconnected-(U44-GND-Pad8)",
       "unconnected-(U29-GND-Pad3)",
       "unconnected-(U29-GND-Pad8)",
       "unconnected-(U28-GND-Pad8)",
@@ -328,10 +327,6 @@
       "Net-(J25-Pin_4)",
       "Net-(J23-GND-PadA1)",
       "Net-(J25-Pin_2)",
-      "Net-(U22B-CH2_IN-)",
-      "Net-(U22B-CH2_OUT+)",
-      "Net-(U22B-CH2_IN+)",
-      "Net-(U22B-CH2_OUT-)",
       "Net-(J23-VBUS-PadA4)",
       "Net-(J23-CC1)",
       "Net-(J23-CC2)",
@@ -422,7 +417,7 @@
       "/MCU/MemMISO",
       "Net-(C193-Pad1)"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,

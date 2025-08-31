@@ -6735,6 +6735,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ESD9101P2T5G"
+			(at 35.56 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.5"
+			(at 35.56 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce9093d2-81b2-42f9-b307-98ab00aaef97")
 		)
@@ -7639,6 +7657,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 36.83 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ESD9101P2T5G"
+			(at 36.83 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.5"
 			(at 36.83 119.38 90)
 			(effects
 				(font
@@ -9298,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
+		(property "Value" "IRLML6244TRPBF"
 			(at 160.02 154.94 90)
 			(effects
 				(font
@@ -9306,7 +9342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 157.48 156.21 0)
 			(effects
 				(font
@@ -9343,6 +9379,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 160.02 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRLML6244TRPBF"
+			(at 160.02 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.5"
 			(at 160.02 161.29 90)
 			(effects
 				(font
