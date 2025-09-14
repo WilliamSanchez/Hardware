@@ -2,9 +2,84 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 6f884698-74c0-4ae2-9ae5-e4bb363c76bd)
+	(uuid "6f884698-74c0-4ae2-9ae5-e4bb363c76bd")
 	(paper "A4")
 	(lib_symbols)
+	(text "	LR1121:\nDIO9, DIO8 		Multi-purpose digital I/O\n\n	STM32L55:\n\nPA2		UART2_TX	\nPA3		UART2_RX\n\nPA4		SPI1_NSS\nPA5		SPI1_SCK\nPA6		SPI1_MISO\nPA7		SPI1_MOSI\n\nPA9		UART1_TX\nPA10	UART1_RX\n\nPA11	USB_DM\nPA12	USB_DP\n\nPB6		I2C1_SCL\nPB7		I2C1_SDA\n\nPB8		CAN1_TX\nPB9		CAN1_RX\n\nPB10	I2C2_SCL\nPB11	I2C2_SDA\n\nPB12	SPI2_NSS\nPB13	SPI2_SCK\nPB14	SPI2_MISO\nPB15	SPI2_MOSI"
+		(exclude_from_sim no)
+		(at 18.034 20.574 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "5b696b7c-a1df-49cb-b2d6-c7d7b1a38d73")
+	)
+	(text "MT29F4G01ABAFDWB-IT:F TR\n\n133 MHz clock frequency (MAX)\n\n\nLBAA0XV2GT:\n\nThe SPI runs on the external SCK \nclock to allow high speed up to 16 MHz"
+		(exclude_from_sim no)
+		(at 24.638 150.622 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "8a04f342-2744-4f3d-b0c2-509801578919")
+	)
+	(text "Charger battery circuit."
+		(exclude_from_sim no)
+		(at 106.172 30.226 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "e661f3d8-babd-44fe-921a-7ac9f76da3cc")
+	)
+	(sheet
+		(at 168.275 22.225)
+		(size 87.63 125.095)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eee04fc6-2e44-4769-821f-13bde3aae37d")
+		(property "Sheetname" "LoRa-system"
+			(at 168.275 21.1484 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRa-system.kicad_sch"
+			(at 168.275 148.1966 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LR1121"
+				(path "/6f884698-74c0-4ae2-9ae5-e4bb363c76bd"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
