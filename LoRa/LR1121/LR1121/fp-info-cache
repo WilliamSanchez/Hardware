@@ -1,4 +1,4 @@
-26520464189707815
+26522222436647798
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105619,6 +105619,13 @@ _W_LoRa
 SON127P600X800X65-8N
 
 
+0
+8
+8
+_W_LoRa
+WDFN8_511DR_OSI
+
+FDMC8327L 
 0
 8
 8
