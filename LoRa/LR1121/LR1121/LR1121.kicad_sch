@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "	LR1121:\nDIO9, DIO8 		Multi-purpose digital I/O\n\n	STM32L55:\n\nPA2		UART2_TX	\nPA3		UART2_RX\n\nPA4		SPI1_NSS\nPA5		SPI1_SCK\nPA6		SPI1_MISO\nPA7		SPI1_MOSI\n\nPA9		UART1_TX\nPA10	UART1_RX\n\nPA11	USB_DM\nPA12	USB_DP\n\nPB6		I2C1_SCL\nPB7		I2C1_SDA\n\nPB8		CAN1_TX\nPB9		CAN1_RX\n\nPB10	I2C2_SCL\nPB11	I2C2_SDA\n\nPB12	SPI2_NSS\nPB13	SPI2_SCK\nPB14	SPI2_MISO\nPB15	SPI2_MOSI"
 		(exclude_from_sim no)
-		(at 18.034 20.574 0)
+		(at 21.59 20.32 0)
 		(effects
 			(font
 				(size 2 2)
@@ -29,7 +29,7 @@
 	)
 	(text "Charger battery circuit."
 		(exclude_from_sim no)
-		(at 106.172 30.226 0)
+		(at 110.744 24.638 0)
 		(effects
 			(font
 				(size 2 2)

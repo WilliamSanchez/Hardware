@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -647,6 +647,18 @@
     [
       "eee04fc6-2e44-4769-821f-13bde3aae37d",
       "LoRa-system"
+    ],
+    [
+      "d9665a64-70ff-447e-9dd9-862cd207eaf0",
+      "PowerUnit"
+    ],
+    [
+      "1ab75ae3-8191-4908-a029-ee911ab9f68b",
+      "ComunicationUnit"
+    ],
+    [
+      "f3387879-238a-429d-a8e2-fe762da9c621",
+      "ControlUnit"
     ]
   ],
   "text_variables": {}
