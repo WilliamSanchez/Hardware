@@ -17630,7 +17630,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 64.77 0)
+		(at 81.28 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17638,7 +17638,7 @@
 		(dnp no)
 		(uuid "8c675bf2-b794-4d6a-9760-408f5779f45d")
 		(property "Reference" "C85"
-			(at 64.77 60.198 90)
+			(at 80.01 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17647,7 +17647,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 64.77 66.294 90)
+			(at 80.01 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17656,7 +17656,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 66.04 64.77 0)
+			(at 81.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17665,7 +17665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 64.77 0)
+			(at 81.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17674,7 +17674,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 64.77 0)
+			(at 81.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17683,7 +17683,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RACTU"
-			(at 66.04 64.77 90)
+			(at 81.28 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17692,7 +17692,7 @@
 			)
 		)
 		(property "Price" "0.1"
-			(at 66.04 64.77 90)
+			(at 81.28 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17701,7 +17701,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 66.04 64.77 90)
+			(at 81.28 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17710,7 +17710,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 66.04 64.77 90)
+			(at 81.28 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20271,7 +20271,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 81.28 64.77 0)
+		(at 55.88 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20279,7 +20279,7 @@
 		(dnp no)
 		(uuid "d4822dc8-10dc-46d3-8bba-1289c4b35c63")
 		(property "Reference" "C88"
-			(at 79.756 59.944 90)
+			(at 54.356 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,7 +20288,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 79.756 66.04 90)
+			(at 54.356 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20297,7 +20297,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 81.28 64.77 0)
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20306,7 +20306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 64.77 0)
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20315,7 +20315,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 64.77 0)
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20324,7 +20324,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RACTU"
-			(at 81.28 64.77 90)
+			(at 55.88 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20333,7 +20333,7 @@
 			)
 		)
 		(property "Price" "0.1"
-			(at 81.28 64.77 90)
+			(at 55.88 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20342,7 +20342,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 81.28 64.77 90)
+			(at 55.88 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20351,7 +20351,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 81.28 64.77 90)
+			(at 55.88 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20653,7 +20653,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 55.88 64.77 0)
+		(at 66.04 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20661,7 +20661,7 @@
 		(dnp no)
 		(uuid "e03d5b49-6ae1-4fdc-a932-97bc4b558c58")
 		(property "Reference" "C83"
-			(at 54.356 59.944 90)
+			(at 64.516 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20670,7 +20670,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 54.356 66.294 90)
+			(at 64.516 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20679,7 +20679,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.88 64.77 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20688,7 +20688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 64.77 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20697,7 +20697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 55.88 64.77 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20706,7 +20706,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RACTU"
-			(at 55.88 64.77 90)
+			(at 66.04 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20715,7 +20715,7 @@
 			)
 		)
 		(property "Price" "0.1"
-			(at 55.88 64.77 90)
+			(at 66.04 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20724,7 +20724,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 55.88 64.77 90)
+			(at 66.04 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20733,7 +20733,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 55.88 64.77 90)
+			(at 66.04 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
