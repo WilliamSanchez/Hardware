@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "cd2fb234-91e5-476f-84ed-38419b628dc6")
 	(paper "A4")
 	(lib_symbols
@@ -12,8 +12,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,6 +26,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,47 +36,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -93,14 +109,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d0412b-4e88-4bb4-9296-230e17401e31")
 		(property "Reference" "H3"
 			(at 264.16 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,6 +130,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 264.16 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,47 +141,57 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
 			(at 261.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 261.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 261.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
 			(at 261.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
 			(at 261.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -175,14 +207,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 132.08 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72138af7-185f-4aac-9618-7e758be4ef71")
 		(property "Reference" "H2"
 			(at 264.16 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -192,6 +228,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 264.16 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,47 +239,57 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
 			(at 261.62 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 261.62 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 261.62 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
 			(at 261.62 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
 			(at 261.62 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -257,14 +305,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 144.78 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6713357-7f9a-4347-89e1-67b8f76fa7ab")
 		(property "Reference" "H4"
 			(at 264.16 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,6 +326,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 264.16 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,47 +337,57 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
 			(at 261.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 261.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 261.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
 			(at 261.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
 			(at 261.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -339,14 +403,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 125.73 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2ad7c6-27f4-40e4-afcb-ea11cd75dc0f")
 		(property "Reference" "H1"
 			(at 264.16 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,6 +424,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 264.16 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,51 +435,61 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
 			(at 261.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 261.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 261.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
 			(at 261.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
 			(at 261.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "BB_IMX8MLP"
 				(path "/cd2fb234-91e5-476f-84ed-38419b628dc6"
 					(reference "H1")
 					(unit 1)
@@ -430,11 +510,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "10d20c27-4659-4308-9de4-12cbd617d636")
 		(property "Sheetname" "Ethernet"
 			(at 101.6 16.7034 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -444,6 +526,8 @@
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
 			(at 101.6 60.5666 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -472,11 +556,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "15dab2e6-44f5-4c4d-8894-d0f831c5d60a")
 		(property "Sheetname" "OutGPIO_CAN"
 			(at 96.52 165.2934 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -486,6 +572,8 @@
 		)
 		(property "Sheetfile" "outGpio_CAN.kicad_sch"
 			(at 96.52 192.6466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -514,11 +602,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "31f681b0-ed9a-409b-a541-94a4d8d5d11d")
 		(property "Sheetname" "power_unit"
 			(at 17.78 68.7734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -528,6 +618,8 @@
 		)
 		(property "Sheetfile" "power_unit.kicad_sch"
 			(at 17.78 106.2866 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -556,11 +648,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "37b9196a-4723-43b8-a172-79ad98469db6")
 		(property "Sheetname" "serial_interface"
 			(at 20.32 165.2934 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -570,6 +664,8 @@
 		)
 		(property "Sheetfile" "serial_interface.kicad_sch"
 			(at 20.32 192.6466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -598,11 +694,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "654a2f2f-b0bc-45e1-bc79-3ecb22a05819")
 		(property "Sheetname" "imx8mlp_pio"
 			(at 19.05 17.9734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -612,6 +710,8 @@
 		)
 		(property "Sheetfile" "imx8mlp_pio.kicad_sch"
 			(at 19.05 60.5666 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -640,11 +740,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6b35cf2a-ff76-4c8b-8fd9-fa59a1552b9f")
 		(property "Sheetname" "Audio"
 			(at 176.53 118.3034 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -654,6 +756,8 @@
 		)
 		(property "Sheetfile" "audio.kicad_sch"
 			(at 176.53 154.5466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -682,11 +786,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a0df9e5d-3d7f-4d2b-9f2e-c22726438d3a")
 		(property "Sheetname" "MCU"
 			(at 177.8 70.0434 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -696,6 +802,8 @@
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
 			(at 177.8 106.2866 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -724,11 +832,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "afcd2e24-a23c-4131-88d7-b4e4cc1847fe")
 		(property "Sheetname" "CSI_DSI"
 			(at 17.78 115.7634 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -738,6 +848,8 @@
 		)
 		(property "Sheetfile" "csi_dsi.kicad_sch"
 			(at 17.78 154.5466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -766,11 +878,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d45ee961-7c38-470c-a7ea-0552d843cfb4")
 		(property "Sheetname" "USB"
 			(at 179.07 17.9734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -780,6 +894,8 @@
 		)
 		(property "Sheetfile" "usb.kicad_sch"
 			(at 179.07 59.2966 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -808,11 +924,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d6dc9945-1df7-4624-8f27-7360b0b9c0df")
 		(property "Sheetname" "PCIe_SDCard"
 			(at 100.33 68.7734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -822,6 +940,8 @@
 		)
 		(property "Sheetfile" "pci_e.kicad_sch"
 			(at 100.33 107.5566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -850,11 +970,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fabf144f-7078-4de8-86ad-539ef5f82b16")
 		(property "Sheetname" "LVDS_HDMI"
 			(at 99.06 117.0334 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -864,6 +986,8 @@
 		)
 		(property "Sheetfile" "lvds_hdmi.kicad_sch"
 			(at 99.06 154.5466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)

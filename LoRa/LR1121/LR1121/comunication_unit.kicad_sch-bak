@@ -2139,17 +2139,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "EXTINT	[I] External interrupt\nRESET_N	[I] System reset (active low). \n			It has to be low for at least 1 ms\n			to trigger a reset. Leave open \n			if not used.\nTIMEPULSE [O] Time pulse signal."
-		(exclude_from_sim no)
-		(at 234.696 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cf138a4-ac2e-4afd-8e0d-5ef09fbc4402")
-	)
 	(text "PinOUT LoRa\n\nLR_BUSY[I/O]	LR1121:DIO0/BUSY \n{ Used as BUSY indicator, indicating that\nthe module cannot receive any commands \nfrom the hostd controller.}\n\nLR_NRST[I]  LR1211:NRESET \n{Module Reset}\n\nDIO8 [I/O] LR1211:DIO8 \n{Can control external RF switches or LNA on\nthe RFIO-HF and sub-GHz RF Paths,\nCan be used as a 32.768KHz source to host \ncontroller if a 32.768KHz crystal is connected to\nDIO10 and DIO11}\n\nDIO9 LR1211:DIO9 \n{Dedicated to LR1121 interrupts, it is recommended\nto connect DIO9 to the host controller for the \nlowest-power apilactions}"
 		(exclude_from_sim no)
 		(at 23.368 44.45 0)
@@ -2256,10 +2245,6 @@
 	(no_connect
 		(at 62.23 132.08)
 		(uuid "51471ec8-a0f0-4e57-ad44-917463b47872")
-	)
-	(no_connect
-		(at 227.33 99.06)
-		(uuid "84547f17-6a99-4471-9a33-9fb52176f291")
 	)
 	(no_connect
 		(at 92.71 138.43)

@@ -1,10 +1,65 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "1e0dca60-79b3-4b5b-ab8f-7b2adbc68a5f")
 	(paper "A4")
 	(lib_symbols)
+	(text "-----------------\n|	HIGH SIGNAL		1 |\n-----------------\n|	GND				2 |\n-----------------\n|	LOW SIGNAL		3 |\n-----------------\n|	PWR				4 |\n-----------------\n|	PWR				5 |\n-----------------\n|	LOW SIGNAL		6 |\n-----------------\n|	GND				7 |\n-----------------\n|	HIGH SIGNAL		8 |\n-----------------"
+		(exclude_from_sim no)
+		(at 52.07 171.704 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify bottom)
+		)
+		(uuid "5645a77e-781d-46bd-b0ad-60d51210cedf")
+	)
+	(text "UART1 = MCU Boot\nUART2 = M57 Debug\nUART3 = WiFi\nUART4 = M7 Debug"
+		(exclude_from_sim no)
+		(at 170.434 32.258 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "5bf6d0b8-5b2a-4fe6-a483-04eba8ba318a")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 185.42 124.968 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "940dc7ac-a366-4fe2-87e1-a6c336b4651e")
+	)
+	(text "Minimum trace width 			3.2mil	[0.08mm]\nMinimum trace to trace/pad 		3.2mil	[0.08mm]\nMinimum via size\n	* diameter 					8.0mil	[0.2mm]\n	* diameter Pad 				16.0mil	[0.4mm]\nMinimum via ad to pad spacing   4.0mil 	[0.1mm]"
+		(exclude_from_sim no)
+		(at 169.418 142.748 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "c745739f-860e-42f7-8e16-6f542f9e5f18")
+	)
+	(text "PM_VDD_SoC\nPM_VDD_ARM\nPM_VDD_3V3_3A\nPM_VDD_1V8\nPM_NVCC_DRAM_1V1\nPM_NVCC_SNVS_1V8_2A\nPM_VDD_1V8_300mA\nPM_NVCC_SD2\nPOR_B\n32K_Internal\n"
+		(exclude_from_sim no)
+		(at 28.448 39.624 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "d316727d-f187-4d0a-9875-fdc97632617c")
+	)
 	(sheet
 		(at 22.86 20.32)
 		(size 130.81 71.755)
@@ -18,11 +73,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0f9447d4-7a95-466a-adb7-639b0294b239")
 		(property "Sheetname" "power"
 			(at 22.86 18.9934 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -32,6 +89,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 22.86 92.9516 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -60,11 +119,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "704f9c98-aa71-4e38-b26f-d3f74511898b")
 		(property "Sheetname" "Pin-IO"
 			(at 167.005 18.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -74,6 +135,8 @@
 		)
 		(property "Sheetfile" "Pin-IO.kicad_sch"
 			(at 167.005 156.4516 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -102,11 +165,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c2b8be6d-439a-444c-a168-f4e9f22d3fc9")
 		(property "Sheetname" "Processor"
 			(at 22.86 111.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -116,6 +181,8 @@
 		)
 		(property "Sheetfile" "MIMX8ML8CVNKZAB.kicad_sch"
 			(at 22.86 189.4716 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
